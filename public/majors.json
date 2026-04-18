@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "RPL (Rekayasa Perangkat Lunak)",
+    "skills": ["HTML & CSS", "JavaScript Dasar", "React/Next.js", "Database (SQL)", "Git & GitHub"]
+  },
+  {
+    "id": 2,
+    "name": "DKV (Desain Komunikasi Visual)",
+    "skills": ["Adobe Illustrator", "Photoshop", "Branding & Logo Design", "UI/UX Design", "Layouting"]
+  },
+  {
+    "id": 3,
+    "name": "Multimedia",
+    "skills": ["Video Editing", "Motion Graphics", "Photography", "3D Modelling", "Copywriting"]
+  },
+  {
+    "id": 4,
+    "name": "TKJ (Teknik Komputer Jaringan)",
+    "skills": ["Instalasi OS", "Mikrotik Dasar", "Routing & Switching", "Cabling (Fiber/UTP)", "Linux Server"]
+  },
+  {
+    "id": 5,
+    "name": "SIJA (Sistem Informatika Jaringan & Aplikasi)",
+    "skills": ["Cloud Computing", "Cyber Security Dasar", "Internet of Things (IoT)", "Server Management", "Python Programming"]
+  }
+]
