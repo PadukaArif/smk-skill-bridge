@@ -3,16 +3,22 @@
 import React, {useState, useEffect} from "react"
 import axios from "axios"
 
+export interface Data {
+    id:     number;
+    name:   string;
+    skills: string[];
+}
 export default function Home() {
-    const [jurusan, setJurusan] = useState ([])
-    const [pilihan, setPilihan] = useState <any>(null);
+    const [jurusan, setJurusan] = useState <Data[]>([])
+    const [pilihan, setPilihan] = useState <Data>();
 
     useEffect (() => {
-        axios.get ('/majors.json')
+        axios.get<Data[]>('/majors.json')
         .then ((hasil) => {
-            setJurusan (hasil.data)
+            setJurusan(hasil.data)
         })
     }, [])
+
 
 return (
     <div>

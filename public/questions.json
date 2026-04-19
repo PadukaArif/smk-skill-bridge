@@ -1,0 +1,336 @@
+{
+  "test_title": "Assessment Minat Informatika Siswa SMP",
+  "total_questions": 30,
+  "questions": [
+    {
+      "no": 1,
+      "question": "Saat mendapat tugas membuat poster digital untuk acara sekolah, bagian mana yang paling seru buat kamu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Mencari cara agar posternya bisa ditampilkan di website sekolah." },
+        { "id_jurusan": 2, "text": "Mendesain tata letak, memilih warna, dan ilustrasi yang keren." },
+        { "id_jurusan": 3, "text": "Membuat animasi sederhana atau efek bergerak pada posternya." },
+        { "id_jurusan": 4, "text": "Memastikan file posternya tidak rusak dan bisa dibuka di komputer lain." },
+        { "id_jurusan": 5, "text": "Menyimpan poster di cloud dan mengatur agar hanya panitia yang bisa mengakses." }
+      ]
+    },
+    {
+      "no": 2,
+      "question": "Jika kamu punya waktu luang di akhir pekan, kegiatan mana yang paling kamu pilih?",
+      "options": [
+        { "id_jurusan": 1, "text": "Mencoba-coba membuat aplikasi kalkulator sederhana di laptop." },
+        { "id_jurusan": 2, "text": "Menggambar karakter anime atau membuat desain feed Instagram." },
+        { "id_jurusan": 3, "text": "Merekam dan mengedit video pendek untuk diupload ke YouTube/TikTok." },
+        { "id_jurusan": 4, "text": "Membongkar CPU komputer bekas untuk melihat isi dalamnya." },
+        { "id_jurusan": 5, "text": "Mencari tahu bagaimana cara kerja password WiFi dan keamanannya." }
+      ]
+    },
+    {
+      "no": 3,
+      "question": "Ketika internet di rumah tiba-tiba lemot, apa reaksi pertamamu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Mencoba membuat script kecil untuk mengecek kecepatan internet setiap jam." },
+        { "id_jurusan": 2, "text": "Membuat meme lucu tentang internet lemot dan share ke grup." },
+        { "id_jurusan": 3, "text": "Mencari aplikasi edit video offline sambil menunggu internet normal." },
+        { "id_jurusan": 4, "text": "Mengecek lampu indikator modem dan mencabut-colokkan kabelnya." },
+        { "id_jurusan": 5, "text": "Mengecek siapa saja yang terhubung ke WiFi dan memikirkan cara memblokir yang tidak dikenal." }
+      ]
+    },
+    {
+      "no": 4,
+      "question": "Sekolahmu mau bikin mading digital. Peran apa yang paling cocok buat kamu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat struktur website sederhana untuk madingnya." },
+        { "id_jurusan": 2, "text": "Mengatur tampilan visual, font, dan gambar agar enak dilihat." },
+        { "id_jurusan": 3, "text": "Membuat video liputan singkat tentang isi mading." },
+        { "id_jurusan": 4, "text": "Menyiapkan komputer/laptop agar mading bisa diakses di ruang tunggu." },
+        { "id_jurusan": 5, "text": "Mengusulkan agar data mading disimpan online sehingga bisa diakses dari rumah." }
+      ]
+    },
+    {
+      "no": 5,
+      "question": "Kamu melihat temanmu bingung karena laptopnya banyak notifikasi iklan aneh. Saran apa yang kamu berikan?",
+      "options": [
+        { "id_jurusan": 1, "text": "Coba hapus ekstensi browser yang mencurigakan di pengaturan." },
+        { "id_jurusan": 2, "text": "Kamu bisa edit tampilan desktopnya biar lebih rapi dan tidak terganggu." },
+        { "id_jurusan": 3, "text": "Aku pernah lihat tutorial cara membuat video tentang cara bersihin virus, mau kutunjukkan?" },
+        { "id_jurusan": 4, "text": "Cek dulu kabel LAN atau WiFi, siapa tahu ada gangguan jaringan." },
+        { "id_jurusan": 5, "text": "Hati-hati, bisa jadi itu malware yang nyuri data. Jangan klik sembarangan." }
+      ]
+    },
+    {
+      "no": 6,
+      "question": "Kamu lebih suka mengerjakan tugas kelompok yang seperti apa?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membagi tugas menjadi beberapa bagian kecil yang sistematis." },
+        { "id_jurusan": 2, "text": "Mendesain slide presentasi yang kreatif dan tidak membosankan." },
+        { "id_jurusan": 3, "text": "Merekam proses diskusi atau membuat video kesimpulan tugas." },
+        { "id_jurusan": 4, "text": "Memastikan koneksi Zoom atau Google Meet berjalan lancar saat diskusi." },
+        { "id_jurusan": 5, "text": "Menyimpan semua file tugas di folder online agar tidak ada yang hilang." }
+      ]
+    },
+    {
+      "no": 7,
+      "question": "Buku atau konten seperti apa yang sering membuatmu penasaran?",
+      "options": [
+        { "id_jurusan": 1, "text": "Buku tentang cara membuat game sederhana dengan kode." },
+        { "id_jurusan": 2, "text": "Buku tentang tipografi dan psikologi warna." },
+        { "id_jurusan": 3, "text": "Tutorial Adobe Premiere atau After Effects di YouTube." },
+        { "id_jurusan": 4, "text": "Artikel tentang perbedaan kabel fiber optic dan LAN biasa." },
+        { "id_jurusan": 5, "text": "Berita tentang hacker yang berhasil menemukan celah keamanan sistem." }
+      ]
+    },
+    {
+      "no": 8,
+      "question": "Kamu dan teman-teman mau bikin hadiah ulang tahun untuk wali kelas berupa video kenangan. Apa kontribusimu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat halaman web khusus untuk menampilkan video tersebut." },
+        { "id_jurusan": 2, "text": "Membuat thumbnail atau cover video yang menarik." },
+        { "id_jurusan": 3, "text": "Menggabungkan klip-klip video dan menambahkan musik latar." },
+        { "id_jurusan": 4, "text": "Memastikan kabel HDMI ke proyektor tersambung dengan baik saat pemutaran." },
+        { "id_jurusan": 5, "text": "Mengupload video tersebut ke drive bersama dengan kata sandi." }
+      ]
+    },
+    {
+      "no": 9,
+      "question": "Saat mendengar kata 'server', apa yang pertama kali terbayang di pikiranmu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Tempat menyimpan database dari aplikasi yang kubuat." },
+        { "id_jurusan": 2, "text": "Komputer yang bisa untuk menyimpan aset desainku." },
+        { "id_jurusan": 3, "text": "Tempat mengupload video render-an yang ukurannya besar." },
+        { "id_jurusan": 4, "text": "Mesin besar berkedip-kedip yang butuh pendingin ruangan." },
+        { "id_jurusan": 5, "text": "Sesuatu yang harus dijaga ketat agar tidak diretas." }
+      ]
+    },
+    {
+      "no": 10,
+      "question": "HP kakakmu layarnya pecah dan touchscreen-nya tidak berfungsi. Apa yang akan kamu lakukan untuk membantu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Mencari aplikasi remote control dari laptop agar bisa mengakses HP-nya." },
+        { "id_jurusan": 2, "text": "Membuat desain stiker untuk menutupi pecahan layar biar kelihatan keren." },
+        { "id_jurusan": 3, "text": "Membuat video pendek berisi tips merawat layar HP." },
+        { "id_jurusan": 4, "text": "Menawarkan untuk menyambungkan HP ke monitor pakai kabel OTG." },
+        { "id_jurusan": 5, "text": "Mengingatkan untuk segera backup data penting sebelum mati total." }
+      ]
+    },
+    {
+      "no": 11,
+      "question": "Mana yang paling menggambarkan caramu menyelesaikan teka-teki atau puzzle?",
+      "options": [
+        { "id_jurusan": 1, "text": "Aku suka memecah masalah besar menjadi langkah-langkah kecil yang berurutan." },
+        { "id_jurusan": 2, "text": "Aku suka memperhatikan bentuk dan warna potongan puzzle-nya." },
+        { "id_jurusan": 3, "text": "Aku suka menebak gambar besarnya dulu, baru menyusun potongannya." },
+        { "id_jurusan": 4, "text": "Aku memastikan semua potongan puzzle ada dan tidak ada yang hilang." },
+        { "id_jurusan": 5, "text": "Aku suka puzzle yang punya 'jebakan' atau pola tersembunyi." }
+      ]
+    },
+    {
+      "no": 12,
+      "question": "Saat liburan, kamu lebih tertarik mengunjungi tempat seperti apa?",
+      "options": [
+        { "id_jurusan": 1, "text": "Museum sains dan teknologi yang ada simulasi coding untuk anak-anak." },
+        { "id_jurusan": 2, "text": "Pameran seni rupa atau galeri ilustrasi digital." },
+        { "id_jurusan": 3, "text": "Bioskop atau tempat workshop pembuatan film pendek." },
+        { "id_jurusan": 4, "text": "Tempat servis komputer yang memperbolehkan pengunjung lihat-lihat." },
+        { "id_jurusan": 5, "text": "Pameran teknologi tentang rumah pintar (smart home) atau robot." }
+      ]
+    },
+    {
+      "no": 13,
+      "question": "Sekolahmu membuka pendaftaran ekstrakurikuler baru. Ekstrakurikuler mana yang paling ingin kamu ikuti?",
+      "options": [
+        { "id_jurusan": 1, "text": "Klub Coding dan Web Development." },
+        { "id_jurusan": 2, "text": "Klub Desain Grafis dan Ilustrasi." },
+        { "id_jurusan": 3, "text": "Klub Sinematografi dan Konten Kreatif." },
+        { "id_jurusan": 4, "text": "Klub Jaringan dan Robotika (merakit PC)." },
+        { "id_jurusan": 5, "text": "Klub Cyber Security dan Internet of Things." }
+      ]
+    },
+    {
+      "no": 14,
+      "question": "Kamu diberi tugas membuat denah lokasi stand bazar sekolah. Bagaimana kamu mengerjakannya?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat denah interaktif sederhana pakai HTML dan CSS." },
+        { "id_jurusan": 2, "text": "Mendesain denah dengan ikon-ikon lucu dan warna-warni di Canva/Photoshop." },
+        { "id_jurusan": 3, "text": "Membuat video tur virtual singkat memperlihatkan posisi stand." },
+        { "id_jurusan": 4, "text": "Mencetak denah dalam ukuran besar dan memasangnya di papan pengumuman." },
+        { "id_jurusan": 5, "text": "Membuat QR code di setiap sudut denah yang terhubung ke detail stand." }
+      ]
+    },
+    {
+      "no": 15,
+      "question": "Teman sekelompokmu tidak sengaja menghapus file penting. Apa yang terlintas di pikiranmu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Aku ingat pernah baca tentang perintah 'git revert' atau 'undo' di coding." },
+        { "id_jurusan": 2, "text": "Tenang, kita bisa bikin ulang desainnya lebih cepat karena sudah tahu konsepnya." },
+        { "id_jurusan": 3, "text": "Kita bisa rekam ulang videonya, sekalian ambil angle yang lebih bagus." },
+        { "id_jurusan": 4, "text": "Coba cek di Recycle Bin dulu, atau coba colokkan harddisk ke komputer lain." },
+        { "id_jurusan": 5, "text": "Ini kenapa tidak ada backup otomatis? Aku akan aktifkan fitur cloud sync." }
+      ]
+    },
+    {
+      "no": 16,
+      "question": "Kamu lebih suka menghabiskan waktu di depan komputer untuk...",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat program sederhana atau belajar bahasa pemrograman baru." },
+        { "id_jurusan": 2, "text": "Menggambar digital atau membuat manipulasi foto." },
+        { "id_jurusan": 3, "text": "Mengedit video vlog atau membuat animasi teks bergerak." },
+        { "id_jurusan": 4, "text": "Mengutak-atik pengaturan sistem operasi atau mencoba Linux." },
+        { "id_jurusan": 5, "text": "Mempelajari cara membuat password yang kuat dan menyimpannya dengan aman." }
+      ]
+    },
+    {
+      "no": 17,
+      "question": "Kamu melihat antarmuka aplikasi yang jelek dan sulit digunakan. Apa yang kamu pikirkan?",
+      "options": [
+        { "id_jurusan": 1, "text": "Mungkin karena kodenya berantakan, jadi aplikasinya lambat." },
+        { "id_jurusan": 2, "text": "Seharusnya tombolnya pakai warna yang kontras dan tata letaknya simetris." },
+        { "id_jurusan": 3, "text": "Kurang ada animasi transisi yang halus, jadi kelihatan kaku." },
+        { "id_jurusan": 4, "text": "Mungkin koneksi jaringannya bermasalah jadi tampilannya pecah." },
+        { "id_jurusan": 5, "text": "Aku jadi curiga, jangan-jangan ini aplikasi palsu untuk mencuri data." }
+      ]
+    },
+    {
+      "no": 18,
+      "question": "Untuk proyek sains, kamu diminta menjelaskan proses 'fotosintesis'. Media apa yang paling kamu sukai untuk menjelaskannya?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat kuis interaktif di halaman web." },
+        { "id_jurusan": 2, "text": "Membuat infografis yang penuh warna." },
+        { "id_jurusan": 3, "text": "Membuat video animasi pendek tentang daun yang memasak makanan." },
+        { "id_jurusan": 4, "text": "Menampilkan diagram di layar proyektor dengan resolusi terbaik." },
+        { "id_jurusan": 5, "text": "Membuat simulasi digital sederhana yang menunjukkan reaksinya." }
+      ]
+    },
+    {
+      "no": 19,
+      "question": "Jika kamu jadi ketua kelas, sistem apa yang ingin kamu buat agar kelas lebih teratur?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat daftar piket digital menggunakan Google Sheets dengan rumus otomatis." },
+        { "id_jurusan": 2, "text": "Mendesain jadwal piket dan struktur kelas yang ditempel dengan hiasan." },
+        { "id_jurusan": 3, "text": "Membuat video sambutan atau pengumuman rutin mingguan." },
+        { "id_jurusan": 4, "text": "Memperbaiki speaker kelas agar pengumuman bisa didengar jelas." },
+        { "id_jurusan": 5, "text": "Membuat grup kelas yang aman dari spammer luar." }
+      ]
+    },
+    {
+      "no": 20,
+      "question": "Apa yang biasanya kamu lakukan jika menemukan channel YouTube yang menarik?",
+      "options": [
+        { "id_jurusan": 1, "text": "Melihat source code website-nya untuk tahu teknologi apa yang dipakai." },
+        { "id_jurusan": 2, "text": "Mengamati thumbnail dan banner channel-nya, suka tidak dengan warnanya." },
+        { "id_jurusan": 3, "text": "Menganalisis teknik editing dan backsound yang mereka gunakan." },
+        { "id_jurusan": 4, "text": "Mengecek kualitas streaming videonya, apakah buffering atau tidak." },
+        { "id_jurusan": 5, "text": "Melihat apakah akunnya terverifikasi dan aman dari penipuan." }
+      ]
+    },
+    {
+      "no": 21,
+      "question": "Kamu dan temanmu ingin membuat game untuk tugas akhir semester. Ide apa yang paling seru buatmu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat logika permainan batu-gunting-kertas menggunakan JavaScript." },
+        { "id_jurusan": 2, "text": "Membuat karakter utama dan latar belakang game yang unik." },
+        { "id_jurusan": 3, "text": "Membuat cutscene pembuka game dengan animasi sederhana." },
+        { "id_jurusan": 4, "text": "Memastikan game bisa dimainkan di komputer sekolah tanpa lag." },
+        { "id_jurusan": 5, "text": "Menambahkan fitur login agar skor pemain bisa disimpan secara online." }
+      ]
+    },
+    {
+      "no": 22,
+      "question": "Kalau ada teman yang minta diajari cara menggunakan laptop baru, hal apa yang pertama kamu ajarkan?",
+      "options": [
+        { "id_jurusan": 1, "text": "Cara menggunakan browser dan menginstall aplikasi dasar." },
+        { "id_jurusan": 2, "text": "Cara mengganti wallpaper dan mengatur tampilan desktop." },
+        { "id_jurusan": 3, "text": "Cara menggunakan kamera laptop untuk selfie atau video call." },
+        { "id_jurusan": 4, "text": "Cara menghubungkan laptop ke jaringan WiFi atau kabel LAN." },
+        { "id_jurusan": 5, "text": "Cara membuat password login yang kuat dan mengaktifkan antivirus." }
+      ]
+    },
+    {
+      "no": 23,
+      "question": "Kamu tidak sengaja melihat temanmu menuliskan password media sosialnya di buku catatan. Apa reaksimu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Aku akan bilang, 'Mending pakai aplikasi password manager yang kodenya open source'." },
+        { "id_jurusan": 2, "text": "Aku akan sarankan dia mendesain cover buku catatan itu biar tidak mencolok." },
+        { "id_jurusan": 3, "text": "Aku akan mengingatkan lewat video singkat atau meme tentang bahaya menulis password." },
+        { "id_jurusan": 4, "text": "Aku akan menyarankan untuk mengetiknya di Notepad lalu menyimpannya di flashdisk." },
+        { "id_jurusan": 5, "text": "Aku akan mengingatkan bahwa itu sangat berbahaya, bisa di-hack orang." }
+      ]
+    },
+    {
+      "no": 24,
+      "question": "Sekolahmu ingin mengadakan podcast. Posisi apa yang paling menarik perhatianmu?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat website untuk menampilkan semua episode podcast." },
+        { "id_jurusan": 2, "text": "Mendesain logo dan cover art untuk podcast tersebut." },
+        { "id_jurusan": 3, "text": "Menjadi editor audio, memotong bagian yang tidak perlu dan menambah efek." },
+        { "id_jurusan": 4, "text": "Menyiapkan mikrofon, mixer, dan kabel agar suaranya jernih." },
+        { "id_jurusan": 5, "text": "Mengatur hosting podcast agar bisa didengarkan di Spotify." }
+      ]
+    },
+    {
+      "no": 25,
+      "question": "Ketika melihat barang elektronik baru (misalnya smart lamp), mana yang paling membuatmu penasaran?",
+      "options": [
+        { "id_jurusan": 1, "text": "Aplikasi apa yang dipakai untuk mengontrol lampu itu?" },
+        { "id_jurusan": 2, "text": "Desain fisik lampu dan kemasannya." },
+        { "id_jurusan": 3, "text": "Efek pencahayaan warna-warni yang bisa dihasilkan." },
+        { "id_jurusan": 4, "text": "Bagaimana cara lampu itu terhubung ke listrik dan jaringan?" },
+        { "id_jurusan": 5, "text": "Apakah lampu ini aman dari hacker yang bisa menyalakan/mematikan seenaknya?" }
+      ]
+    },
+    {
+      "no": 26,
+      "question": "Cara belajar yang paling efektif buat kamu adalah...",
+      "options": [
+        { "id_jurusan": 1, "text": "Mencoba langsung menulis kode daripada hanya membaca teorinya." },
+        { "id_jurusan": 2, "text": "Membuat catatan dengan banyak warna, coretan, dan gambar." },
+        { "id_jurusan": 3, "text": "Menonton video tutorial dan mempraktikkannya langkah demi langkah." },
+        { "id_jurusan": 4, "text": "Melakukan praktikum fisik, misalnya merakit atau membongkar alat." },
+        { "id_jurusan": 5, "text": "Memahami konsep dasar dan 'mengapa'-nya terlebih dahulu." }
+      ]
+    },
+    {
+      "no": 27,
+      "question": "Kamu memiliki ide untuk usaha kecil-kecilan jualan snack online. Apa yang akan kamu siapkan pertama kali?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat website katalog sederhana untuk menampilkan daftar harga." },
+        { "id_jurusan": 2, "text": "Membuat logo dan desain kemasan yang menarik pembeli." },
+        { "id_jurusan": 3, "text": "Membuat video pendek promosi makanan yang menggugah selera." },
+        { "id_jurusan": 4, "text": "Memastikan koneksi internet stabil untuk menerima pesanan via WhatsApp." },
+        { "id_jurusan": 5, "text": "Membuat database pelanggan sederhana di cloud untuk catatan pesanan." }
+      ]
+    },
+    {
+      "no": 28,
+      "question": "Bagaimana pendapatmu tentang istilah 'error' di komputer?",
+      "options": [
+        { "id_jurusan": 1, "text": "Tantangan! Saatnya mencari baris kode mana yang salah." },
+        { "id_jurusan": 2, "text": "Kesal sih, tapi biasanya aku buat desain 'troubleshooting' yang lucu." },
+        { "id_jurusan": 3, "text": "Aku biasanya merekam layar saat error muncul, buat belajar atau lucu-lucuan." },
+        { "id_jurusan": 4, "text": "Coba restart dulu, atau cek kabel dan koneksinya." },
+        { "id_jurusan": 5, "text": "Error itu tanda ada celah, mungkin ada virus atau serangan." }
+      ]
+    },
+    {
+      "no": 29,
+      "question": "Apa yang kamu lakukan jika ada data penting di komputer yang ingin kamu amankan?",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat script backup otomatis ke folder tertentu." },
+        { "id_jurusan": 2, "text": "Memberi nama folder dengan ikon khusus agar mudah dikenali." },
+        { "id_jurusan": 3, "text": "Menyimpannya dalam format video atau slideshow berisi data tersebut." },
+        { "id_jurusan": 4, "text": "Menyalinnya ke harddisk eksternal dan menyimpannya di tempat aman." },
+        { "id_jurusan": 5, "text": "Mengenkripsinya dengan password dan menyimpannya di cloud." }
+      ]
+    },
+    {
+      "no": 30,
+      "question": "Menurutmu, apa hal paling keren dari perkembangan teknologi digital saat ini?",
+      "options": [
+        { "id_jurusan": 1, "text": "Kita bisa membuat aplikasi sendiri yang berguna bagi banyak orang." },
+        { "id_jurusan": 2, "text": "Kita bisa menuangkan imajinasi menjadi karya visual yang nyata." },
+        { "id_jurusan": 3, "text": "Kita bisa bercerita dan menyampaikan pesan lewat video ke seluruh dunia." },
+        { "id_jurusan": 4, "text": "Semua perangkat bisa saling terhubung membentuk jaringan yang besar." },
+        { "id_jurusan": 5, "text": "Adanya teknologi untuk melindungi privasi dan data di dunia maya." }
+      ]
+    }
+  ]
+}
