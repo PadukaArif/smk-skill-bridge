@@ -3,14 +3,32 @@
     "ID": 1,
     "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
-    "description": "Membangun sistem perangkat lunak masa depan, fokus pada integrasi AI, aplikasi web modern, dan ekosistem cloud.",
-    "skills": ["Next.js & React", "AI API Integration", "TypeScript", "Cloud-Native Dev"],
-    "projects": ["Web Portfolio Interaktif", "Sistem Kasir Berbasis Cloud", "Game 2D/3D Unity"],
-    "careers": ["AI Software Engineer", "Fullstack Web Developer", "DevOps Engineer", "Blockchain Developer"],
+    "description": "Jurusan ini adalah pusat penciptaan aplikasi dan sistem digital. Jika kamu penasaran bagaimana cara membuat website seperti Tokopedia, aplikasi seperti Gojek, atau bahkan game mobile, di sinilah tempatnya. Kamu akan belajar logika pemrograman, cara menulis kode (coding) yang rapi, mengelola database, dan membangun antarmuka aplikasi yang ramah pengguna. Jurusan ini sangat cocok untuk kamu yang teliti, suka memecahkan teka-teki logika, dan tidak mudah menyerah saat menemui error di komputer. Sehari-hari kamu akan lebih banyak berinteraksi dengan layar laptop, menciptakan solusi nyata dari baris-baris kode.",
+    "skills": [
+      "Next.js & React",
+      "AI API Integration",
+      "TypeScript",
+      "Cloud-Native Dev",
+      "Database Design & SQL"
+    ],
+    "projects": [
+      "Web Portfolio Interaktif",
+      "Sistem Kasir Berbasis Cloud",
+      "Game 2D/3D Unity",
+      "Aplikasi Manajemen Tugas Kolaboratif",
+      "Chatbot Layanan Pelanggan AI"
+    ],
+    "careers": [
+      "AI Software Engineer",
+      "Fullstack Web Developer",
+      "DevOps Engineer",
+      "Blockchain Developer",
+      "Mobile App Developer (Flutter/React Native)"
+    ],
     "colors": {
-      "base_color": "#3B82F6",
-      "primary_color": "#1E40AF",
-      "secondary_color": "#60A5FA",
+      "base_color": "#1E3A8A",
+      "primary_color": "#0F172A",
+      "secondary_color": "#3B82F6",
       "subtle_color": "#EFF6FF"
     }
   },
@@ -18,55 +36,128 @@
     "ID": 2,
     "uuid": "TKJ",
     "name": "Teknik Komputer & Jaringan (TKJ)",
-    "description": "Arsitek infrastruktur digital yang mengamankan lalu lintas data dan membangun jaringan untuk ekosistem IoT dan 5G/6G.",
-    "skills": ["Cloud Infrastructure", "Cybersecurity", "Network Automation", "IoT Setup"],
-    "projects": ["Topologi Jaringan Smart Home", "Server Cloud Skala Kecil", "Sistem Keamanan Firewall"],
-    "careers": ["Cloud Network Engineer", "Cybersecurity Analyst", "IoT Solutions Architect", "Network Automation Specialist"],
+    "description": "Jurusan ini mempelajari 'jalan tol' dunia digital: Jaringan Internet. Jika RPL fokus pada aplikasi, TKJ fokus pada infrastruktur yang membuat aplikasi itu bisa diakses. Kamu akan belajar membangun koneksi internet stabil, memperbaiki komputer yang rusak, memasang kabel fiber optik, hingga mengamankan server dari serangan hacker. Jurusan ini pas untukmu yang suka mengutak-atik hardware, penasaran dengan isi dalam CPU, atau ingin memastikan sinyal WiFi di rumah selalu kencang. Kamu akan sering berhadapan dengan kabel, router, konfigurasi IP Address, dan logika jaringan yang kompleks namun sangat terstruktur.",
+    "skills": [
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "Network Automation",
+      "IoT Setup",
+      "Routing & Switching (MikroTik/Cisco)"
+    ],
+    "projects": [
+      "Topologi Jaringan Smart Home",
+      "Server Cloud Skala Kecil",
+      "Sistem Keamanan Firewall",
+      "Implementasi VPN untuk Remote Working"
+    ],
+    "careers": [
+      "Cloud Network Engineer",
+      "Cybersecurity Analyst",
+      "IoT Solutions Architect",
+      "Network Automation Specialist",
+      "IT Support Specialist",
+      "Data Center Technician"
+    ],
     "colors": {
-      "base_color": "#10B981",
-      "primary_color": "#065F46",
-      "secondary_color": "#34D399",
-      "subtle_color": "#ECFDF5"
+      "base_color": "#4B5563",
+      "primary_color": "#1F2937",
+      "secondary_color": "#9CA3AF",
+      "subtle_color": "#F3F4F6"
     }
   },
   {
     "ID": 3,
     "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan & Aplikasi (SIJA)",
-    "description": "Perpaduan koding dan jaringan. Ahli dalam merancang sistem yang menggabungkan aplikasi canggih dengan arsitektur server yang tangguh.",
-    "skills": ["DevSecOps", "Microservices", "Serverless Computing", "Linux Administration"],
-    "projects": ["Deploy Aplikasi ke VPS", "Otomasi Server CI/CD", "Monitoring Server Real-time"],
-    "careers": ["Site Reliability Engineer (SRE)", "DevSecOps Engineer", "Cloud Architect", "Backend Systems Engineer"],
+    "description": "Ini adalah jurusan 'jembatan' antara koding (RPL) dan jaringan (TKJ). SIJA menciptakan spesialis yang bisa membuat aplikasi sekaligus mengelola servernya sendiri (DevOps). Jika diibaratkan, kamu tidak hanya membuat mobilnya (aplikasi), tapi juga memastikan garasi dan jalan raya (server & jaringan) siap 24 jam. Kamu akan mendalami Linux, otomatisasi server, dan teknologi 'cloud' seperti AWS atau Google Cloud. Jurusan ini menuntut kemampuan berpikir sistem secara menyeluruh dan cocok untuk kamu yang ambisius menguasai 'full-stack' infrastruktur teknologi modern.",
+    "skills": [
+      "DevSecOps",
+      "Microservices",
+      "Serverless Computing",
+      "Linux Administration",
+      "Containerization (Docker/Kubernetes)"
+    ],
+    "projects": [
+      "Deploy Aplikasi ke VPS",
+      "Otomasi Server CI/CD",
+      "Monitoring Server Real-time",
+      "Membangun Kubernetes Cluster Sederhana"
+    ],
+    "careers": [
+      "Site Reliability Engineer (SRE)",
+      "DevSecOps Engineer",
+      "Cloud Architect",
+      "Backend Systems Engineer",
+      "Platform Engineer"
+    ],
     "colors": {
-      "base_color": "#8B5CF6",
-      "primary_color": "#5B21B6",
-      "secondary_color": "#A78BFA",
-      "subtle_color": "#F5F3FF"
+      "base_color": "#EAB308",
+      "primary_color": "#854D0E",
+      "secondary_color": "#FDE047",
+      "subtle_color": "#FEF9C3"
     }
   },
   {
     "ID": 4,
     "uuid": "MULTIMEDIA",
     "name": "Multimedia / Animasi",
-    "description": "Kreator konten digital yang menggabungkan seni dan teknologi, memproduksi aset visual untuk era metaverse dan spatial computing.",
-    "skills": ["3D Modeling", "AR/VR Development", "Motion Graphics", "Video Post-Production"],
-    "projects": ["Video Dokumenter Cinematic", "Filter AR Interaktif", "Aset 3D Game"],
-    "careers": ["AR/VR Experience Designer", "3D Animator", "Video Post-Production Specialist", "Spatial Computing Creator"],
+    "description": "Jurusan ini adalah laboratorium kreativitas visual. Jika kamu suka menggambar, membuat efek suara, mengedit video, atau berimajinasi tentang dunia animasi 3D seperti di film Pixar atau game populer, jurusan ini jawabannya. Kamu akan belajar menggunakan kamera profesional, software editing video, Blender untuk 3D, hingga teknologi imersif seperti Virtual Reality (VR) dan Augmented Reality (AR). Ini adalah pilihan tepat untukmu yang punya jiwa seni tinggi namun tetap ingin melek teknologi. Hari-harimu akan diisi dengan produksi konten, mulai dari memotret produk, membuat iklan pendek, hingga merancang karakter animasi.",
+    "skills": [
+      "3D Modeling",
+      "AR/VR Development",
+      "Motion Graphics",
+      "Video Post-Production",
+      "Audio Editing & Sound Design",
+      "Digital Illustration"
+    ],
+    "projects": [
+      "Video Dokumenter Cinematic",
+      "Filter AR Interaktif",
+      "Aset 3D Game",
+      "Animasi Pendek Edukasi 2D/3D"
+    ],
+    "careers": [
+      "AR/VR Experience Designer",
+      "3D Animator",
+      "Video Post-Production Specialist",
+      "Spatial Computing Creator",
+      "Motion Graphic Designer",
+      "Game Asset Artist"
+    ],
     "colors": {
-      "base_color": "#F59E0B",
-      "primary_color": "#B45309",
-      "secondary_color": "#FBBF24",
-      "subtle_color": "#FFFBEB"
+      "base_color": "#F97316",
+      "primary_color": "#9A3412",
+      "secondary_color": "#FDBA74",
+      "subtle_color": "#FFF7ED"
     }
   },
   {
     "ID": 5,
     "uuid": "DKV",
     "name": "Desain Komunikasi Visual (DKV)",
-    "description": "Problem solver visual yang merancang identitas brand dan antarmuka aplikasi dengan efisiensi menggunakan bantuan Generative AI.",
-    "skills": ["UI/UX Design", "Generative AI Prompting", "Brand Identity", "Figma Prototyping"],
-    "projects": ["Desain UI/UX Aplikasi Mobile", "Rebranding Produk Lokal", "Desain Campaign Digital Interaktif"],
-    "careers": ["UI/UX Designer", "AI Prompt Designer", "Brand Strategist", "Product Designer"],
+    "description": "Berbeda dengan Multimedia yang fokus pada gerak dan audio, DKV lebih fokus pada pesan yang disampaikan melalui gambar statis dan tata letak. Jurusan ini mendidikmu menjadi 'arsitek visual' sebuah brand. Mulai dari mendesain logo yang ikonik, membuat poster yang eye-catching, hingga merancang tampilan antarmuka aplikasi (UI/UX) yang memudahkan jutaan pengguna. Di era AI saat ini, DKV mengajarkan bagaimana mengendalikan kecerdasan buatan untuk menghasilkan karya seni yang lebih efisien. Cocok untuk kamu yang perfeksionis dalam urusan warna, tipografi, dan memiliki kemampuan storytelling yang kuat.",
+    "skills": [
+      "UI/UX Design",
+      "Generative AI Prompting",
+      "Brand Identity",
+      "Figma Prototyping",
+      "Typography & Layout Design",
+      "Packaging Design"
+    ],
+    "projects": [
+      "Desain UI/UX Aplikasi Mobile",
+      "Rebranding Produk Lokal",
+      "Desain Campaign Digital Interaktif",
+      "Perancangan Sistem Identitas Visual UMKM"
+    ],
+    "careers": [
+      "UI/UX Designer",
+      "AI Prompt Designer",
+      "Brand Strategist",
+      "Product Designer",
+      "Graphic Designer",
+      "Creative Director"
+    ],
     "colors": {
       "base_color": "#EC4899",
       "primary_color": "#9D174D",

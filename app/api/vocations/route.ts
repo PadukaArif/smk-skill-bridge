@@ -1,0 +1,5 @@
+import { NextResponse } from "next/server"
+import vocationsData from "../../../public/majors.json"
+export async function GET(){
+    return NextResponse.json({status:true , data:vocationsData })
+}
