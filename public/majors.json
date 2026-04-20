@@ -1,73 +1,77 @@
 [
   {
-    "id": 1,
-    "name": "RPL (Rekayasa Perangkat Lunak)",
-    "skills": ["HTML & CSS", "JavaScript Dasar", "React/Next.js", "Database (SQL)", "Git & GitHub"]
-  },
-  {
-    "id": 2,
-    "name": "DKV (Desain Komunikasi Visual)",
-    "skills": ["Adobe Illustrator", "Photoshop", "Branding & Logo Design", "UI/UX Design", "Layouting"]
-  },
-  {
-    "id": 3,
-    "name": "Multimedia",
-    "skills": ["Video Editing", "Motion Graphics", "Photography", "3D Modelling", "Copywriting"]
-  },
-  {
-    "id": 4,
-    "name": "TKJ (Teknik Komputer Jaringan)",
-    "skills": ["Instalasi OS", "Mikrotik Dasar", "Routing & Switching", "Cabling (Fiber/UTP)", "Linux Server"]
-  },
-  {
-    "id": 5,
-    "name": "SIJA (Sistem Informatika Jaringan & Aplikasi)",
-    "skills": ["Cloud Computing", "Cyber Security Dasar", "Internet of Things (IoT)", "Server Management", "Python Programming"]
-  }
-,
-  {
-    "id": "rpl",
+    "ID": 1,
+    "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
     "description": "Membangun sistem perangkat lunak masa depan, fokus pada integrasi AI, aplikasi web modern, dan ekosistem cloud.",
     "skills": ["Next.js & React", "AI API Integration", "TypeScript", "Cloud-Native Dev"],
     "projects": ["Web Portfolio Interaktif", "Sistem Kasir Berbasis Cloud", "Game 2D/3D Unity"],
     "careers": ["AI Software Engineer", "Fullstack Web Developer", "DevOps Engineer", "Blockchain Developer"],
-    "color": "blue"
+    "colors": {
+      "base_color": "#3B82F6",
+      "primary_color": "#1E40AF",
+      "secondary_color": "#60A5FA",
+      "subtle_color": "#EFF6FF"
+    }
   },
   {
-    "id": "tkj",
+    "ID": 2,
+    "uuid": "TKJ",
     "name": "Teknik Komputer & Jaringan (TKJ)",
     "description": "Arsitek infrastruktur digital yang mengamankan lalu lintas data dan membangun jaringan untuk ekosistem IoT dan 5G/6G.",
     "skills": ["Cloud Infrastructure", "Cybersecurity", "Network Automation", "IoT Setup"],
     "projects": ["Topologi Jaringan Smart Home", "Server Cloud Skala Kecil", "Sistem Keamanan Firewall"],
     "careers": ["Cloud Network Engineer", "Cybersecurity Analyst", "IoT Solutions Architect", "Network Automation Specialist"],
-    "color": "green"
+    "colors": {
+      "base_color": "#10B981",
+      "primary_color": "#065F46",
+      "secondary_color": "#34D399",
+      "subtle_color": "#ECFDF5"
+    }
   },
   {
-    "id": "sija",
+    "ID": 3,
+    "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan & Aplikasi (SIJA)",
     "description": "Perpaduan koding dan jaringan. Ahli dalam merancang sistem yang menggabungkan aplikasi canggih dengan arsitektur server yang tangguh.",
     "skills": ["DevSecOps", "Microservices", "Serverless Computing", "Linux Administration"],
     "projects": ["Deploy Aplikasi ke VPS", "Otomasi Server CI/CD", "Monitoring Server Real-time"],
     "careers": ["Site Reliability Engineer (SRE)", "DevSecOps Engineer", "Cloud Architect", "Backend Systems Engineer"],
-    "color": "purple"
+    "colors": {
+      "base_color": "#8B5CF6",
+      "primary_color": "#5B21B6",
+      "secondary_color": "#A78BFA",
+      "subtle_color": "#F5F3FF"
+    }
   },
   {
-    "id": "multimedia",
+    "ID": 4,
+    "uuid": "MULTIMEDIA",
     "name": "Multimedia / Animasi",
     "description": "Kreator konten digital yang menggabungkan seni dan teknologi, memproduksi aset visual untuk era metaverse dan spatial computing.",
     "skills": ["3D Modeling", "AR/VR Development", "Motion Graphics", "Video Post-Production"],
     "projects": ["Video Dokumenter Cinematic", "Filter AR Interaktif", "Aset 3D Game"],
     "careers": ["AR/VR Experience Designer", "3D Animator", "Video Post-Production Specialist", "Spatial Computing Creator"],
-    "color": "orange"
+    "colors": {
+      "base_color": "#F59E0B",
+      "primary_color": "#B45309",
+      "secondary_color": "#FBBF24",
+      "subtle_color": "#FFFBEB"
+    }
   },
   {
-    "id": "dkv",
+    "ID": 5,
+    "uuid": "DKV",
     "name": "Desain Komunikasi Visual (DKV)",
     "description": "Problem solver visual yang merancang identitas brand dan antarmuka aplikasi dengan efisiensi menggunakan bantuan Generative AI.",
     "skills": ["UI/UX Design", "Generative AI Prompting", "Brand Identity", "Figma Prototyping"],
     "projects": ["Desain UI/UX Aplikasi Mobile", "Rebranding Produk Lokal", "Desain Campaign Digital Interaktif"],
     "careers": ["UI/UX Designer", "AI Prompt Designer", "Brand Strategist", "Product Designer"],
-    "color": "pink"
+    "colors": {
+      "base_color": "#EC4899",
+      "primary_color": "#9D174D",
+      "secondary_color": "#F472B6",
+      "subtle_color": "#FDF2F8"
+    }
   }
 ]
