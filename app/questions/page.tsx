@@ -85,7 +85,7 @@ const page = () => {
                             <p className=' font-light text-neutral-400'>
                                 Jawaban Kamu :
                                 <span className=' font-semibold text-black mx-2'>
-                                    {currSelect?.selectedIndex > 1 ? currSelect.selectedOptions[0].text : ""}
+                                    {currSelect?.selectedIndex > 0 ? currSelect.selectedOptions[0].text : ""}
                                 </span>
                             </p>
                         </div>
