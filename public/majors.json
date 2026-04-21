@@ -3,7 +3,7 @@
     "ID": 1,
     "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
-    "description": "Jurusan ini adalah pusat penciptaan aplikasi dan sistem digital. Jika kamu penasaran bagaimana cara membuat website seperti Tokopedia, aplikasi seperti Gojek, atau bahkan game mobile, di sinilah tempatnya. Kamu akan belajar logika pemrograman, cara menulis kode (coding) yang rapi, mengelola database, dan membangun antarmuka aplikasi yang ramah pengguna. Jurusan ini sangat cocok untuk kamu yang teliti, suka memecahkan teka-teki logika, dan tidak mudah menyerah saat menemui error di komputer. Sehari-hari kamu akan lebih banyak berinteraksi dengan layar laptop, menciptakan solusi nyata dari baris-baris kode.",
+    "description": "Jurusan ini adalah pusat penciptaan aplikasi dan sistem digital...",
     "skills": [
       "Next.js & React",
       "AI API Integration",
@@ -36,7 +36,7 @@
     "ID": 2,
     "uuid": "TKJ",
     "name": "Teknik Komputer & Jaringan (TKJ)",
-    "description": "Jurusan ini mempelajari 'jalan tol' dunia digital: Jaringan Internet. Jika RPL fokus pada aplikasi, TKJ fokus pada infrastruktur yang membuat aplikasi itu bisa diakses. Kamu akan belajar membangun koneksi internet stabil, memperbaiki komputer yang rusak, memasang kabel fiber optik, hingga mengamankan server dari serangan hacker. Jurusan ini pas untukmu yang suka mengutak-atik hardware, penasaran dengan isi dalam CPU, atau ingin memastikan sinyal WiFi di rumah selalu kencang. Kamu akan sering berhadapan dengan kabel, router, konfigurasi IP Address, dan logika jaringan yang kompleks namun sangat terstruktur.",
+    "description": "Jurusan ini mempelajari 'jalan tol' dunia digital: Jaringan Internet...",
     "skills": [
       "Cloud Infrastructure",
       "Cybersecurity",
@@ -59,17 +59,17 @@
       "Data Center Technician"
     ],
     "colors": {
-      "base_color": "#4B5563",
-      "primary_color": "#1F2937",
-      "secondary_color": "#9CA3AF",
-      "subtle_color": "#F3F4F6"
+      "base_color": "#EAB308",
+      "primary_color": "#854D0E",
+      "secondary_color": "#FACC15",
+      "subtle_color": "#FEF9C3"
     }
   },
   {
     "ID": 3,
     "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan & Aplikasi (SIJA)",
-    "description": "Ini adalah jurusan 'jembatan' antara koding (RPL) dan jaringan (TKJ). SIJA menciptakan spesialis yang bisa membuat aplikasi sekaligus mengelola servernya sendiri (DevOps). Jika diibaratkan, kamu tidak hanya membuat mobilnya (aplikasi), tapi juga memastikan garasi dan jalan raya (server & jaringan) siap 24 jam. Kamu akan mendalami Linux, otomatisasi server, dan teknologi 'cloud' seperti AWS atau Google Cloud. Jurusan ini menuntut kemampuan berpikir sistem secara menyeluruh dan cocok untuk kamu yang ambisius menguasai 'full-stack' infrastruktur teknologi modern.",
+    "description": "Ini adalah jurusan 'jembatan' antara koding (RPL) dan jaringan (TKJ)...",
     "skills": [
       "DevSecOps",
       "Microservices",
@@ -91,43 +91,41 @@
       "Platform Engineer"
     ],
     "colors": {
-      "base_color": "#EAB308",
-      "primary_color": "#854D0E",
-      "secondary_color": "#FDE047",
-      "subtle_color": "#FEF9C3"
+      "base_color": "#22C55E",
+      "primary_color": "#166534",
+      "secondary_color": "#4ADE80",
+      "subtle_color": "#F0FDF4"
     }
   },
   {
     "ID": 4,
-    "uuid": "MULTIMEDIA",
-    "name": "Multimedia / Animasi",
-    "description": "Jurusan ini adalah laboratorium kreativitas visual. Jika kamu suka menggambar, membuat efek suara, mengedit video, atau berimajinasi tentang dunia animasi 3D seperti di film Pixar atau game populer, jurusan ini jawabannya. Kamu akan belajar menggunakan kamera profesional, software editing video, Blender untuk 3D, hingga teknologi imersif seperti Virtual Reality (VR) dan Augmented Reality (AR). Ini adalah pilihan tepat untukmu yang punya jiwa seni tinggi namun tetap ingin melek teknologi. Hari-harimu akan diisi dengan produksi konten, mulai dari memotret produk, membuat iklan pendek, hingga merancang karakter animasi.",
+    "uuid": "MM",
+    "name": "Multimedia (MM)",
+    "description": "Dunia di matamu adalah kanvas? Multimedia tempatnya...",
     "skills": [
-      "3D Modeling",
-      "AR/VR Development",
+      "UI/UX Visual Design",
       "Motion Graphics",
       "Video Post-Production",
-      "Audio Editing & Sound Design",
-      "Digital Illustration"
+      "3D Asset Design",
+      "Digital Branding"
     ],
     "projects": [
-      "Video Dokumenter Cinematic",
-      "Filter AR Interaktif",
-      "Aset 3D Game",
-      "Animasi Pendek Edukasi 2D/3D"
+      "Branding Identitas Brand",
+      "Film Pendek Animasi",
+      "Interactive Web Prototype",
+      "Campaign Media Sosial"
     ],
     "careers": [
-      "AR/VR Experience Designer",
-      "3D Animator",
-      "Video Post-Production Specialist",
-      "Spatial Computing Creator",
-      "Motion Graphic Designer",
-      "Game Asset Artist"
+      "Creative Director",
+      "UI/UX Motion Designer",
+      "Video Editor",
+      "3D Visualizer",
+      "Brand Designer"
     ],
     "colors": {
       "base_color": "#F97316",
-      "primary_color": "#9A3412",
-      "secondary_color": "#FDBA74",
+      "primary_color": "#7C2D12",
+      "secondary_color": "#FB923C",
       "subtle_color": "#FFF7ED"
     }
   },
@@ -135,34 +133,32 @@
     "ID": 5,
     "uuid": "DKV",
     "name": "Desain Komunikasi Visual (DKV)",
-    "description": "Berbeda dengan Multimedia yang fokus pada gerak dan audio, DKV lebih fokus pada pesan yang disampaikan melalui gambar statis dan tata letak. Jurusan ini mendidikmu menjadi 'arsitek visual' sebuah brand. Mulai dari mendesain logo yang ikonik, membuat poster yang eye-catching, hingga merancang tampilan antarmuka aplikasi (UI/UX) yang memudahkan jutaan pengguna. Di era AI saat ini, DKV mengajarkan bagaimana mengendalikan kecerdasan buatan untuk menghasilkan karya seni yang lebih efisien. Cocok untuk kamu yang perfeksionis dalam urusan warna, tipografi, dan memiliki kemampuan storytelling yang kuat.",
+    "description": "DKV adalah bahasa visual untuk menyampaikan pesan...",
     "skills": [
-      "UI/UX Design",
-      "Generative AI Prompting",
-      "Brand Identity",
-      "Figma Prototyping",
-      "Typography & Layout Design",
-      "Packaging Design"
+      "Graphic Design Theory",
+      "Illustration",
+      "Typography Design",
+      "Advertising Strategy",
+      "Digital Painting"
     ],
     "projects": [
-      "Desain UI/UX Aplikasi Mobile",
-      "Rebranding Produk Lokal",
-      "Desain Campaign Digital Interaktif",
-      "Perancangan Sistem Identitas Visual UMKM"
+      "Desain Packaging",
+      "Tipografi Custom",
+      "Strategi Visual Marketing",
+      "Ilustrasi Buku/Digital"
     ],
     "careers": [
-      "UI/UX Designer",
-      "AI Prompt Designer",
-      "Brand Strategist",
-      "Product Designer",
       "Graphic Designer",
-      "Creative Director"
+      "Illustrator",
+      "Art Director",
+      "Typographer",
+      "Package Designer"
     ],
     "colors": {
-      "base_color": "#EC4899",
-      "primary_color": "#9D174D",
-      "secondary_color": "#F472B6",
-      "subtle_color": "#FDF2F8"
+      "base_color": "#D946EF",
+      "primary_color": "#701A75",
+      "secondary_color": "#E879F9",
+      "subtle_color": "#FDF4FF"
     }
   }
 ]
