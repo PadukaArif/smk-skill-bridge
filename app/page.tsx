@@ -59,14 +59,17 @@ export default function Home() {
 
     const handlePilihan = (e: React.ChangeEvent<HTMLSelectElement>) => {
         setPilihan(jurusan[Number(e.target.value) - 1])
+        setTimeout(() => {
+        window.dispatchEvent(new Event('resize'))
+    }, 100)
     }
 
     return (
         <div className="min-h-screen bg-white text-slate-900 overflow-x-hidden antialiased selection:bg-emerald-100 selection:text-emerald-900">
             <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
-                <div className="absolute top-0 left-0 w-[700px] h-[700px] bg-emerald-100/30 rounded-full blur-[140px] -translate-x-1/3 -translate-y-1/3 animate-float" />
-                <div className="absolute top-1/3 right-0 w-[600px] h-[600px] bg-teal-100/25 rounded-full blur-[120px] translate-x-1/4 animate-float-slow" />
-                <div className="absolute bottom-0 left-1/3 w-[500px] h-[500px] bg-blue-100/20 rounded-full blur-[100px] translate-y-1/4 animate-float" />
+                <div className="absolute top-0 left-0 w-700px h-700px bg-emerald-100/30 rounded-full blur-[140px] -translate-x-1/3 -translate-y-1/3 animate-float" />
+                <div className="absolute top-1/3 right-0 w-600px h-600px bg-teal-100/25 rounded-full blur-[120px] translate-x-1/4 animate-float-slow" />
+                <div className="absolute bottom-0 left-1/3 w-500px h-500px bg-blue-100/20 rounded-full blur-[100px] translate-y-1/4 animate-float" />
                 <div className="absolute inset-0 opacity-[0.025]" style={{ backgroundImage: 'radial-gradient(circle, #64748b 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
             </div>
 
@@ -74,7 +77,7 @@ export default function Home() {
                 <nav className={`backdrop-blur-xl bg-white/80 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${navShrunk ? 'mx-4 md:mx-auto md:max-w-3xl mt-3 rounded-2xl border border-slate-200/50 shadow-xl' : 'border-b border-slate-100/80 shadow-[0_1px_3px_rgba(0,0,0,0.04)]'}`}>
                     <div className={`mx-auto flex items-center justify-between transition-all duration-700 ${navShrunk ? 'px-4 sm:px-6 h-14' : 'max-w-7xl px-4 sm:px-6 lg:px-8 h-20'}`}>
                         <a href="#beranda" className="flex items-center gap-3 group">
-                            <div className={`rounded-xl bg-gradient-to-br from-emerald-600 to-teal-500 flex items-center justify-center text-white font-black text-sm shadow-lg shadow-emerald-600/20 group-hover:shadow-emerald-600/40 group-hover:scale-105 group-hover:-rotate-3 transition-all duration-300 ${navShrunk ? 'w-9 h-9 text-xs' : 'w-11 h-11'}`}>
+                            <div className={`rounded-xl bg-linear-to-br from-emerald-600 to-teal-500 flex items-center justify-center text-white font-black text-sm shadow-lg shadow-emerald-600/20 group-hover:shadow-emerald-600/40 group-hover:scale-105 group-hover:-rotate-3 transition-all duration-300 ${navShrunk ? 'w-9 h-9 text-xs' : 'w-11 h-11'}`}>
                                 SB
                             </div>
                             <span className="font-extrabold text-xl tracking-tight text-slate-900">
@@ -115,7 +118,7 @@ export default function Home() {
                             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.9] mb-8 animate-slide-up">
                                 <span className="text-[0.7em]">GPS Kesiapan Industri</span>
                                 <br />
-                                <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 via-teal-500 to-blue-600 bg-[length:200%_auto] animate-gradient-x">
+                                <span className="bg-clip-text text-transparent bg-linear-to-r from-emerald-600 via-teal-500 to-blue-600 bg-size-[200%_auto] animate-gradient-x">
                                     Talenta SMK Indonesia.
                                 </span>
                             </h1>
@@ -167,7 +170,7 @@ export default function Home() {
                             </span>
                             <h2 className="text-3xl md:text-5xl font-black tracking-tight text-slate-900 mb-4">
                                 Temukan Jalur{" "}
-                                <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-500">
+                                <span className="bg-clip-text text-transparent bg-linear-to-r from-emerald-600 to-teal-500">
                                     Kompetensimu
                                 </span>
                             </h2>
@@ -219,7 +222,7 @@ export default function Home() {
                                                 <ul className="space-y-3">
                                                     {pilihan.skills?.map((skill: string, index: number) => (
                                                         <li key={index} className="flex items-center gap-3 bg-slate-50/80 p-3 rounded-xl border border-slate-100/60 hover:border-slate-200 hover:shadow-sm transition-all duration-200 group cursor-default">
-                                                            <span className="w-2 h-2 rounded-full flex-shrink-0 group-hover:scale-125 transition-transform duration-200" style={{ backgroundColor: pilihan.colors.secondary_color }} />
+                                                            <span className="w-2 h-2 rounded-full shrink-0 group-hover:scale-125 transition-transform duration-200" style={{ backgroundColor: pilihan.colors.secondary_color }} />
                                                             <span className="text-sm font-medium text-slate-700">{skill}</span>
                                                         </li>
                                                     ))}
@@ -236,7 +239,7 @@ export default function Home() {
                                                 <ul className="space-y-3">
                                                     {pilihan.projects?.map((project: string, index: number) => (
                                                         <li key={index} className="flex items-start gap-3 bg-slate-50/80 p-3 rounded-xl border border-slate-100/60 hover:border-slate-200 hover:shadow-sm transition-all duration-200 group cursor-default">
-                                                            <span className="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0 mt-1.5 group-hover:scale-125 transition-transform duration-200" />
+                                                            <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0 mt-1.5 group-hover:scale-125 transition-transform duration-200" />
                                                             <span className="text-sm font-medium text-slate-700">{project}</span>
                                                         </li>
                                                     ))}
@@ -244,7 +247,7 @@ export default function Home() {
                                             </div>
                                         </div>
 
-                                        <div className="p-8 bg-slate-900">
+                                        <div className="p-8 bg-slate-900 ">
                                             <h4 className="font-black text-xs uppercase tracking-[0.15em] text-emerald-400 mb-5">
                                                 Future Careers
                                             </h4>
@@ -281,7 +284,7 @@ export default function Home() {
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="py-12 flex flex-col md:flex-row items-center justify-between gap-6">
                         <div className="flex items-center gap-3">
-                            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center text-white font-black text-xs shadow-lg shadow-emerald-500/20">
+                            <div className="w-9 h-9 rounded-xl bg-linear-to-br from-emerald-500 to-teal-400 flex items-center justify-center text-white font-black text-xs shadow-lg shadow-emerald-500/20">
                                 SB
                             </div>
                             <span className="font-extrabold text-lg text-white">
