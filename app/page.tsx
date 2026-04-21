@@ -102,7 +102,7 @@ export default function Home() {
                 >
                     <div className="relative">
                         <div
-                            className={`absolute scale-10000 inset-[40px] rounded-full transition-opacity animate-splash-bg-spin ${splashStage === 'exit' ? 'paused' : ''}`}
+                            className={`absolute scale-15000 inset-[40px] rounded-full transition-opacity animate-splash-bg-spin ${splashStage === 'exit' ? 'paused' : ''}`}
                             style={{
                                 background: 'conic-gradient(from 0deg, transparent 0%, #b45309 25%, transparent 50%, #92400e 75%, transparent 100%)',
                                 filter: 'blur(1px)',
@@ -204,7 +204,7 @@ export default function Home() {
                                     placeholder="Masukkan nama kamu..."
                                     className="w-full px-6 py-3.5 rounded-full bg-transparent focus:outline-none text-lg text-slate-800 placeholder:text-slate-400"
                                 />
-                                <button className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-[1px] active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
+                                <button className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full flex justify-center items-center hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-[1px] active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
                                     Mulai Test →
                                 </button>
                             </div>
