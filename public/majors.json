@@ -3,7 +3,7 @@
     "ID": 1,
     "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
-    "description": "Jurusan ini adalah pusat penciptaan aplikasi dan sistem digital...",
+    "description": "Jurusan ini menjadi tempat utama membuat aplikasi dan sistem digital. Kalau kamu penasaran bagaimana sebuah situs web sekelas Tokopedia, aplikasi Gojek, atau game mobile dirancang, di sinilah tempatnya. Kita akan mempelajari cara berpikir komputer, menyusun baris kode secara rapi, serta membangun tempat penyimpanan data dan tampilan layar yang ramah pengguna. Pilihan ini sangat pas untuk mereka yang teliti, menyukai teka-teki logika, dan pantang menyerah saat menghadapi pesan error. Sebagian besar waktumu akan dihabiskan di depan layar karena pastinya kamu akan mencari solusi mantap dari sekumpulan kode.",
     "skills": [
       "Next.js & React",
       "AI API Integration",
@@ -36,7 +36,7 @@
     "ID": 2,
     "uuid": "TKJ",
     "name": "Teknik Komputer & Jaringan (TKJ)",
-    "description": "Jurusan ini mempelajari 'jalan tol' dunia digital: Jaringan Internet...",
+    "description": "Belajar sistem dasar dunia digital menjadi fokus utama jurusan ini. Kalau sebelumnya RPL sibuk merancang aplikasi, TKJ bertugas memastikan aplikasi tersebut memiliki jalur akses yang lancar melalui jaringan internet! Kamu akan berlatih mengatur koneksi stabil, menangani perbaikan perangkat keras, menyambung kabel fiber optik, hingga melindungi server dari bahaya serangan hacker. Jurusan ini memanggil kalian yang gemar mengutak-atik bagian fisik komputer, penasaran melihat jeroan CPU, atau sekadar ingin menjamin sinyal nirkabel selalu lancar. Keseharianmu akan lekat dengan urusan pemasangan, pengaturan router, dan pembuatan rancangan jaringan yang rapi.",
     "skills": [
       "Cloud Infrastructure",
       "Cybersecurity",
@@ -69,7 +69,7 @@
     "ID": 3,
     "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan & Aplikasi (SIJA)",
-    "description": "Ini adalah jurusan 'jembatan' antara koding (RPL) dan jaringan (TKJ)...",
+    "description": "Jurusan ini mengambil peran sebagai jembatan penghubung antara ilmu pemrograman dan pengaturan jaringan. SIJA mencetak tenaga ahli yang pintar membuat aplikasi sekaligus jago mengurus servernya sendiri. Inilah praktik yang biasa disebut DevOps. Kamu tidak hanya membuat perangkat lunak, tetapi juga merawat sistem di baliknya agar terus berjalan tanpa henti. Di sini, kita akan mendalami sistem operasi Linux, membuat server berjalan otomatis, dan pemanfaatan teknologi cloud seperti AWS. Pelajarannya membutuhkan cara berpikir yang luas, sangat cocok bagi kamu yang berambisi menguasai teknologi secara menyeluruh atau biasa disebut full-stack.",
     "skills": [
       "DevSecOps",
       "Microservices",
@@ -99,66 +99,36 @@
   },
   {
     "ID": 4,
-    "uuid": "MM",
-    "name": "Multimedia (MM)",
-    "description": "Dunia di matamu adalah kanvas? Multimedia tempatnya...",
+    "uuid": "MULTIMEDIA",
+    "name": "Multimedia / Animasi",
+    "description": "Ruang ini adalah tempat bagi kreativitas kamu. Bagi kamu yang memiliki ketertarikan pada menggambar digital, desain suara, edit video, atau bahkan pembuatan animasi 3D, jurusan ini menyediakan wadahnya. Kita akan tahu penggunaan kamera profesional, aplikasi edit lanjutan, membuat dan mengubah bentuk 3D menggunakan Blender, hingga pembuatan Virtual Reality (VR). Jalur ini sangat mewadahi mereka yang berjiwa seni tinggi tapi tetap ingin mengikuti laju perkembangan teknologi. Praktik kesehariannya dipenuhi oleh kegiatan pembuatan konten kreatif, mulai dari memotret produk iklan, menggarap video pendek, hingga merancang karakter digital.",
     "skills": [
-      "UI/UX Visual Design",
+      "3D Modeling",
+      "AR/VR Development",
       "Motion Graphics",
       "Video Post-Production",
-      "3D Asset Design",
-      "Digital Branding"
+      "Audio Editing & Sound Design",
+      "Digital Illustration"
     ],
     "projects": [
-      "Branding Identitas Brand",
-      "Film Pendek Animasi",
-      "Interactive Web Prototype",
-      "Campaign Media Sosial"
+      "Video Dokumenter Cinematic",
+      "Filter AR Interaktif",
+      "Aset 3D Game",
+      "Animasi Pendek Edukasi 2D/3D"
     ],
     "careers": [
-      "Creative Director",
-      "UI/UX Motion Designer",
-      "Video Editor",
-      "3D Visualizer",
-      "Brand Designer"
+      "AR/VR Experience Designer",
+      "3D Animator",
+      "Video Post-Production Specialist",
+      "Spatial Computing Creator",
+      "Motion Graphic Designer",
+      "Game Asset Artist"
     ],
     "colors": {
       "base_color": "#F97316",
-      "primary_color": "#7C2D12",
-      "secondary_color": "#FB923C",
+      "primary_color": "#9A3412",
+      "secondary_color": "#FDBA74",
       "subtle_color": "#FFF7ED"
     }
-  },
-  {
-    "ID": 5,
-    "uuid": "DKV",
-    "name": "Desain Komunikasi Visual (DKV)",
-    "description": "DKV adalah bahasa visual untuk menyampaikan pesan...",
-    "skills": [
-      "Graphic Design Theory",
-      "Illustration",
-      "Typography Design",
-      "Advertising Strategy",
-      "Digital Painting"
-    ],
-    "projects": [
-      "Desain Packaging",
-      "Tipografi Custom",
-      "Strategi Visual Marketing",
-      "Ilustrasi Buku/Digital"
-    ],
-    "careers": [
-      "Graphic Designer",
-      "Illustrator",
-      "Art Director",
-      "Typographer",
-      "Package Designer"
-    ],
-    "colors": {
-      "base_color": "#D946EF",
-      "primary_color": "#701A75",
-      "secondary_color": "#E879F9",
-      "subtle_color": "#FDF4FF"
-    }
   }
-]
+] 

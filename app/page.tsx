@@ -302,9 +302,12 @@ export default function Home() {
                                             <div className="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg text-xs font-black text-white mb-4 shadow-sm" style={{ backgroundColor: pilihan.colors.secondary_color }}>
                                                 {pilihan.uuid}
                                             </div>
-                                            <h3 className="text-2xl md:text-3xl font-black tracking-tight" style={{ color: pilihan.colors.primary_color }}>
+                                            <h3 className="text-2xl md:text-3xl font-black tracking-tight mb-4" style={{ color: pilihan.colors.primary_color }}>
                                                 {pilihan.name}
                                             </h3>
+                                            <p className="text-sm md:text-base leading-relaxed opacity-80" style={{ color: pilihan.colors.primary_color }}>
+                                                {pilihan.description}
+                                            </p>
                                         </div>
 
                                         <div className="grid grid-cols-1 md:grid-cols-2">
