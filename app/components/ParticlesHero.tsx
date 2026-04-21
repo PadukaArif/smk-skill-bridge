@@ -64,7 +64,7 @@ export default function ParticlesHero() {
         <Particles
             id="hero-particles"
             options={options}
-            className="absolute inset-0 pointer-events-none z-[1]"
+            className="absolute inset-0 pointer-events-none z-1"
         />
     )
 }

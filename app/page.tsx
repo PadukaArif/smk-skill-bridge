@@ -94,7 +94,7 @@ export default function Home() {
 
             {splashStage !== 'hidden' && (
                 <div
-                    className="fixed inset-0 z-[100] bg-slate-950 flex flex-col items-center justify-center overflow-hidden"
+                    className="fixed inset-0 z-100 bg-slate-950 flex flex-col items-center justify-center overflow-hidden"
                     style={{
                         opacity: splashStage === 'exit' ? 0 : 1,
                         transition: 'opacity 0.6s ease-in-out',
@@ -102,7 +102,7 @@ export default function Home() {
                 >
                     <div className="relative">
                         <div
-                            className={`absolute scale-15000 inset-[40px] rounded-full transition-opacity animate-splash-bg-spin ${splashStage === 'exit' ? 'paused' : ''}`}
+                            className={`absolute scale-15000 inset-40px rounded-full transition-opacity animate-splash-bg-spin ${splashStage === 'exit' ? 'paused' : ''}`}
                             style={{
                                 background: 'conic-gradient(from 0deg, transparent 0%, #b45309 25%, transparent 50%, #92400e 75%, transparent 100%)',
                                 filter: 'blur(1px)',
@@ -124,9 +124,9 @@ export default function Home() {
             )}
 
             <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
-                <div className="absolute top-0 left-0 w-[700px] h-[700px] bg-amber-100/30 rounded-full blur-[140px] -translate-x-1/3 -translate-y-1/3 animate-float" />
-                <div className="absolute top-1/3 right-0 w-[600px] h-[600px] bg-yellow-100/25 rounded-full blur-[120px] translate-x-1/4 animate-float-slow" />
-                <div className="absolute bottom-0 left-1/3 w-[500px] h-[500px] bg-amber-50/40 rounded-full blur-[100px] translate-y-1/4 animate-float" />
+                <div className="absolute top-0 left-0 w-700px h-700px bg-amber-100/30 rounded-full blur-[140px] -translate-x-1/3 -translate-y-1/3 animate-float" />
+                <div className="absolute top-1/3 right-0 w-600px h-600px bg-yellow-100/25 rounded-full blur-[120px] translate-x-1/4 animate-float-slow" />
+                <div className="absolute bottom-0 left-1/3 w-500px h-500px bg-amber-50/40 rounded-full blur-[100px] translate-y-1/4 animate-float" />
                 <div className="absolute inset-0 opacity-[0.02]" style={{ backgroundImage: 'radial-gradient(circle, #92400e 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
             </div>
 
@@ -160,7 +160,7 @@ export default function Home() {
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-amber-500 to-red-500 rounded-full group-hover:w-full transition-all duration-300" />
                             </a>
                         </div>
-                        <button className="hidden md:flex px-6 py-2.5 bg-amber-500 text-white font-bold rounded-full hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-[1px] active:duration-100 transition-all duration-300 shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
+                        <button className="hidden md:flex px-6 py-2.5 bg-amber-500 text-white font-bold rounded-full hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-1px active:duration-100 transition-all duration-300 shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
                             Mulai Gratis
                         </button>
                     </div>
@@ -186,10 +186,10 @@ export default function Home() {
                                 <span className="block text-3xl sm:text-4xl md:text-5xl text-slate-800 leading-tight mb-3">
                                     GPS Kesiapan Industri
                                 </span>
-                                <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-amber-500 bg-[length:200%_auto] animate-gradient-x leading-[0.95]">
+                                <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-amber-500 bg-size-:200%_auto animate-gradient-x leading-[0.95]">
                                     Talenta SMK
                                 </span>
-                                <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-linear-to-r from-yellow-500 via-amber-600 to-red-500 bg-[length:200%_auto] animate-gradient-x leading-[0.95]">
+                                <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-linear-to-r from-yellow-500 via-amber-600 to-red-500 bg-size-200%_auto animate-gradient-x leading-[0.95]">
                                     Indonesia.
                                 </span>
                             </h1>
@@ -204,7 +204,7 @@ export default function Home() {
                                     placeholder="Masukkan nama kamu..."
                                     className="w-full px-6 py-3.5 rounded-full bg-transparent focus:outline-none text-lg text-slate-800 placeholder:text-slate-400"
                                 />
-                                <button className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full flex justify-center items-center hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-[1px] active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
+                                <button className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full flex justify-center items-center hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-1px active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
                                     Mulai Test →
                                 </button>
                             </div>
@@ -235,11 +235,11 @@ export default function Home() {
 
                 <div className="relative -mt-1 overflow-hidden" style={{ transition: 'background-color 0.5s ease' }}>
                     <div className="flex animate-wave-flow" style={{ width: '200%' }}>
-                        <svg viewBox="0 0 1440 100" fill="none" className="w-1/2 flex-shrink-0">
+                        <svg viewBox="0 0 1440 100" fill="none" className="w-1/2 shrink-0">
                             <path d="M0 40 C240 80 480 0 720 40 C960 80 1200 0 1440 40 L1440 100 L0 100 Z" fill={pilihan ? pilihan.colors.subtle_color : '#fffbeb'} style={{ transition: 'fill 0.5s ease' }} />
                             <path d="M0 55 C240 85 480 25 720 55 C960 85 1200 25 1440 55 L1440 100 L0 100 Z" fill={pilihan ? pilihan.colors.subtle_color : '#fef3c7'} fillOpacity="0.4" style={{ transition: 'fill 0.5s ease' }} />
                         </svg>
-                        <svg viewBox="0 0 1440 100" fill="none" className="w-1/2 flex-shrink-0">
+                        <svg viewBox="0 0 1440 100" fill="none" className="w-1/2 shrink-0">
                             <path d="M0 40 C240 80 480 0 720 40 C960 80 1200 0 1440 40 L1440 100 L0 100 Z" fill={pilihan ? pilihan.colors.subtle_color : '#fffbeb'} style={{ transition: 'fill 0.5s ease' }} />
                             <path d="M0 55 C240 85 480 25 720 55 C960 85 1200 25 1440 55 L1440 100 L0 100 Z" fill={pilihan ? pilihan.colors.subtle_color : '#fef3c7'} fillOpacity="0.4" style={{ transition: 'fill 0.5s ease' }} />
                         </svg>
@@ -266,7 +266,7 @@ export default function Home() {
                             </span>
                             <h2 className="font-black tracking-[-0.04em] text-slate-900 mb-5 animate-slide-up">
                                 <span className="block text-3xl md:text-4xl mb-2">Temukan Jalur</span>
-                                <span className="block text-4xl md:text-6xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-red-500 bg-[length:200%_auto] animate-gradient-x">
+                                <span className="block text-4xl md:text-6xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-red-500 bg-size-:200%_auto animate-gradient-x">
                                     Kompetensimu
                                 </span>
                             </h2>
@@ -321,7 +321,7 @@ export default function Home() {
                                                 <ul className="space-y-3">
                                                     {pilihan.skills?.map((skill: string, index: number) => (
                                                         <li key={index} className="flex items-center gap-3 bg-slate-50/80 p-3 rounded-xl border border-slate-100/60 hover:border-amber-200 hover:shadow-sm transition-all duration-200 group cursor-default">
-                                                            <span className="w-2 h-2 rounded-full flex-shrink-0 group-hover:scale-125 transition-transform duration-200" style={{ backgroundColor: pilihan.colors.secondary_color }} />
+                                                            <span className="w-2 h-2 rounded-full shrink-0 group-hover:scale-125 transition-transform duration-200" style={{ backgroundColor: pilihan.colors.secondary_color }} />
                                                             <span className="text-sm font-medium text-slate-700">{skill}</span>
                                                         </li>
                                                     ))}
@@ -338,7 +338,7 @@ export default function Home() {
                                                 <ul className="space-y-3">
                                                     {pilihan.projects?.map((project: string, index: number) => (
                                                         <li key={index} className="flex items-start gap-3 bg-slate-50/80 p-3 rounded-xl border border-slate-100/60 hover:border-amber-200 hover:shadow-sm transition-all duration-200 group cursor-default">
-                                                            <span className="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0 mt-1.5 group-hover:scale-125 transition-transform duration-200" />
+                                                            <span className="w-2 h-2 rounded-full bg-amber-400 shrink-0 mt-1.5 group-hover:scale-125 transition-transform duration-200" />
                                                             <span className="text-sm font-medium text-slate-700">{project}</span>
                                                         </li>
                                                     ))}

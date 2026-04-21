@@ -130,5 +130,40 @@
       "secondary_color": "#FDBA74",
       "subtle_color": "#FFF7ED"
     }
+  },
+  {
+    "ID": 5,
+    "uuid": "DKV",
+    "name": "Desain Komunikasi Visual (DKV)",
+    "description": "Di jurusan ini, kamu akan belajar bahwa desain bukan sekadar menggambar, melainkan menyampaikan pesan melalui elemen visual. DKV adalah tempat bagi kamu yang ingin menguasai seni bercerita melalui logo, tipografi, hingga desain antarmuka aplikasi. Di era digital, fokus kita tidak hanya pada media cetak, tetapi juga pada bagaimana sebuah brand terlihat konsisten di media sosial dan perangkat pintar. Kamu akan belajar mengolah rasa estetika, memahami psikologi warna, dan menggunakan alat desain modern untuk menciptakan identitas visual yang kuat. Jurusan ini sangat cocok bagi kamu yang kreatif, detail dalam melihat komposisi, dan suka mengeksplorasi tren visual terbaru.",
+    "skills": [
+      "UI/UX Design",
+      "Brand Identity System",
+      "AI-Assisted Design Tools",
+      "Digital Typography",
+      "User Research & Wireframing",
+      "Photography & Visual Branding"
+    ],
+    "projects": [
+      "Rebranding Identitas Startup",
+      "High-Fidelity Mobile App Prototype",
+      "Desain Kemasan Produk Berbasis AR",
+      "Digital Brand Guideline Interaktif",
+      "Social Media Campaign Visuals"
+    ],
+    "careers": [
+      "UI/UX Designer",
+      "Product Designer",
+      "Brand Architect",
+      "Creative Lead",
+      "AI Visual Prompt Engineer",
+      "Interaction Designer"
+    ],
+    "colors": {
+      "base_color": "#D946EF",
+      "primary_color": "#701A75",
+      "secondary_color": "#A855F7",
+      "subtle_color": "#FAF5FF"
+    }
   }
 ] 
