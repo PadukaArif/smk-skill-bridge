@@ -65,7 +65,7 @@ export default function Home() {
     }
 
     return (
-        <div className="min-h-screen bg-white text-slate-900 overflow-x-hidden antialiased selection:bg-emerald-100 selection:text-emerald-900">
+        <div className="min-h-screen bg-white text-slate-900 antialiased selection:bg-emerald-100 selection:text-emerald-900">
             <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
                 <div className="absolute top-0 left-0 w-700px h-700px bg-emerald-100/30 rounded-full blur-[140px] -translate-x-1/3 -translate-y-1/3 animate-float" />
                 <div className="absolute top-1/3 right-0 w-600px h-600px bg-teal-100/25 rounded-full blur-[120px] translate-x-1/4 animate-float-slow" />
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
 
             <header className="fixed top-0 left-0 w-full z-50 animate-fade-in">
-                <nav className={`backdrop-blur-xl bg-white/80 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${navShrunk ? 'mx-4 md:mx-auto md:max-w-3xl mt-3 rounded-2xl border border-slate-200/50 shadow-xl' : 'border-b border-slate-100/80 shadow-[0_1px_3px_rgba(0,0,0,0.04)]'}`}>
+                <nav style={{ backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)' }} className={`bg-white/70 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${navShrunk ? 'mx-4 md:mx-auto md:max-w-3xl mt-3 rounded-2xl border border-slate-200/50 shadow-xl' : 'border-b border-slate-100/80 shadow-[0_1px_3px_rgba(0,0,0,0.04)]'}`}>
                     <div className={`mx-auto flex items-center justify-between transition-all duration-700 ${navShrunk ? 'px-4 sm:px-6 h-14' : 'max-w-7xl px-4 sm:px-6 lg:px-8 h-20'}`}>
                         <a href="#beranda" className="flex items-center gap-3 group">
                             <div className={`rounded-xl bg-linear-to-br from-emerald-600 to-teal-500 flex items-center justify-center text-white font-black text-sm shadow-lg shadow-emerald-600/20 group-hover:shadow-emerald-600/40 group-hover:scale-105 group-hover:-rotate-3 transition-all duration-300 ${navShrunk ? 'w-9 h-9 text-xs' : 'w-11 h-11'}`}>
@@ -85,16 +85,16 @@ export default function Home() {
                             </span>
                         </a>
                         <div className="hidden md:flex items-center gap-8">
-                            <a href="#beranda" className="relative text-slate-500 font-semibold hover:text-slate-900 transition-colors duration-300 group">
+                            <a href="#beranda" className="relative text-slate-500 font-semibold hover:text-slate-900 transition-colors duration-300 group cursor-pointer">
                                 Beranda
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-500 rounded-full group-hover:w-full transition-all duration-300" />
                             </a>
-                            <a href="#explore" className="relative text-slate-500 font-semibold hover:text-slate-900 transition-colors duration-300 group">
+                            <a href="#explore" className="relative text-slate-500 font-semibold hover:text-slate-900 transition-colors duration-300 group cursor-pointer">
                                 Eksplorasi
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-500 rounded-full group-hover:w-full transition-all duration-300" />
                             </a>
                         </div>
-                        <button className="hidden md:flex px-6 py-2.5 bg-emerald-600 text-white font-bold rounded-full hover:bg-emerald-700 active:scale-95 transition-all duration-200 shadow-md shadow-emerald-600/20 hover:shadow-emerald-600/40 hover:shadow-lg">
+                        <button className="btn-shimmer hidden md:flex px-6 py-2.5 bg-emerald-600 text-white font-bold rounded-full hover:bg-emerald-700 active:scale-95 transition-all duration-200 shadow-md shadow-emerald-600/20 hover:shadow-emerald-600/40 hover:shadow-lg">
                             Mulai Gratis
                         </button>
                     </div>
@@ -133,7 +133,7 @@ export default function Home() {
                                     placeholder="Masukkan nama kamu..."
                                     className="w-full px-6 py-3.5 rounded-full bg-transparent focus:outline-none text-lg text-slate-800 placeholder:text-slate-400"
                                 />
-                                <button className="w-full sm:w-auto px-8 py-3.5 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-full transition-all duration-200 hover:scale-[1.02] active:scale-95 whitespace-nowrap text-lg shadow-md">
+                                <button className="btn-shimmer w-full sm:w-auto px-8 py-3.5 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-full transition-all duration-200 hover:scale-[1.02] active:scale-95 whitespace-nowrap text-lg shadow-md">
                                     Mulai Test →
                                 </button>
                             </div>
