@@ -91,10 +91,10 @@
       "Platform Engineer"
     ],
     "colors": {
-      "base_color": "#EAB308",
-      "primary_color": "#854D0E",
-      "secondary_color": "#FDE047",
-      "subtle_color": "#FEF9C3"
+      "base_color": "#10B981",
+      "primary_color": "#064E3B",
+      "secondary_color": "#34D399",
+      "subtle_color": "#ECFDF5"
     }
   },
   {
@@ -159,10 +159,10 @@
       "Creative Director"
     ],
     "colors": {
-      "base_color": "#EC4899",
-      "primary_color": "#9D174D",
-      "secondary_color": "#F472B6",
-      "subtle_color": "#FDF2F8"
+      "base_color": "#1E40AF",
+      "primary_color": "#020617",
+      "secondary_color": "#60A5FA",
+      "subtle_color": "#EFF6FF"
     }
   }
 ]
