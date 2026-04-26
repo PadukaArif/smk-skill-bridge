@@ -2,6 +2,7 @@
 
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Questions from '../components/Questions';
 
 export interface Data {
@@ -22,6 +23,7 @@ export interface Option {
 }
 
 const Page = () => {
+    const router = useRouter()
     const [username, setUsername] = useState<string>("");
     const [isLoaded, setIsLoaded] = useState<boolean>(false);
     const [dataQuestion, setData] = useState<Data>()
@@ -33,41 +35,39 @@ const Page = () => {
     const [answersDict, setAnswersDict] = useState<{ [key: number]: number }>({});
 
     useEffect(() => {
-        localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
+        axios.get('/questions.json')
+            .then(response => {
+                setData(response.data)
+                const savedName = localStorage.getItem("username");
+                const savedAns = localStorage.getItem('jawaban_kuis_lengkap');
 
-        let c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0;
+                let c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0;
 
-        Object.values(answersDict).forEach(val => {
-            if (val === 1) c1++;
-            else if (val === 2) c2++;
-            else if (val === 3) c3++;
-            else if (val === 4) c4++;
-            else if (val === 5) c5++;
-        });
-        window.addEventListener("load", () => {
+                Object.values(answersDict).forEach(val => {
+                    if (val === 1) c1++;
+                    else if (val === 2) c2++;
+                    else if (val === 3) c3++;
+                    else if (val === 4) c4++;
+                    else if (val === 5) c5++;
+                });
+                if (savedName) {
+                    setUsername(savedName);
+                }
 
-            const savedName = localStorage.getItem("username");
-            if (savedName) {
-                setUsername(savedName);
-            }
+                if (savedAns) {
+                    setAnswersDict(JSON.parse(savedAns));
+                }
+                setIsLoaded(true);
+                setAnswer1(c1); setAnswer2(c2); setAnswer3(c3); setAnswer4(c4); setAnswer5(c5);
 
-            const savedAns = localStorage.getItem('jawaban_kuis_lengkap');
-            if (savedAns) {
-                setAnswersDict(JSON.parse(savedAns));
-            }
-            setIsLoaded(true);
-            setAnswer1(c1); setAnswer2(c2); setAnswer3(c3); setAnswer4(c4); setAnswer5(c5);
-        })
+            })
+            .catch(error => console.error("Gagal memuat soal:", error));
         if (!isLoaded) return;
-
-
+        localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
 
     }, [answersDict, isLoaded]);
 
     useEffect(() => {
-        axios.get('/questions.json')
-            .then(response => setData(response.data))
-            .catch(error => console.error("Gagal memuat soal:", error));
     }, []);
 
     const setAnswerArray = (e: React.ChangeEvent<HTMLSelectElement>, questionNo: number) => {
@@ -86,6 +86,18 @@ const Page = () => {
         localStorage.removeItem('question-progress');
 
         window.location.reload();
+    };
+
+    const totalQuestions = dataQuestion?.total_questions || 30;
+    const totalAnswered = Object.keys(answersDict).length;
+    const allAnswered = totalAnswered >= totalQuestions;
+    const progressPercent = Math.round((totalAnswered / totalQuestions) * 100);
+
+    const handleSubmit = () => {
+        if (!allAnswered) return;
+        localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
+        const name = username || 'siswa';
+        router.push(`/result/${encodeURIComponent(name)}`);
     };
 
     return (
@@ -124,6 +136,23 @@ const Page = () => {
                     className="mt-6 px-6 py-2 bg-red-500 text-white font-bold rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg shadow-red-500/30"
                 >
                     Reset Semua Jawaban
+                </button>
+            </section>
+
+            {/* Submit */}
+            <section className='p-4 rounded-xl shadow border mt-4 flex items-center gap-4'>
+                <div className='flex-1'>
+                    <p className='font-semibold'>{allAnswered ? 'Semua soal telah dijawab!' : 'Progres jawaban'}</p>
+                    <div className='mt-2 flex items-center gap-3'>
+                        <div className='flex-1 h-2 bg-neutral-200 rounded-full overflow-hidden'>
+                            <div className='h-full bg-amber-400 rounded-full transition-all duration-500' style={{ width: `${progressPercent}%` }} />
+                        </div>
+                        <span className='text-sm text-neutral-500 font-mono'>{totalAnswered}/{totalQuestions}</span>
+                    </div>
+                </div>
+                <button onClick={handleSubmit} disabled={!allAnswered}
+                    className='px-6 py-2 bg-amber-500 text-white font-bold rounded-xl hover:bg-amber-600 active:scale-95 transition-all disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer'>
+                    <i className='bi bi-arrow-right-circle-fill me-2' />Lihat Hasil
                 </button>
             </section>
         </main>

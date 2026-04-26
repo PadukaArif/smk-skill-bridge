@@ -38,7 +38,7 @@ const HomeElem = () => {
     const handlePilihan = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const selectedId = Number(e.target.value);
         const dataTerpilih = jurusan.find(j => j.ID === selectedId);
-        
+
         if (dataTerpilih) {
             setPilihan(dataTerpilih);
             setSelect(true);
@@ -61,7 +61,8 @@ const HomeElem = () => {
                     </p>
                 </div>
                 <br />
-                <select name="" id="" className=' p-4 rounded-2xl bg-neutral-50 shadow w-[24dvw] outline-0' onChange={(e) => handlePilihan(e)} data-aos="fade-up" data-aos-delay={300}>
+                <select name="" id="explore" className=' p-4 rounded-2xl bg-neutral-50 shadow w-[24dvw] outline-0' onChange={(e) => handlePilihan(e)}
+                    data-aos="fade-up" data-aos-delay={300}>
                     <option defaultValue={"value"} hidden>Pilih Jurusan</option>
                     {jurusan.map((a) => {
                         return (

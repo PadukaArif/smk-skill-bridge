@@ -36,7 +36,7 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
     return (
         <>
             {data && (
-                <main className=' bg-neutral-50/60 rounded-4xl shadow-xl min-w-[48dvw] max-w-[48dvw] flex flex-col backdrop-blur-lg 
+                <main className=' bg-neutral-50/60 rounded-4xl shadow-xl min-w-[48dvw] max-w-[56dvw] flex flex-col backdrop-blur-lg 
                 my-8 font-sans' style={{ backgroundColor: data.colors.subtle_color }}>
                     <section className=' p-6'>
                         <div className="flex flex-col gap-4">
@@ -51,15 +51,15 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                             <div className="" style={{ backgroundColor: data.colors.subtle_color }}>{data.colors.subtle_color}</div>
                         </div> */}
                     </section>
-                    <section className=" bg-neutral-50 p-8 w-full grid grid-cols-2">
+                    <section className=" bg-neutral-50 p-8 w-full grid grid-cols-2 gap-4">
                         <div className="">
-                            <p className=' font-semibold text-lg' style={{ color: data.colors.secondary_color }}>Skill yang dipelajari</p>
+                            <p className=' font-semibold text-lg' style={{ color: data.colors.primary_color }}>| Skill yang dipelajari</p>
                             <br />
                             <div className=' flex flex-col gap-4 p-2'>
                                 {data.skills.map((a) => {
                                     return (
                                         <div key={a} className=' p-2 rounded-2xl bg-neutral-100 shadow'>
-                                            <i className="bi bi-circle-fill text-sm me-4" style={{ color: data.colors.secondary_color }}></i>
+                                            <i className="bi bi-circle-fill text-sm me-4" style={{ color: data.colors.primary_color }}></i>
                                             <span>{a}</span>
                                         </div>
                                     )
@@ -67,7 +67,7 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                             </div>
                         </div>
                         <div className="">
-                            <p className=' text-amber-600 font-semibold text-lg'>Projek yang mungkin ditemui</p>
+                            <p className=' text-amber-400 font-semibold text-lg'>| Projek yang mungkin ditemui</p>
                             <br />
                             <div className=' flex flex-col gap-4 p-2'>
                                 {data.projects.map((a) => {
@@ -82,7 +82,7 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                         </div>
                     </section>
                     <section className=' p-6 rounded-b-4xl bg-neutral-800'>
-                        <p className=' text-amber-400 font-semibold font-mono'>Future Careers</p>
+                        <p className=' text-amber-400 font-semibold text-2xl font-mono'>Future Careers</p>
                         <br />
                         <div className=" grid grid-cols-2 gap-4 text-neutral-100">
                             {data.careers.map((a) => {
