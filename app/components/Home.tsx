@@ -26,7 +26,6 @@ const HomeElem = () => {
     const [pilihan, setPilihan] = useState<Data | null>(null)
     const [select, setSelect] = useState<boolean>(false)
 
-
     useEffect(() => {
         Aos.init()
         axios.get<Data[]>('/majors.json')
@@ -37,9 +36,15 @@ const HomeElem = () => {
     }, [])
 
     const handlePilihan = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        setPilihan(jurusan[Number(e.target.value) - 1])
-        setSelect(true)
+        const selectedId = Number(e.target.value);
+        const dataTerpilih = jurusan.find(j => j.ID === selectedId);
+        
+        if (dataTerpilih) {
+            setPilihan(dataTerpilih);
+            setSelect(true);
+        }
     }
+
     return (
         <main className=' bg-linear-to-t from-amber-200 to-neutral-50 w-full min-h-[50dvh] flex justify-center items-center font-sans pt-[10dvh]'
             style={{ paddingTop: "24dvh" }}>
@@ -72,4 +77,4 @@ const HomeElem = () => {
     )
 }
 
-export default HomeElem
+export default HomeElem;
