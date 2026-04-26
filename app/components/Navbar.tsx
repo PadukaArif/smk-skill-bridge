@@ -35,7 +35,7 @@ const Navbar = ({ isGlass }: NavbarProps) => {
             <nav className={`w-full p-4 px-3 flex jakarta-sans fixed z-50 duration-500 justify-between
             ${isGlass
                     ? 'bg-amber-50/60 backdrop-blur-md scale-75 rounded-4xl my-2 shadow-2xl'
-                    : 'bg-amber-200 shadow-amber-300 scale-100'}`}>
+                    : 'bg-amber-100/80 shadow-amber-300 scale-100'}`}>
                 <div className=" flex gap-2 items-center">
                     <div className=" font-semibold bg-linear-75 from-amber-300 to-amber-400 align-middle p-3 rounded-2xl text-neutral-50 
                 shadow shadow-amber-300 text-xl">
@@ -44,10 +44,10 @@ const Navbar = ({ isGlass }: NavbarProps) => {
                     <p className=' text-2xl font-semibold m-0 drop-shadow'>Skill<span className='font-bold text-amber-500'>Bridge</span></p>
                 </div>
                 <div className=" flex items-center gap-8">
-                    <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-neutral-100"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
+                    <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
                         Beranda
                     </Link>
-                    <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-neutral-100"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
+                    <Link href={'/#explore'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
                         Eksplorasi
                     </Link>
                 </div>

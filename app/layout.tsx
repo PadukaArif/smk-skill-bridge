@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans , Noto_Sans_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans , JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 
@@ -8,7 +8,7 @@ const jakarta_Sans = Plus_Jakarta_Sans({
   subsets : ["latin"]
 })
 
-const rubik_mono = Noto_Sans_Mono({
+const rubik_mono = JetBrains_Mono({
   weight:"400",
   variable:"--font-noto-mono"
 })
