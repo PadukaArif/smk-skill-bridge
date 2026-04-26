@@ -1,7 +1,7 @@
 'use client'
 
 import axios from 'axios';
-import React, { useEffect, useReducer, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Questions from '../components/Questions';
 
 export interface Data {
@@ -29,7 +29,7 @@ export interface Answer {
     jumlahPilihan5: number
 }
 
-const page = () => {
+const Page = () => {
     const [dataQuestion, setData] = useState<Data>()
     const [numAnswer1, setAnswer1] = useState<number>(0)
     const [numAnswer2, setAnswer2] = useState<number>(0)
@@ -45,7 +45,7 @@ const page = () => {
                 const fetched = data.data
                 setData(fetched)
             })
-    })
+    })  
     const setAnswerArray = (e: React.ChangeEvent<HTMLSelectElement>) => {
         if (numAnswer1>=0 && numAnswer2>=0 && numAnswer3>=0 && numAnswer4>=0 && numAnswer5>=0) {
             if (e.target.selectedIndex == 1) {
@@ -64,7 +64,7 @@ const page = () => {
     return (
         <main className=' p-8 bg-white text-neutral-800 w-[75dvw] rounded-4xl shadow-2xl m-8 mx-auto font-sans'>
             <div className=" mb-4">
-                <p className=' m-0 font-semibold text-6xl'>Hallo {username}</p>
+                <p className=' m-0 font-light text-6xl text-amber-400'>Halo <span className=' font-semibold text-neutral-800'>{username}</span></p>
                 <p className=' font-light text-neutral-500'>Selamat datang di halaman pertanyaan</p>
             </div>
             <section className=' flex flex-col gap-4 justify-content-center align-items-center'>
@@ -91,4 +91,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <main className=' p-8 bg-neutral-800 text-neutral-200 bottom-0 w-full' style={{ marginTop: "10dvh" }}>
+    <main className=' p-8 bg-neutral-800 text-neutral-200 bottom-0 w-full' style={{ marginTop: "24dvh", paddingBottom:"20dvh" }}>
       <section className='p-4 flex justify-around'>
         <div className=" flex gap-2 items-center">
           <div className=" font-semibold bg-linear-75 from-amber-300 to-amber-400 align-middle p-3 rounded-2xl text-neutral-50 

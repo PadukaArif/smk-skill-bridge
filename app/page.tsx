@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HomeElem from "./components/Home";
+import Lenis from "lenis";
+import { useEffect, useState } from "react";
+import Aos from "aos";
 export interface Data {
     ID: number;
     uuid: string;
@@ -22,10 +25,23 @@ export interface Colors {
     subtle_color: string;
 }
 export default function Home() {
+    const [scroll , setScroll] = useState<number>(0)
+    useEffect(() => {
+        Aos.init()
+        const lenis = new Lenis({
+            autoRaf: true,
+            lerp:0.1,
+            smoothWheel:true,
+            duration:1.5
+        })
+        lenis.start()
+        lenis.on("scroll", (e) => {
+            setScroll(e.progress !== 0 ? e.progress : .1)
+        })
+    }, [])
     return (
         <>
-            <Navbar />
-            <div className=" mt-8"></div>
+            <Navbar isGlass={scroll > .1 ? true : false}/>
             <Hero />
             <HomeElem />
             <Footer />

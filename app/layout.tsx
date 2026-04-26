@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${jakarta_Sans.variable} ${rubik_mono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-amber-200">{children}</body>
     </html>
   );
 }

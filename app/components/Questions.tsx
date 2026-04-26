@@ -2,7 +2,7 @@ import React from 'react'
 
 export interface QuestionProps {
     data: Question
-    func : Function
+    func : (e:React.ChangeEvent<HTMLSelectElement>)=>void
 }
 
 export interface Question {
