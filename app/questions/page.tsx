@@ -41,34 +41,27 @@ const Page = () => {
                 const savedName = localStorage.getItem("username");
                 const savedAns = localStorage.getItem('jawaban_kuis_lengkap');
 
-                let c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0;
-
-                Object.values(answersDict).forEach(val => {
-                    if (val === 1) c1++;
-                    else if (val === 2) c2++;
-                    else if (val === 3) c3++;
-                    else if (val === 4) c4++;
-                    else if (val === 5) c5++;
-                });
-                if (savedName) {
-                    setUsername(savedName);
-                }
-
-                if (savedAns) {
-                    setAnswersDict(JSON.parse(savedAns));
-                }
+                if (savedName) setUsername(savedName);
+                if (savedAns) setAnswersDict(JSON.parse(savedAns));
                 setIsLoaded(true);
-                setAnswer1(c1); setAnswer2(c2); setAnswer3(c3); setAnswer4(c4); setAnswer5(c5);
-
             })
             .catch(error => console.error("Gagal memuat soal:", error));
+    }, []);
+
+    useEffect(() => {
         if (!isLoaded) return;
         localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
 
+        let c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0;
+        Object.values(answersDict).forEach(val => {
+            if (val === 1) c1++;
+            else if (val === 2) c2++;
+            else if (val === 3) c3++;
+            else if (val === 4) c4++;
+            else if (val === 5) c5++;
+        });
+        setAnswer1(c1); setAnswer2(c2); setAnswer3(c3); setAnswer4(c4); setAnswer5(c5);
     }, [answersDict, isLoaded]);
-
-    useEffect(() => {
-    }, []);
 
     const setAnswerArray = (e: React.ChangeEvent<HTMLSelectElement>, questionNo: number) => {
         const selectedIndex = parseInt(e.target.value);
