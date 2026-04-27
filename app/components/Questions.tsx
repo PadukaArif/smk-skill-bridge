@@ -4,7 +4,7 @@ import { Question } from '../questions/page';
 export interface QuestionProps {
     data: Question
     func : (e:React.ChangeEvent<HTMLSelectElement> , questionNo:number)=>void
-    selectedAnswer: number | undefined;
+    selectedAnswer: number | undefined
 }
 
 const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {

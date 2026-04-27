@@ -21,6 +21,11 @@ export interface Option {
     text: string;
 }
 
+export interface DataAnswer {
+    [key: number]: number
+}
+
+
 const Page = () => {
     const [username, setUsername] = useState<string>("");
     const [isLoaded, setIsLoaded] = useState<boolean>(false);
@@ -66,6 +71,11 @@ const Page = () => {
     }, [answersDict, isLoaded]);
 
     useEffect(() => {
+        axios.get('/api/test')
+            .then(data => {
+                const fetched = data.data
+                console.log(fetched)
+            })
     }, []);
 
     const setAnswerArray = (e: React.ChangeEvent<HTMLSelectElement>, questionNo: number) => {
@@ -85,6 +95,21 @@ const Page = () => {
 
         window.location.reload();
     };
+
+    const handleSubmit = () => {
+        const answer: DataAnswer = JSON.parse(localStorage.getItem("jawaban_kuis_lengkap")!)
+        const formdata = new FormData()
+        formdata.append("name", localStorage.getItem("username") as string)
+        for (let i = 1; i <= 30; i++) {
+            const value = answer[i] ? answer[i] : 0
+            formdata.append(`answer_${i}`, value.toString())
+        }
+        axios.post("/api/result" , formdata)
+        .then(data=>{
+            const fetched = data.data
+            console.log(fetched)
+        })
+    }
 
     return (
         <main className='p-8 bg-white text-neutral-800 w-[75dvw] rounded-4xl shadow-2xl m-8 mx-auto font-sans'>
@@ -117,10 +142,16 @@ const Page = () => {
                     <li className='font-light'>Pilihan Jawaban Jurusan TKJ : <span className='font-semibold'>{numAnswer4}</span></li>
                     <li className='font-light'>Pilihan Jawaban Jurusan SIJA : <span className='font-semibold'>{numAnswer5}</span></li>
                 </ul>
+
                 <button
-                    onClick={handleReset}
-                    className="mt-6 px-6 py-2 bg-red-500 text-white font-bold rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg shadow-red-500/30"
-                >
+                    onClick={() => handleSubmit()}
+                    className="mt-6 px-6 py-2 bg-amber-500 text-white font-bold rounded-xl hover:bg-amber-600 active:scale-95 transition-all shadow-lg shadow-red-500/30">
+                    Cek Hasil
+                </button>
+                <button
+                    onClick={() => handleReset()}
+                    className="mt-6 px-6 py-2 bg-red-500 text-white font-bold rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg 
+                    shadow-red-500/30">
                     Reset Semua Jawaban
                 </button>
             </section>
