@@ -3,7 +3,7 @@ import { Schema } from "mongoose";
 const resultSchema = new Schema(
   {
     username: { type: String, required: true },
-    total: {type:Number, required:true},
+    total: { type: Number, required: true },
     result: {
       answer_1: Number,
       answer_2: Number,
@@ -36,12 +36,13 @@ const resultSchema = new Schema(
       answer_29: Number,
       answer_30: Number,
     },
+    match:{type:Object , required:true},
   },
   {
     timestamps: true,
   },
 );
 
-const Result = mongoose.models.Result || mongoose.model("Result", resultSchema)
+const Result = mongoose.models.Result || mongoose.model("Result", resultSchema);
 
-export default Result
+export default Result;

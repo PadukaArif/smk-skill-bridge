@@ -3,7 +3,7 @@ import { Question } from '../questions/page';
 
 export interface QuestionProps {
     data: Question
-    func : (e:React.ChangeEvent<HTMLSelectElement> , questionNo:number)=>void
+    func: (e: React.ChangeEvent<HTMLSelectElement>, questionNo: number) => void
     selectedAnswer: number | undefined
 }
 
@@ -19,7 +19,7 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
                 {data.no}. {data.question}
             </label>
 
-            <select
+            {/* <select
                 name=""
                 id={`pertanyaan${data.no}`}
                 className='border p-2 rounded-lg shadow'
@@ -32,7 +32,16 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
                         <option value={index + 1} key={o.id_jurusan}>{o.text}</option>
                     )
                 })}
-            </select>
+                </select> */}
+            
+            {data.options.map((o, index) => {
+                return (
+                    <div className="" key={o.id_jurusan}>
+                        <label htmlFor="">{o.text}</label>
+                        <input value={index + 1} type='radio' name={`answer${data.no}`} />
+                    </div>
+                )
+            })}
 
             <p className='font-light text-neutral-400 mt-2'>
                 Jawaban Kamu :

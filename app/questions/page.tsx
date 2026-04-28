@@ -3,6 +3,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import Questions from '../components/Questions';
+import Footer from '../components/Footer';
 
 export interface Data {
     test_title: string;
@@ -30,45 +31,37 @@ const Page = () => {
     const [username, setUsername] = useState<string>("");
     const [isLoaded, setIsLoaded] = useState<boolean>(false);
     const [dataQuestion, setData] = useState<Data>()
-    const [numAnswer1, setAnswer1] = useState<number>(0)
-    const [numAnswer2, setAnswer2] = useState<number>(0)
-    const [numAnswer3, setAnswer3] = useState<number>(0)
-    const [numAnswer4, setAnswer4] = useState<number>(0)
-    const [numAnswer5, setAnswer5] = useState<number>(0)
     const [answersDict, setAnswersDict] = useState<{ [key: number]: number }>({});
-
+    const [answerArr, setAnswerArr] = useState<number[]>([])
+    const [count, setCount] = useState<number>(0)
+    const [count1, setCount1] = useState<number>(0)
     useEffect(() => {
         axios.get('/questions.json')
             .then(response => {
                 setData(response.data)
                 const savedName = localStorage.getItem("username");
                 const savedAns = localStorage.getItem('jawaban_kuis_lengkap');
-
-                let c1 = 0, c2 = 0, c3 = 0, c4 = 0, c5 = 0;
-
-                Object.values(answersDict).forEach(val => {
-                    if (val === 1) c1++;
-                    else if (val === 2) c2++;
-                    else if (val === 3) c3++;
-                    else if (val === 4) c4++;
-                    else if (val === 5) c5++;
-                });
                 if (savedName) {
                     setUsername(savedName);
                 }
 
                 if (savedAns) {
                     setAnswersDict(JSON.parse(savedAns));
+                    setCount(Object.keys(JSON.parse(savedAns)).length)
+                    const reconValue: number[] = answerArr
+                    Object.values(JSON.parse(savedAns)).forEach((a) => {
+                        reconValue.push(a as number)
+                    })
+                    setAnswerArr(reconValue)
+                    setCount1(reconValue.length)
                 }
                 setIsLoaded(true);
-                setAnswer1(c1); setAnswer2(c2); setAnswer3(c3); setAnswer4(c4); setAnswer5(c5);
 
             })
             .catch(error => console.error("Gagal memuat soal:", error));
         if (!isLoaded) return;
         localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
-
-    }, [answersDict, isLoaded]);
+    }, []);
 
     useEffect(() => {
         axios.get('/api/test')
@@ -85,33 +78,77 @@ const Page = () => {
             ...prev,
             [questionNo]: selectedIndex
         }));
+        setCount(Object.keys(answersDict).length + 1)
+        if (answerArr) {
+            const reconValue: number[] = [...answerArr]
+            if (reconValue[questionNo - 1] == null) {
+                reconValue.push(parseInt(e.target.value))
+                setAnswerArr(reconValue)
+                console.log(reconValue.length)
+                setCount1(count1 + 1)
+            } else {
+                console.log("value sudah ada", reconValue[questionNo - 1])
+                reconValue[questionNo - 1] = parseInt(e.target.value)
+                setAnswerArr(reconValue)
+            }
+            console.log(answerArr.length, reconValue.length, count)
+        }
+        localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify(answersDict));
     };
 
     const handleReset = () => {
         setAnswersDict({});
 
-        localStorage.removeItem('jawaban_kuis_lengkap');
-        localStorage.removeItem('question-progress');
+        localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify({}));
+        localStorage.setItem('question-progress', "0");
 
         window.location.reload();
     };
 
     const handleSubmit = () => {
-        const answer: DataAnswer = JSON.parse(localStorage.getItem("jawaban_kuis_lengkap")!)
-        const formdata = new FormData()
-        formdata.append("name", localStorage.getItem("username") as string)
-        for (let i = 1; i <= 30; i++) {
-            const value = answer[i] ? answer[i] : 0
-            formdata.append(`answer_${i}`, value.toString())
+        const payload = {
+            "username": localStorage.getItem("username"),
+            "answer_1": answerArr[0] ? answerArr[0] : 1,
+            "answer_2": answerArr[1] ? answerArr[1] : 1,
+            "answer_3": answerArr[2] ? answerArr[2] : 1,
+            "answer_4": answerArr[3] ? answerArr[3] : 1,
+            "answer_5": answerArr[4] ? answerArr[4] : 1,
+            "answer_6": answerArr[5] ? answerArr[5] : 1,
+            "answer_7": answerArr[6] ? answerArr[6] : 1,
+            "answer_8": answerArr[7] ? answerArr[7] : 1,
+            "answer_9": answerArr[8] ? answerArr[8] : 1,
+            "answer_10": answerArr[9] ? answerArr[9] : 1,
+            "answer_11": answerArr[10] ? answerArr[10] : 1,
+            "answer_12": answerArr[11] ? answerArr[11] : 1,
+            "answer_13": answerArr[12] ? answerArr[12] : 1,
+            "answer_14": answerArr[13] ? answerArr[13] : 1,
+            "answer_15": answerArr[14] ? answerArr[14] : 1,
+            "answer_16": answerArr[15] ? answerArr[15] : 1,
+            "answer_17": answerArr[16] ? answerArr[16] : 1,
+            "answer_18": answerArr[17] ? answerArr[17] : 1,
+            "answer_19": answerArr[18] ? answerArr[18] : 1,
+            "answer_20": answerArr[19] ? answerArr[19] : 1,
+            "answer_21": answerArr[20] ? answerArr[20] : 1,
+            "answer_22": answerArr[21] ? answerArr[21] : 1,
+            "answer_23": answerArr[22] ? answerArr[22] : 1,
+            "answer_24": answerArr[23] ? answerArr[23] : 1,
+            "answer_25": answerArr[24] ? answerArr[24] : 1,
+            "answer_26": answerArr[25] ? answerArr[25] : 1,
+            "answer_27": answerArr[26] ? answerArr[26] : 1,
+            "answer_28": answerArr[27] ? answerArr[27] : 1,
+            "answer_29": answerArr[28] ? answerArr[28] : 1,
+            "answer_30": answerArr[29] ? answerArr[29] : 1,
         }
-        axios.post("/api/result" , formdata)
-        .then(data=>{
-            const fetched = data.data
-            console.log(fetched)
-        })
+        axios.post("/api/results", payload)
+            .then(data => {
+                const fetched = data.data
+                console.log(fetched)
+                console.log(fetched._id)
+            })
     }
 
     return (
+        <>
         <main className='p-8 bg-white text-neutral-800 w-[75dvw] rounded-4xl shadow-2xl m-8 mx-auto font-sans'>
             <div className="mb-6">
                 <p className='mb-2 font-semibold text-6xl tracking-tight'>Hallo {username}</p>
@@ -132,22 +169,22 @@ const Page = () => {
                     )
                 })}
             </section>
-
-            <section className='p-4 rounded-xl shadow border mt-4 w-fit'>
-                <p className='font-semibold'>Preview jawaban</p>
-                <ul>
-                    <li className='font-light'>Pilihan Jawaban Jurusan RPL : <span className='font-semibold'>{numAnswer1}</span></li>
-                    <li className='font-light'>Pilihan Jawaban Jurusan DKV : <span className='font-semibold'>{numAnswer2}</span></li>
-                    <li className='font-light'>Pilihan Jawaban Jurusan MM : <span className='font-semibold'>{numAnswer3}</span></li>
-                    <li className='font-light'>Pilihan Jawaban Jurusan TKJ : <span className='font-semibold'>{numAnswer4}</span></li>
-                    <li className='font-light'>Pilihan Jawaban Jurusan SIJA : <span className='font-semibold'>{numAnswer5}</span></li>
-                </ul>
-
-                <button
-                    onClick={() => handleSubmit()}
-                    className="mt-6 px-6 py-2 bg-amber-500 text-white font-bold rounded-xl hover:bg-amber-600 active:scale-95 transition-all shadow-lg shadow-red-500/30">
-                    Cek Hasil
-                </button>
+            <section className=' flex justify-start items-center gap-4'>
+                {count < 30 && (
+                    <button disabled={true}
+                        className="mt-6 px-6 py-2 bg-amber-500 text-white font-bold rounded-xl cursor-not-allowed active:scale-95 transition-all 
+                    shadow-lg shadow-amber-500/30 disabled:bg-amber-500/60">
+                        {count}/30
+                    </button>
+                )}
+                {count == 30 && (
+                    <button
+                        onClick={() => handleSubmit()}
+                        className="mt-6 px-6 py-2 bg-amber-500 text-white font-bold rounded-xl hover:bg-amber-600 active:scale-95 transition-all 
+                    shadow-lg shadow-amber-500/30">
+                        Cek Hasil
+                    </button>
+                )}
                 <button
                     onClick={() => handleReset()}
                     className="mt-6 px-6 py-2 bg-red-500 text-white font-bold rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg 
@@ -156,8 +193,8 @@ const Page = () => {
                 </button>
             </section>
         </main>
-
-
+        <Footer />
+        </>
     )
 }
 
