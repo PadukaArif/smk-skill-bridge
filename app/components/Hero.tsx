@@ -44,7 +44,7 @@ const Hero = () => {
                 </div>
                 <section data-aos="fade-up" data-aos-delay={10}>
                     <div className="border border-amber-400 p-2 rounded-4xl flex mt-8">
-                        <input type="text" name="" id="" className=' p-2 outline-0 w-[24dvw]' placeholder='Masukkan nama' onChange={(e) => handleName(e)} />
+                        <input type="text" name="" id="start" className=' p-2 outline-0 w-[24dvw]' placeholder='Masukkan nama' onChange={(e) => handleName(e)} />
                         <Link href={'/questions'} className=' bg-linear-270 from-amber-300 to-amber-400 p-3 px-5 text-neutral-100 rounded-3xl text-xl 
                         duration-500 hover:shadow-xl hover:shadow-amber-100' onClick={() => handleSubmit()}>
                             <span>Mulai Tes</span>

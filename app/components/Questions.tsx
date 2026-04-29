@@ -3,7 +3,7 @@ import { Question } from '../questions/page';
 
 export interface QuestionProps {
     data: Question
-    func: (e: React.ChangeEvent<HTMLSelectElement>, questionNo: number) => void
+    func: (e: React.ChangeEvent<HTMLInputElement>, questionNo: number) => void
     selectedAnswer: number | undefined
 }
 
@@ -12,43 +12,39 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
     const selectedText = selectedAnswer
         ? data.options[selectedAnswer - 1]?.text
         : "";
-
     return (
-        <div className="flex gap-2 flex-col p-2 shadow rounded-2xl border border-neutral-300" key={data.no}>
-            <label htmlFor={`pertanyaan${data.no}`} className='text-xl'>
-                {data.no}. {data.question}
-            </label>
-
-            {/* <select
-                name=""
-                id={`pertanyaan${data.no}`}
-                className='border p-2 rounded-lg shadow'
-                onChange={(e) => func(e, data.no)}
-                value={selectedAnswer !== undefined ? selectedAnswer : "0"}
-            >
-                <option value="0" hidden>Pilih jawaban</option>
+        <div className="flex gap-2 flex-col p-6 shadow rounded-4xl border border-neutral-300" key={data.no}>
+            <div className='text-xl flex gap-2 items-center'>
+                <div className=' p-2 rounded-2xl bg-yellow-100 h-8 w-8 flex items-center justify-center text-amber-500 shadow'>
+                    {data.no}
+                </div>
+                <span>{data.question} </span>.
+            </div>
+            <div className=" flex flex-col gap-2 p-4">
                 {data.options.map((o, index) => {
+                    const isSelected = selectedAnswer == index + 1
                     return (
-                        <option value={index + 1} key={o.id_jurusan}>{o.text}</option>
+                        <label className={`p-2 rounded-2xl shadow flex justify-between ${isSelected ? "bg-green-200 border border-green-600" : ""}`}
+                            key={o.id_jurusan}>
+                            <span>{o.text}</span>
+                            <input value={index + 1} type='radio' name={`answer${data.no}`} defaultChecked={o.id_jurusan == selectedAnswer}
+                                onChange={(e) => func(e, data.no)}
+                                className='sr-only' />
+                            <div className={`h-6 w-6 rounded-full border 
+                                    ${isSelected ? " border-green-600 border-6 bg-green-200" : " border-neutral-400"}`}></div>
+                        </label>
                     )
                 })}
-                </select> */}
-            
-            {data.options.map((o, index) => {
-                return (
-                    <div className="" key={o.id_jurusan}>
-                        <label htmlFor="">{o.text}</label>
-                        <input value={index + 1} type='radio' name={`answer${data.no}`} />
-                    </div>
-                )
-            })}
+            </div>
 
-            <p className='font-light text-neutral-400 mt-2'>
-                Jawaban Kamu :
-                <span className='font-semibold text-black mx-2'>
-                    {selectedText}
-                </span>
-            </p>
+            <section className='font-light text-neutral-400 mt-2'>
+                <span>Jawaban Kamu :</span>
+                {selectedText && (
+                    <div className='font-medium p-2 px-4 rounded-2xl shadow bg-green-200 text-green-800 mt-2'>
+                        {selectedText}
+                    </div>
+                )}
+            </section>
         </div>
     )
 }

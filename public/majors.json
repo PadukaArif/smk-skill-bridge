@@ -3,6 +3,7 @@
     "ID": 1,
     "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
+    "icon": "bi-code-slash",
     "description": "Jurusan ini adalah pusat penciptaan aplikasi dan sistem digital. Jika kamu penasaran bagaimana cara membuat website seperti Tokopedia, aplikasi seperti Gojek, atau bahkan game mobile, di sinilah tempatnya. Kamu akan belajar logika pemrograman, cara menulis kode (coding) yang rapi, mengelola database, dan membangun antarmuka aplikasi yang ramah pengguna. Jurusan ini sangat cocok untuk kamu yang teliti, suka memecahkan teka-teki logika, dan tidak mudah menyerah saat menemui error di komputer. Sehari-hari kamu akan lebih banyak berinteraksi dengan layar laptop, menciptakan solusi nyata dari baris-baris kode.",
     "skills": [
       "Next.js & React",
@@ -36,6 +37,7 @@
     "ID": 2,
     "uuid": "TKJ",
     "name": "Teknik Komputer & Jaringan (TKJ)",
+    "icon": "bi-router",
     "description": "Jurusan ini mempelajari 'jalan tol' dunia digital: Jaringan Internet. Jika RPL fokus pada aplikasi, TKJ fokus pada infrastruktur yang membuat aplikasi itu bisa diakses. Kamu akan belajar membangun koneksi internet stabil, memperbaiki komputer yang rusak, memasang kabel fiber optik, hingga mengamankan server dari serangan hacker. Jurusan ini pas untukmu yang suka mengutak-atik hardware, penasaran dengan isi dalam CPU, atau ingin memastikan sinyal WiFi di rumah selalu kencang. Kamu akan sering berhadapan dengan kabel, router, konfigurasi IP Address, dan logika jaringan yang kompleks namun sangat terstruktur.",
     "skills": [
       "Cloud Infrastructure",
@@ -69,6 +71,7 @@
     "ID": 3,
     "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan & Aplikasi (SIJA)",
+    "icon": "bi-clouds",
     "description": "Ini adalah jurusan 'jembatan' antara koding (RPL) dan jaringan (TKJ). SIJA menciptakan spesialis yang bisa membuat aplikasi sekaligus mengelola servernya sendiri (DevOps). Jika diibaratkan, kamu tidak hanya membuat mobilnya (aplikasi), tapi juga memastikan garasi dan jalan raya (server & jaringan) siap 24 jam. Kamu akan mendalami Linux, otomatisasi server, dan teknologi 'cloud' seperti AWS atau Google Cloud. Jurusan ini menuntut kemampuan berpikir sistem secara menyeluruh dan cocok untuk kamu yang ambisius menguasai 'full-stack' infrastruktur teknologi modern.",
     "skills": [
       "DevSecOps",
@@ -101,6 +104,7 @@
     "ID": 4,
     "uuid": "MULTIMEDIA",
     "name": "Multimedia / Animasi",
+    "icon": "bi-camera-reels",
     "description": "Jurusan ini adalah laboratorium kreativitas visual. Jika kamu suka menggambar, membuat efek suara, mengedit video, atau berimajinasi tentang dunia animasi 3D seperti di film Pixar atau game populer, jurusan ini jawabannya. Kamu akan belajar menggunakan kamera profesional, software editing video, Blender untuk 3D, hingga teknologi imersif seperti Virtual Reality (VR) dan Augmented Reality (AR). Ini adalah pilihan tepat untukmu yang punya jiwa seni tinggi namun tetap ingin melek teknologi. Hari-harimu akan diisi dengan produksi konten, mulai dari memotret produk, membuat iklan pendek, hingga merancang karakter animasi.",
     "skills": [
       "3D Modeling",
@@ -135,6 +139,7 @@
     "ID": 5,
     "uuid": "DKV",
     "name": "Desain Komunikasi Visual (DKV)",
+    "icon": "bi-palette",
     "description": "Berbeda dengan Multimedia yang fokus pada gerak dan audio, DKV lebih fokus pada pesan yang disampaikan melalui gambar statis dan tata letak. Jurusan ini mendidikmu menjadi 'arsitek visual' sebuah brand. Mulai dari mendesain logo yang ikonik, membuat poster yang eye-catching, hingga merancang tampilan antarmuka aplikasi (UI/UX) yang memudahkan jutaan pengguna. Di era AI saat ini, DKV mengajarkan bagaimana mengendalikan kecerdasan buatan untuk menghasilkan karya seni yang lebih efisien. Cocok untuk kamu yang perfeksionis dalam urusan warna, tipografi, dan memiliki kemampuan storytelling yang kuat.",
     "skills": [
       "UI/UX Design",

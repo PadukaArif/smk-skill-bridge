@@ -36,8 +36,7 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
     return (
         <>
             {data && (
-                <main className=' bg-neutral-50/60 rounded-4xl shadow-xl min-w-[48dvw] max-w-[56dvw] flex flex-col backdrop-blur-lg 
-                my-8 font-sans' style={{ backgroundColor: data.colors.subtle_color }}>
+                <main className=' bg-neutral-50/60 rounded-4xl shadow-xl min-w-[48dvw] max-w-[56dvw] flex flex-col backdrop-blur-lg font-sans' style={{ backgroundColor: data.colors.subtle_color }}>
                     <section className=' p-6'>
                         <div className="flex flex-col gap-4">
                             <div className=" p-2 px-6 rounded-2xl text-white w-fit text-sm" style={{ backgroundColor: data.colors.secondary_color }}>{data.uuid}</div>

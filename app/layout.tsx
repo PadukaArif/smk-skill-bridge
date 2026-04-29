@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans , JetBrains_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, Raleway } from "next/font/google";
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 
@@ -8,7 +8,7 @@ const jakarta_Sans = Plus_Jakarta_Sans({
   subsets : ["latin"]
 })
 
-const rubik_mono = JetBrains_Mono({
+const rubik_mono = Raleway({
   weight:"400",
   variable:"--font-noto-mono"
 })
@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${jakarta_Sans.variable} ${rubik_mono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-amber-200">{children}</body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

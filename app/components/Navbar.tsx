@@ -6,30 +6,7 @@ export interface NavbarProps {
     isGlass: boolean
 }
 const Navbar = ({ isGlass }: NavbarProps) => {
-    // const [name, setName] = useState<string>()
-    // const [show, setShow] = useState<boolean>()
-    useEffect(() => {
-    }, [])
-    // const handleName = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //     setName(e.target.value)
-    // }
-    // const handleSubmit = () => {
-    //     if (name) {
-    //         localStorage.setItem("username", name)
-    //     } else {
-    //         Swal.fire({
-    //             icon: "warning",
-    //             title: "Incorrect",
-    //             text: "Please add an username",
-    //             timer: 1440,
-    //             timerProgressBar: true,
-    //             toast: true
-    //         })
-    //     }
-    // }
-    // const handleShow = () => {
-    //     setShow(!show)
-    // }
+    const isAnswer = localStorage.getItem("jawaban_kuis_lengkap") ? true : false
     return (
         <>
             <nav className={`w-full p-4 px-3 flex jakarta-sans fixed z-50 duration-500 justify-between
@@ -44,19 +21,28 @@ const Navbar = ({ isGlass }: NavbarProps) => {
                     <p className=' text-2xl font-semibold m-0 drop-shadow'>Skill<span className='font-bold text-amber-500'>Bridge</span></p>
                 </div>
                 <div className=" flex items-center gap-8">
-                    <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
+                    <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 text-lg font-bold drop-shadow duration-500 hover:text-neutral-800`}>
                         Beranda
                     </Link>
-                    <Link href={'/#explore'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 hover:text-amber-500 text-lg font-bold drop-shadow duration-500`}>
+                    <Link href={'#explore'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} 
+                        hover:opacity-75 text-lg font-bold drop-shadow duration-500 hover:text-neutral-800`}>
                         Eksplorasi
                     </Link>
+                    {isAnswer && (
+                        <Link href={'/questions'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} 
+                            hover:opacity-75 text-lg font-bold drop-shadow duration-500 
+                            hover:text-neutral-800`}>
+                            Lanjutkan Asesmen
+                        </Link>
+                    )}
                 </div>
                 <div className=" flex items-center">
-                    <button type='button' className=' bg-linear-75 from-amber-400 to-amber-500 p-4 rounded-3xl text-neutral-50 font-semibold duration-500 
-                hover:shadow-xl hover:shadow-amber-100 hover:text-neutral-800 outline-0'>
+                    <Link href='#start' className=' bg-linear-75 from-amber-400 to-amber-500 p-4 rounded-3xl 
+                    text-neutral-50 font-semibold duration-500 hover:shadow-xl hover:shadow-amber-100 
+                    hover:text-neutral-800 outline-0'>
                         <span>Get Started</span>
                         <i className="bi bi-arrow-up-right mx-4"></i>
-                    </button>
+                    </Link>
                 </div>
             </nav>
             {/* {show && (
