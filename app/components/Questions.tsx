@@ -1,42 +1,47 @@
 import React from 'react'
+import { Question } from '../questions/page';
 
 export interface QuestionProps {
     data: Question
-    func : Function
+    func : (e:React.ChangeEvent<HTMLSelectElement> , questionNo:number)=>void
+    selectedAnswer: number | undefined;
 }
 
-export interface Question {
-    no: number;
-    question: string;
-    options: Option[];
-}
+const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
 
-export interface Option {
-    id_jurusan: number;
-    text: string;
-}
+    const selectedText = selectedAnswer
+        ? data.options[selectedAnswer - 1]?.text
+        : "";
 
-const Questions = ({ data , func }: QuestionProps) => {
-    const currSelect = document.getElementById(`pertanyaan${data.no}`) as HTMLSelectElement
     return (
-        <div className=" flex gap-2 flex-col p-2 shadow rounded-2xl border border-neutral-300" key={data.no}>
-            <label htmlFor="" className=' text-xl'>{data.no}. {data.question}</label>
-            <select name="" id={`pertanyaan${data.no}`} className=' border p-2 rounded-lg shadow' onChange={()=>func}>
-                <option defaultValue="default" hidden>Pilih jawaban</option>
-                {data.options.map(o => {
+        <div className="flex gap-2 flex-col p-2 shadow rounded-2xl border border-neutral-300" key={data.no}>
+            <label htmlFor={`pertanyaan${data.no}`} className='text-xl'>
+                {data.no}. {data.question}
+            </label>
+
+            <select
+                name=""
+                id={`pertanyaan${data.no}`}
+                className='border p-2 rounded-lg shadow'
+                onChange={(e) => func(e, data.no)}
+                value={selectedAnswer !== undefined ? selectedAnswer : "0"}
+            >
+                <option value="0" hidden>Pilih jawaban</option>
+                {data.options.map((o, index) => {
                     return (
-                        <option value={o.id_jurusan} key={o.id_jurusan}>{o.text}</option>
+                        <option value={index + 1} key={o.id_jurusan}>{o.text}</option>
                     )
                 })}
             </select>
-            <p className=' font-light text-neutral-400'>
+
+            <p className='font-light text-neutral-400 mt-2'>
                 Jawaban Kamu :
-                <span className=' font-semibold text-black mx-2'>
-                    {currSelect?.selectedIndex > 0 ? currSelect.selectedOptions[0].text : ""}
+                <span className='font-semibold text-black mx-2'>
+                    {selectedText}
                 </span>
             </p>
         </div>
     )
 }
 
-export default Questions
+export default Questions;
