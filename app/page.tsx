@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from "react"
 import axios from "axios"
 import Lenis from "lenis"
+import Swal from 'sweetalert2'
 import ParticlesBg from "./components/ParticlesBg"
 import ParticlesHero from "./components/ParticlesHero"
 
@@ -31,6 +32,23 @@ export default function Home() {
     const [navShrunk, setNavShrunk] = useState(false)
     const lenisRef = useRef<Lenis | null>(null)
     const [splashStage, setSplashStage] = useState<'visible' | 'exit' | 'hidden'>('visible')
+    const [name, setName] = useState<string>('')
+
+    const handleSubmit = () => {
+        if (name.trim()) {
+            localStorage.setItem("username", name)
+            window.location.href = '/questions'
+        } else {
+            Swal.fire({
+                icon: "warning",
+                title: "Incorrect",
+                text: "Please add an username",
+                timer: 1440,
+                timerProgressBar: true,
+                toast: true
+            })
+        }
+    }
 
     useEffect(() => {
         axios.get<Data[]>('/majors.json')
@@ -203,8 +221,12 @@ export default function Home() {
                                     type="text"
                                     placeholder="Masukkan nama kamu..."
                                     className="w-full px-6 py-3.5 rounded-full bg-transparent focus:outline-none text-lg text-slate-800 placeholder:text-slate-400"
+                                    onChange={(e) => setName(e.target.value)}
                                 />
-                                <button className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full flex justify-center items-center hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-1px active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer">
+                                <button 
+                                    onClick={handleSubmit}
+                                    className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-white font-bold rounded-full flex justify-center items-center hover:bg-red-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-700/25 active:translate-y-1px active:duration-100 transition-all duration-300 whitespace-nowrap text-lg shadow-md shadow-amber-500/20 cursor-pointer btn-shimmer"
+                                >
                                     Mulai Test →
                                 </button>
                             </div>
