@@ -190,7 +190,7 @@ export default function Home() {
                                     Talenta SMK
                                 </span>
                                 <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text text-transparent bg-linear-to-r from-yellow-500 via-amber-600 to-red-500 bg-size-200%_auto animate-gradient-x leading-[0.95]">
-                                    Indonesia.
+                                    Indonesia
                                 </span>
                             </h1>
 
@@ -266,7 +266,7 @@ export default function Home() {
                             </span>
                             <h2 className="font-black tracking-[-0.04em] text-slate-900 mb-5 animate-slide-up">
                                 <span className="block text-3xl md:text-4xl mb-2">Temukan Jalur</span>
-                                <span className="block text-4xl md:text-6xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-red-500 bg-size-:200%_auto animate-gradient-x">
+                                <span className="block text-4xl pb-8 md:text-6xl bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-yellow-500 to-red-500 bg-size-:200%_auto animate-gradient-x">
                                     Kompetensimu
                                 </span>
                             </h2>
