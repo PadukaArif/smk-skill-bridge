@@ -15,7 +15,7 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
     return (
         <div className="flex gap-2 flex-col p-6 shadow rounded-4xl border border-neutral-300" key={data.no}>
             <div className='text-xl flex gap-2 items-center'>
-                <div className=' p-2 rounded-2xl bg-yellow-100 h-8 w-8 flex items-center justify-center text-amber-500 shadow'>
+                <div className=' p-6 rounded-full bg-yellow-100 h-8 w-8 flex items-center justify-center text-amber-500 shadow'>
                     {data.no}
                 </div>
                 <span>{data.question} </span>.

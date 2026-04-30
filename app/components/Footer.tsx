@@ -28,7 +28,7 @@ const Footer = () => {
           </span>
           <span className="text-xs text-slate-700">Human Capital &amp; Future Skills</span>
         </div>
-        <span className=' px-4 opacity-50 text-center'>Copyright @ 2026 , Arif , Adzan , Raffy</span>
+        <span className=' px-4 opacity-50 text-center'>Copyright @ 2026, Arif, Adzan, Dedy</span>
       </section>
     </main>
   )

@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -8,9 +9,9 @@ export interface NavbarProps {
 const Navbar = ({ isGlass }: NavbarProps) => {
     const path = usePathname()
     const isHome = path == '/' ? true : false
-    const isAnswer = localStorage.getItem("username") ? true : false
-    const isResult = localStorage.getItem("user_id") ? true : false
-    const user_id = localStorage.getItem("user_id")
+    const isAnswer = typeof window !== 'undefined' ? (localStorage.getItem("username") ? true : false) : false;
+    const isResult = typeof window !== 'undefined' ? (localStorage.getItem("user_id") ? true : false) : false;
+    const user_id = typeof window !== 'undefined' ? localStorage.getItem("user_id") : null;
     return (
         <>
             <nav className={`w-full p-4 px-3 flex jakarta-sans fixed z-50 duration-500 justify-between
@@ -28,7 +29,7 @@ const Navbar = ({ isGlass }: NavbarProps) => {
                     <Link href={'/'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} hover:opacity-75 text-lg font-bold drop-shadow duration-500 hover:text-neutral-800`}>
                         Beranda
                     </Link>
-                    <Link href={'#explore'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} 
+                    <Link href={'/#explore'} className={`${isGlass ? "text-neutral-800" : "text-amber-500"} 
                         hover:opacity-75 text-lg font-bold drop-shadow duration-500 hover:text-neutral-800`}>
                         Eksplorasi
                     </Link>
