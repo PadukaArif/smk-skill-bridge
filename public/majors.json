@@ -10,27 +10,38 @@
       "AI API Integration",
       "TypeScript",
       "Cloud-Native Dev",
-      "Database Design & SQL"
+      "Database Design & SQL",
+      "CI/CD Pipeline",
+      "RESTful & GraphQL API",
+      "State Management (Redux/Zustand)",
+      "Testing (Unit/E2E)"
     ],
     "projects": [
       "Web Portfolio Interaktif",
       "Sistem Kasir Berbasis Cloud",
       "Game 2D/3D Unity",
       "Aplikasi Manajemen Tugas Kolaboratif",
-      "Chatbot Layanan Pelanggan AI"
+      "Chatbot Layanan Pelanggan AI",
+      "Aplikasi Monitoring IoT Berbasis Web"
     ],
     "careers": [
       "AI Software Engineer",
       "Fullstack Web Developer",
       "DevOps Engineer",
       "Blockchain Developer",
-      "Mobile App Developer (Flutter/React Native)"
+      "Mobile App Developer (Flutter/React Native)",
+      "Machine Learning Engineer",
+      "Backend Developer (Node.js/Laravel)",
+      "Quality Assurance Automation",
+      "Technical Project Manager",
+      "Game Developer (Unity/Unreal)",
+      "Data Engineer"
     ],
     "colors": {
-      "base_color": "#1E3A8A",
-      "primary_color": "#0F172A",
-      "secondary_color": "#3B82F6",
-      "subtle_color": "#EFF6FF"
+      "base_color": "#000080",
+      "primary_color": "#000033",
+      "secondary_color": "#4169E1",
+      "subtle_color": "#F0F4FF"
     }
   },
   {
@@ -44,13 +55,18 @@
       "Cybersecurity",
       "Network Automation",
       "IoT Setup",
-      "Routing & Switching (MikroTik/Cisco)"
+      "Routing & Switching (MikroTik/Cisco)",
+      "Firewall Configuration",
+      "SD-WAN",
+      "Wireless Networking (Wi-Fi 6)",
+      "Network Monitoring & Troubleshooting"
     ],
     "projects": [
       "Topologi Jaringan Smart Home",
       "Server Cloud Skala Kecil",
       "Sistem Keamanan Firewall",
-      "Implementasi VPN untuk Remote Working"
+      "Implementasi VPN untuk Remote Working",
+      "Sistem Jaringan Hotspot dengan MikroTik dan RADIUS"
     ],
     "careers": [
       "Cloud Network Engineer",
@@ -58,12 +74,17 @@
       "IoT Solutions Architect",
       "Network Automation Specialist",
       "IT Support Specialist",
-      "Data Center Technician"
+      "Data Center Technician",
+      "Network Security Engineer",
+      "Wireless Network Engineer",
+      "Telecommunications Specialist",
+      "IT Infrastructure Manager",
+      "Penetration Tester (Ethical Hacking)"
     ],
     "colors": {
-      "base_color": "#4B5563",
+      "base_color": "#F59E0B",
       "primary_color": "#1F2937",
-      "secondary_color": "#9CA3AF",
+      "secondary_color": "#FCD34D",
       "subtle_color": "#F3F4F6"
     }
   },
@@ -78,20 +99,31 @@
       "Microservices",
       "Serverless Computing",
       "Linux Administration",
-      "Containerization (Docker/Kubernetes)"
+      "Containerization (Docker/Kubernetes)",
+      "Infrastructure as Code (Terraform)",
+      "CI/CD (GitHub Actions, Jenkins)",
+      "Monitoring & Observability (Prometheus, Grafana)",
+      "Cloud Security & Compliance"
     ],
     "projects": [
       "Deploy Aplikasi ke VPS",
       "Otomasi Server CI/CD",
       "Monitoring Server Real-time",
-      "Membangun Kubernetes Cluster Sederhana"
+      "Membangun Kubernetes Cluster Sederhana",
+      "CI/CD Pipeline dengan GitHub Actions dan Docker"
     ],
     "careers": [
       "Site Reliability Engineer (SRE)",
       "DevSecOps Engineer",
       "Cloud Architect",
       "Backend Systems Engineer",
-      "Platform Engineer"
+      "Platform Engineer",
+      "Infrastructure as Code Specialist",
+      "Observability Engineer",
+      "Release Manager",
+      "Cloud Cost Optimization Specialist",
+      "Containerization Specialist",
+      "Security Operations (SecOps) Analyst"
     ],
     "colors": {
       "base_color": "#10B981",
@@ -112,13 +144,18 @@
       "Motion Graphics",
       "Video Post-Production",
       "Audio Editing & Sound Design",
-      "Digital Illustration"
+      "Digital Illustration",
+      "Unreal Engine",
+      "Substance Painter",
+      "Cinematography",
+      "DaVinci Resolve"
     ],
     "projects": [
       "Video Dokumenter Cinematic",
       "Filter AR Interaktif",
       "Aset 3D Game",
-      "Animasi Pendek Edukasi 2D/3D"
+      "Animasi Pendek Edukasi 2D/3D",
+      "Film Pendek Animasi 2D 'Petualangan di Desa'"
     ],
     "careers": [
       "AR/VR Experience Designer",
@@ -126,13 +163,18 @@
       "Video Post-Production Specialist",
       "Spatial Computing Creator",
       "Motion Graphic Designer",
-      "Game Asset Artist"
+      "Game Asset Artist",
+      "VFX Artist",
+      "Sound Designer",
+      "Multimedia Content Director",
+      "Interactive Media Designer",
+      "360 Video Producer"
     ],
     "colors": {
-      "base_color": "#F97316",
-      "primary_color": "#9A3412",
-      "secondary_color": "#FDBA74",
-      "subtle_color": "#FFF7ED"
+      "base_color": "#7E22CE",
+      "primary_color": "#4C1D95",
+      "secondary_color": "#A855F7",
+      "subtle_color": "#F3E8FF"
     }
   },
   {
@@ -147,13 +189,18 @@
       "Brand Identity",
       "Figma Prototyping",
       "Typography & Layout Design",
-      "Packaging Design"
+      "Packaging Design",
+      "Design Thinking",
+      "User Research & Testing",
+      "Accessibility Design",
+      "Design System Management"
     ],
     "projects": [
       "Desain UI/UX Aplikasi Mobile",
       "Rebranding Produk Lokal",
       "Desain Campaign Digital Interaktif",
-      "Perancangan Sistem Identitas Visual UMKM"
+      "Perancangan Sistem Identitas Visual UMKM",
+      "Redesain UI/UX Website Pemerintahan"
     ],
     "careers": [
       "UI/UX Designer",
@@ -161,13 +208,18 @@
       "Brand Strategist",
       "Product Designer",
       "Graphic Designer",
-      "Creative Director"
+      "Creative Director",
+      "Design System Manager",
+      "Interaction Designer",
+      "Visual Communication Consultant",
+      "Packaging Designer",
+      "Art Director"
     ],
     "colors": {
-      "base_color": "#1E40AF",
-      "primary_color": "#020617",
-      "secondary_color": "#60A5FA",
-      "subtle_color": "#EFF6FF"
+      "base_color": "#0F172A",
+      "primary_color": "#000000",
+      "secondary_color": "#3B82F6",
+      "subtle_color": "#F1F5F9"
     }
   }
 ]

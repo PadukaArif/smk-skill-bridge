@@ -43,12 +43,6 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                             <p className=' text-3xl font-semibold' style={{ color: data.colors.base_color }}>{data.name}</p>
                             <p className=' font-light text-justify'>{data.description}</p>
                         </div>
-                        {/* <div className="text-center flex flex-col">
-                            <div className="" style={{ backgroundColor: data.colors.base_color }}>{data.colors.base_color}</div>
-                            <div className="" style={{ backgroundColor: data.colors.primary_color }}>{data.colors.primary_color}</div>
-                            <div className="" style={{ backgroundColor: data.colors.secondary_color }}>{data.colors.secondary_color}</div>
-                            <div className="" style={{ backgroundColor: data.colors.subtle_color }}>{data.colors.subtle_color}</div>
-                        </div> */}
                     </section>
                     <section className=" bg-neutral-50 p-8 w-full grid grid-cols-2 gap-4">
                         <div className="">
@@ -66,13 +60,13 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                             </div>
                         </div>
                         <div className="">
-                            <p className=' text-amber-400 font-semibold text-lg'>| Projek yang mungkin ditemui</p>
+                            <p className=' font-semibold text-lg' style={{ color: data.colors.secondary_color }}>| Projek yang mungkin ditemui</p>
                             <br />
                             <div className=' flex flex-col gap-4 p-2'>
                                 {data.projects.map((a) => {
                                     return (
                                         <div key={a} className=' p-2 rounded-2xl bg-neutral-100 shadow'>
-                                            <i className="bi bi-circle-fill text-amber-400 text-sm me-4"></i>
+                                            <i className="bi bi-circle-fill text-sm me-4" style={{ color: data.colors.secondary_color }}></i>
                                             <span>{a}</span>
                                         </div>
                                     )

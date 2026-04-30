@@ -8,7 +8,7 @@ import axios from "axios";
 import Lenis from "lenis";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-
+import '../../../app/globals.css'
 export interface Data {
     status: string;
     data: DataData;
@@ -112,9 +112,6 @@ const Page = () => {
                                     <br />
                                     <div className=" p-2">
                                         <SkeletonBox>
-                                            {/* <div className="p-2 px-3 rounded-full bg-blue-800 text-white w-fit text-xl">
-                                            <i className={`bi bi-question-circle`}></i>
-                                        </div> */}
                                             <p className=" font-bold text-xl">
                                                 Wallahu A`lam Bissawab
                                             </p>
@@ -199,7 +196,7 @@ const Page = () => {
                             <section className="w-[72%]">
                                 <div className=" ">
                                     <p className=" text-xl ml-1 text-start font-semibold text-neutral-400">Hasil Asesmen</p>
-                                    <p className=" text-6xl text-start font-semibold">Halo, <span className=" text-amber-400 font-semibold font-mono">
+                                    <p className=" text-6xl text-start font-light">Halo, <span className=" text-amber-400 font-semibold font-mono">
                                         {user.data.username}</span> ! 👋</p>
                                     <br />
                                     <p className=" text-neutral-600 w-[64%]">Berdasarkan minat dan tes yang kamu lalui, kami telah menemukan jalur yang paling selaras dengan potensi dirimu</p>

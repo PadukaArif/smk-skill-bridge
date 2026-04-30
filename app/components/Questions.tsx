@@ -24,7 +24,8 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
                 {data.options.map((o, index) => {
                     const isSelected = selectedAnswer == index + 1
                     return (
-                        <label className={`p-2 rounded-2xl shadow flex justify-between ${isSelected ? "bg-green-200 border border-green-600" : ""}`}
+                        <label className={`p-4 rounded-2xl shadow flex justify-between ${isSelected ? "bg-green-200 border border-green-600" : ""}
+                            cursor-pointer`}
                             key={o.id_jurusan}>
                             <span>{o.text}</span>
                             <input value={index + 1} type='radio' name={`answer${data.no}`} defaultChecked={o.id_jurusan == selectedAnswer}
