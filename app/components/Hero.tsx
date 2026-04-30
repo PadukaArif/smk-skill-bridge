@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 import Aos from 'aos'
 const Hero = () => {
     const [name, setName] = useState<string>()
-    const username = localStorage.getItem("username")
+    const username = typeof window !== 'undefined' ? localStorage.getItem("username") : null;
     useEffect(() => {
         Aos.refresh()
     }, [])
