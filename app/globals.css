@@ -41,3 +41,22 @@ body {
   right: 50%;
   transform: translate(50%,50%);
 }
+.skeleton{
+  background-color: gainsboro;
+  color: gainsboro;
+  border-radius: 1rem;
+  padding: .5rem;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  from{
+    opacity: 1;
+  }
+  50%{
+    opacity: .5;
+  }
+  to{
+    opacity: 1;
+  }
+}

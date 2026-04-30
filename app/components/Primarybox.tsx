@@ -3,7 +3,7 @@ import React from 'react'
 export interface IProps {
     colors: Colors
     children: React.ReactNode
-    outline: boolean
+    outline: boolean,
 }
 
 export interface Colors {

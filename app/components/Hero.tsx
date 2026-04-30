@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import Link from 'next/link'
 import Swal from 'sweetalert2'
 import Aos from 'aos'
 const Hero = () => {
     const [name, setName] = useState<string>()
+    const username = localStorage.getItem("username")
     useEffect(() => {
         Aos.refresh()
     }, [])
@@ -12,8 +12,9 @@ const Hero = () => {
         setName(e.target.value)
     }
     const handleSubmit = () => {
-        if (name) {
-            localStorage.setItem("username", name)
+        if (name || username) {
+            localStorage.setItem("username", name ? name : username!)
+            location.href = '/questions'
         } else {
             Swal.fire({
                 icon: "warning",
@@ -21,7 +22,8 @@ const Hero = () => {
                 text: "Please add an username",
                 timer: 1440,
                 timerProgressBar: true,
-                toast: true
+                toast: true,
+                showConfirmButton: false
             })
         }
     }
@@ -43,13 +45,14 @@ const Hero = () => {
                     </p>
                 </div>
                 <section data-aos="fade-up" data-aos-delay={10}>
-                    <div className="border border-amber-400 p-2 rounded-4xl flex mt-8">
-                        <input type="text" name="" id="start" className=' p-2 outline-0 w-[24dvw]' placeholder='Masukkan nama' onChange={(e) => handleName(e)} />
-                        <Link href={'/questions'} className=' bg-linear-270 from-amber-300 to-amber-400 p-3 px-5 text-neutral-100 rounded-3xl text-xl 
+                    <div className="border border-amber-400 p-2 rounded-4xl flex mt-8 justify-between">
+                        <input type="text" name="" id="start" className=' p-2 outline-0 w-[24dvw]' placeholder='Masukkan nama' onChange={(e) => handleName(e)}
+                            defaultValue={username ? username : ""} />
+                        <button type='button' className=' bg-linear-270 from-amber-300 to-amber-400 p-3 px-5 text-neutral-100 rounded-3xl text-xl 
                         duration-500 hover:shadow-xl hover:shadow-amber-100' onClick={() => handleSubmit()}>
                             <span>Mulai Tes</span>
                             <i className="bi bi-arrow-right mx-2"></i>
-                        </Link>
+                        </button>
                     </div>
                     <div className=" flex gap-8 justify-center items-center font-sans mt-2">
                         <div className=" flex gap-2 items-center justify-center">

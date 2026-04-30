@@ -144,6 +144,8 @@ const Page = () => {
                             setTimeout(() => {
                                 localStorage.setItem('jawaban_kuis_lengkap', JSON.stringify({}));
                                 localStorage.setItem('question-progress', "0");
+                                localStorage.setItem('username', "");
+                                localStorage.setItem('user_id', fetched.id);
                                 location.href = `/result/${fetched.id}`
                             }, 1000);
                         }

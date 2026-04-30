@@ -47,7 +47,7 @@ const HomeElem = () => {
 
     return (
         <main className=' bg-linear-to-t from-amber-200 to-neutral-50 w-full min-h-[50dvh] flex justify-center items-center font-sans pt-[10dvh]'
-            style={{ paddingTop: "24dvh" }}>
+            style={{ paddingTop: "24dvh", paddingBottom: "24dvh" }}>
             <section className=' flex flex-col gap-4 items-center justify-center duration-500' data-aos="fade-up">
                 <div className=" p-2 px-8 bg-amber-100 text-amber-600 border border-amber-400 shadow rounded-4xl text-xs font-semibold cursor-pointer">
                     <i className="bi bi-info-circle me-2"></i>
