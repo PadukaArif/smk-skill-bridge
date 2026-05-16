@@ -159,11 +159,11 @@ const Page = () => {
     return (
         <>
             <Navbar isGlass={true} />
-            <main className='p-8 bg-white text-neutral-800 w-[75dvw] rounded-4xl shadow-2xl m-8 mx-auto font-sans'
+            <main className='p-4 text-neutral-800 rounded-4xl m-8 mx-auto font-sans w-[88dvw] lg:w-[72dvw] lg:p-8 lg:bg-neutral-100 lg:shadow-2xl'
                 style={{ marginTop: "12dvh" }}>
                 <div className="mb-6">
-                    <p className='mb-2 font-semibold text-6xl'><span className=' font-light text-amber-500'>Halo,</span> {username}</p>
-                    <p className='font-light text-neutral-500 text-lg'>Selamat datang di halaman pertanyaan</p>
+                    <p className='mb-2 font-semibold text-xl lg:text-6xl'><span className=' font-light text-amber-500'>Halo,</span> {username}</p>
+                    <p className='font-light text-neutral-500 text-xs lg:text-lg'>Selamat datang di halaman pertanyaan</p>
                 </div>
 
                 <section className='flex flex-col gap-4 justify-content-center align-items-center'>
@@ -201,7 +201,8 @@ const Page = () => {
                         onClick={() => handleReset()}
                         className="mt-6 px-6 py-2 bg-red-500 text-white font-semibold rounded-xl hover:bg-red-600 active:scale-95 transition-all shadow-lg 
                     shadow-red-500/30">
-                        Reset Semua Jawaban
+                        <span>Reset</span>
+                        <i className="bi bi-arrow-repeat mx-2"></i>
                     </button>
                 </section>
             </main>

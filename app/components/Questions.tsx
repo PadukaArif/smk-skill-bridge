@@ -13,20 +13,20 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
         ? data.options[selectedAnswer - 1]?.text
         : "";
     return (
-        <div className="flex gap-2 flex-col p-6 shadow rounded-4xl border border-neutral-300" key={data.no}>
+        <div className="flex gap-2 flex-col p-4 shadow rounded-2xl border border-neutral-300 lg:p-6 lg:rounded-4xl" key={data.no}>
             <div className='text-xl flex gap-2 items-center'>
-                <div className=' p-6 rounded-full bg-yellow-100 h-8 w-8 flex items-center justify-center text-amber-500 shadow'>
+                <div className=' p-6 rounded-full bg-yellow-100 h-8 w-8 items-center justify-center text-amber-500 shadow hidden lg:flex'>
                     {data.no}
                 </div>
-                <span>{data.question} </span>.
+                <span className=' text-sm lg:text-base'>{data.question}</span>.
             </div>
-            <div className=" flex flex-col gap-2 p-4">
+            <div className=" flex flex-col gap-2 lg:p-4">
                 {data.options.map((o, index) => {
                     const isSelected = selectedAnswer == index + 1
                     return (
-                        <label className={`p-2 rounded-2xl shadow flex justify-between ${isSelected ? "bg-green-200 border border-green-600" : ""}`}
+                        <label className={`p-2 rounded-2xl shadow flex justify-between items-center ${isSelected ? "bg-green-200 border border-green-600" : ""}`}
                             key={o.id_jurusan}>
-                            <span>{o.text}</span>
+                            <span className=' text-xs lg:text-base px-2 max-w-[80%]'>{o.text}</span>
                             <input value={index + 1} type='radio' name={`answer${data.no}`} defaultChecked={o.id_jurusan == selectedAnswer}
                                 onChange={(e) => func(e, data.no)}
                                 className='sr-only' />
@@ -40,7 +40,7 @@ const Questions = ({ data, func, selectedAnswer }: QuestionProps) => {
             <section className='font-light text-neutral-400 mt-2'>
                 <span>Jawaban Kamu :</span>
                 {selectedText && (
-                    <div className='font-medium p-2 px-4 rounded-2xl shadow bg-green-200 text-green-800 mt-2'>
+                    <div className='font-medium p-2 px-4 rounded-2xl shadow bg-green-200 text-green-800 mt-2 text-xs lg:text-base'>
                         {selectedText}
                     </div>
                 )}

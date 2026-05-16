@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <main className=' p-8 bg-neutral-800 text-neutral-200 bottom-0 w-full' style={{ paddingBottom: "20dvh" }}>
-      <section className='p-4 flex justify-around'>
+      <section className='flex justify-around flex-col lg:flex-row gap-4'>
         <div className=" flex gap-2 items-center">
           <div className=" font-semibold bg-linear-75 from-amber-300 to-amber-400 align-middle p-3 rounded-2xl text-neutral-50 cursor-pointer
                 shadow shadow-amber-300 text-xl duration-500 transition-all hover:scale-110 hover:shadow-lg">SB</div>
@@ -28,8 +28,9 @@ const Footer = () => {
           </span>
           <span className="text-xs text-slate-700">Human Capital &amp; Future Skills</span>
         </div>
-        <span className=' px-4 opacity-50 text-center'>Copyright @ 2026, Arif, Adzan, Dedy</span>
+        <span className=' px-4 opacity-50 text-center hidden lg:inline'>Copyright @ 2026, Arif, Adzan, Dedy</span>
       </section>
+      <span className=' px-4 opacity-50 text-center lg:hidden'>Copyright @ 2026, Arif, Adzan, Dedy</span>
     </main>
   )
 }

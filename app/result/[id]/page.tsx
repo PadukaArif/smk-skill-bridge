@@ -83,8 +83,8 @@ const Page = () => {
             {!isLoad && (
                 <>
                     <Navbar isGlass={true} />
-                    <main className=" h-full w-full flex items-center mx-auto font-sans justify-center" style={{ paddingTop: "24dvh", paddingBottom: "24dvh", width: "56dvw" }}>
-                        <section className="w-[64%]">
+                    <main className=" h-full flex items-center mx-auto font-sans justify-center w-[80dvw] lg:w-[64dvw]" style={{ paddingTop: "24dvh", paddingBottom: "24dvh" }}>
+                        <section className="">
                             <div className="">
                                 <div className="flex flex-col gap-2">
                                     <p className=" text-xl text-start font-semibold text-neutral-200 bg-neutral-400 skeleton">Hasil Asesmen</p>
@@ -194,121 +194,119 @@ const Page = () => {
             {isLoad && (
                 <>
                     <Navbar isGlass={true} />
-                    <main className=" h-full w-full flex items-center mx-auto font-sans justify-center" style={{ paddingTop: "24dvh", paddingBottom: "24dvh", width: "56dvw" }}>
-                        {user && (
-                            <section className="w-[72%]">
-                                <div className=" ">
-                                    <p className=" text-xl ml-1 text-start font-semibold text-neutral-400">Hasil Asesmen</p>
-                                    <p className=" text-6xl text-start font-semibold">Halo, <span className=" text-amber-400 font-semibold font-mono">
-                                        {user.data.username}</span> ! 👋</p>
-                                    <br />
-                                    <p className=" text-neutral-600 w-[64%]">Berdasarkan minat dan tes yang kamu lalui, kami telah menemukan jalur yang paling selaras dengan potensi dirimu</p>
-                                    <br />
-                                    <Primarybox colors={user.data.match.match.data.colors} outline={false}>
-                                        <i className="bi bi-calendar3 me-4"></i>
-                                        <span className=" text-lg">
-                                            Diselesaikan pada {new Date(user.data.createdAt).toLocaleDateString("id-ID", {
-                                                month: "long",
-                                                weekday: "long",
-                                                day: "2-digit"
-                                            })}
-                                        </span>
-                                    </Primarybox>
-                                    <br />
-                                    <div className=" p-6 rounded-4xl shadow my-4 overflow-hidden relative">
-                                        <div className="py-2 rounded-full bg-green-200 text-green-800 w-fit text-sm pe-4 flex justify-center items-center pl-4">
-                                            <i className="bi bi-info-circle me-2"></i>
-                                            <span>Rekomendasi Utama</span>
-                                        </div>
-                                        <br />
-                                        <div className=" p-2">
-                                            <section className=" flex items-center gap-2">
-                                                <Primarybox colors={user.data.match.match.data.colors} outline={false}>
-                                                    <i className={`bi ${user.data.match.match.data.icon}`}></i>
-                                                </Primarybox>
-                                                <p className=" font-bold text-xl">{user.data.match.match.data.name}</p>
-                                            </section>
-                                            <p className=" italic text-justify mt-8 text-neutral-600">{user.data.match.match.data.description}</p>
-                                        </div>
-                                        <section className=" p-2 mt-4">
-                                            <div className=" flex gap-4 items-center ">
-                                                <div className="p-2 px-3 rounded-full w-fit text-xl"
-                                                    style={{ backgroundColor: user.data.match.match.data.colors.subtle_color, color: user.data.match.match.data.colors.base_color }}>
-                                                    <i className="bi bi-lightning-fill"></i>
-                                                </div>
-                                                <span className=" text-lg font-semibold">Skill yang akan dipelajari</span>
-                                            </div>
-                                            <br />
-                                            <div className=" flex flex-wrap gap-3">
-                                                {user.data.match.match.data.skills.map((a, index) => {
-                                                    return (
-                                                        <Primarybox colors={user.data.match.match.data.colors} key={index}
-                                                            outline={false}>
-                                                            <p>
-                                                                <i className="bi bi-info-circle-fill me-4"></i>
-                                                                <span>{a}</span>
-                                                            </p>
-                                                        </Primarybox>
-                                                    )
-                                                })}
-                                            </div>
-                                        </section>
-                                        <section className=" p-2 mt-4">
-                                            <div className=" flex gap-4 items-center ">
-                                                <div className="p-2 px-3 rounded-full w-fit text-xl"
-                                                    style={{ backgroundColor: user.data.match.match.data.colors.subtle_color, color: user.data.match.match.data.colors.base_color }}>
-                                                    <i className="bi bi-folder-fill"></i>
-                                                </div>
-                                                <span className=" text-lg font-semibold">Proyek yang akan ditemui</span>
-                                            </div>
-                                            <br />
-                                            <div className=" flex flex-col gap-2">
-                                                {user.data.match.match.data.projects.map((a, index) => {
-                                                    return (
-                                                        <Primarybox colors={user.data.match.match.data.colors} key={index} outline={true}>
-                                                            <p>
-                                                                <i className="bi bi-box-fill me-4"></i>
-                                                                <span>{a}</span>
-                                                            </p>
-                                                        </Primarybox>
-                                                    )
-                                                })}
-                                            </div>
-                                        </section>
-                                        <br />
-                                        <hr className="opacity-15 " />
-                                        <br />
-                                        <section className=" p-2">
-                                            <div className=" flex gap-4 items-center ">
-                                                <div className="p-2 px-3 rounded-full w-fit text-xl"
-                                                    style={{
-                                                        backgroundColor: user.data.match.match.data.colors.subtle_color,
-                                                        color: user.data.match.match.data.colors.base_color
-                                                    }}>
-                                                    <i className="bi bi-patch-check-fill"></i>
-                                                </div>
-                                                <span className=" text-lg font-semibold">Karir masa depan</span>
-                                            </div>
-                                            <br />
-                                            <div className=" flex flex-wrap gap-2">
-                                                {user.data.match.match.data.projects.map((a, index) => {
-                                                    return (
-                                                        <Primarybox colors={user.data.match.match.data.colors} key={index}
-                                                            outline={true}>
-                                                            <p>
-                                                                <i className="bi bi-arrow-up-right me-4"></i>
-                                                                <span>{a}</span>
-                                                            </p>
-                                                        </Primarybox>
-                                                    )
-                                                })}
-                                            </div>
-                                        </section>
+                    {user && (
+                        <main className=" h-full flex items-center mx-auto font-sans justify-center w-[80dvw] lg:w-[64dvw]" style={{ paddingTop: "24dvh", paddingBottom: "24dvh" }}>
+                            <div className=" ">
+                                <p className=" text-start font-semibold text-neutral-400 text-sm lg:text-xl">Hasil Asesmen</p>
+                                <p className=" text-start font-semibold text-2xl lg:text-6xl">Halo, <span className=" text-amber-400 font-semibold font-mono">
+                                    {user.data.username}</span> ! 👋</p>
+                                <br />
+                                <p className=" text-neutral-600 w-[64%]">Berdasarkan minat dan tes yang kamu lalui, kami telah menemukan jalur yang paling selaras dengan potensi dirimu</p>
+                                <br />
+                                <Primarybox colors={user.data.match.match.data.colors} outline={false}>
+                                    <i className="bi bi-calendar3 me-4"></i>
+                                    <span className=" text-xs lg:text-lg">
+                                        Diselesaikan pada {new Date(user.data.createdAt).toLocaleDateString("id-ID", {
+                                            month: "long",
+                                            weekday: "long",
+                                            day: "2-digit"
+                                        })}
+                                    </span>
+                                </Primarybox>
+                                <br />
+                                <div className=" p-2 rounded-3xl shadow my-4 overflow-hidden relative max-w-[88dvw] lg:p-6 lg:rounded-4xl">
+                                    <div className="py-2 rounded-full bg-green-200 text-green-800 w-fit text-sm pe-4 flex justify-center items-center pl-4">
+                                        <i className="bi bi-info-circle me-2"></i>
+                                        <span>Rekomendasi Utama</span>
                                     </div>
+                                    <br />
+                                    <div className=" p-2">
+                                        <section className=" flex items-center gap-2">
+                                            <Primarybox colors={user.data.match.match.data.colors} outline={false}>
+                                                <i className={`bi ${user.data.match.match.data.icon}`}></i>
+                                            </Primarybox>
+                                            <p className=" font-bold text-sm lg:text-xl">{user.data.match.match.data.name}</p>
+                                        </section>
+                                        <p className=" italic text-justify mt-8 text-neutral-600 text-xs lg:text-base">{user.data.match.match.data.description}</p>
+                                    </div>
+                                    <section className=" p-2 mt-4">
+                                        <div className=" flex gap-4 items-center ">
+                                            <div className="p-2 px-3 rounded-full w-fit text-sm lg:text-xl"
+                                                style={{ backgroundColor: user.data.match.match.data.colors.subtle_color, color: user.data.match.match.data.colors.base_color }}>
+                                                <i className="bi bi-lightning-fill"></i>
+                                            </div>
+                                            <span className=" text-lg font-semibold">Skill yang akan dipelajari</span>
+                                        </div>
+                                        <br />
+                                        <div className=" flex flex-wrap gap-3">
+                                            {user.data.match.match.data.skills.map((a, index) => {
+                                                return (
+                                                    <Primarybox colors={user.data.match.match.data.colors} key={index}
+                                                        outline={false}>
+                                                        <p>
+                                                            <i className="bi bi-info-circle-fill me-4"></i>
+                                                            <span className="text-xs lg:text-base">{a}</span>
+                                                        </p>
+                                                    </Primarybox>
+                                                )
+                                            })}
+                                        </div>
+                                    </section>
+                                    <section className=" p-2 mt-4">
+                                        <div className=" flex gap-4 items-center ">
+                                            <div className="p-2 px-3 rounded-full w-fit text-sm lg:text-xl"
+                                                style={{ backgroundColor: user.data.match.match.data.colors.subtle_color, color: user.data.match.match.data.colors.base_color }}>
+                                                <i className="bi bi-folder-fill"></i>
+                                            </div>
+                                            <span className=" text-lg font-semibold">Proyek yang akan ditemui</span>
+                                        </div>
+                                        <br />
+                                        <div className=" flex flex-col gap-2">
+                                            {user.data.match.match.data.projects.map((a, index) => {
+                                                return (
+                                                    <Primarybox colors={user.data.match.match.data.colors} key={index} outline={true}>
+                                                        <p>
+                                                            <i className="bi bi-box-fill me-4"></i>
+                                                            <span className=" text-xs lg:text-base">{a}</span>
+                                                        </p>
+                                                    </Primarybox>
+                                                )
+                                            })}
+                                        </div>
+                                    </section>
+                                    <br />
+                                    <hr className="opacity-15 " />
+                                    <br />
+                                    <section className=" p-2">
+                                        <div className=" flex gap-4 items-center ">
+                                            <div className="p-2 px-3 rounded-full w-fit text-sm lg:text-xl"
+                                                style={{
+                                                    backgroundColor: user.data.match.match.data.colors.subtle_color,
+                                                    color: user.data.match.match.data.colors.base_color
+                                                }}>
+                                                <i className="bi bi-patch-check-fill"></i>
+                                            </div>
+                                            <span className=" text-lg font-semibold">Karir masa depan</span>
+                                        </div>
+                                        <br />
+                                        <div className=" flex flex-wrap gap-2">
+                                            {user.data.match.match.data.careers.map((a, index) => {
+                                                return (
+                                                    <Primarybox colors={user.data.match.match.data.colors} key={index}
+                                                        outline={true}>
+                                                        <p>
+                                                            <i className="bi bi-arrow-up-right me-4"></i>
+                                                            <span className=" text-xs lg:text-base">{a}</span>
+                                                        </p>
+                                                    </Primarybox>
+                                                )
+                                            })}
+                                        </div>
+                                    </section>
                                 </div>
-                            </section>
-                        )}
-                    </main>
+                            </div>
+                        </main>
+                    )}
                     <Footer />
                 </>
             )}
