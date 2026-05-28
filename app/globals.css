@@ -30,6 +30,10 @@ html{
   scroll-behavior: smooth;
 }
 
+*{
+  transition: all 200ms;
+}
+
 body {
   /* background: var(--background);
   color: var(--foreground); */
@@ -39,8 +43,8 @@ body {
 .modalBox{
   position: fixed;
   top: 50%;
-  right: 50%;
-  transform: translate(50%,50%);
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .skeleton{
   background-color: gainsboro;
@@ -49,7 +53,9 @@ body {
   padding: .5rem;
   animation: blink 3s infinite;
 }
-
+i.bi{
+  line-height: 0;
+}
 @keyframes blink {
   from{
     opacity: 1;

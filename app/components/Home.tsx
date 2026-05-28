@@ -4,6 +4,12 @@ import Vocation from './Vocation';
 
 import 'aos/dist/aos.css'
 import Aos from 'aos';
+
+interface TopLevel{
+    status:boolean
+    data:Data[]
+}
+
 export interface Data {
     ID: number;
     uuid: string;
@@ -28,9 +34,11 @@ const HomeElem = () => {
 
     useEffect(() => {
         Aos.init()
-        axios.get<Data[]>('/majors.json')
-            .then((hasil) => {
-                setJurusan(hasil.data)
+        axios.get<TopLevel>('/api/vocations')
+            .then((data) => {
+                const fetched = data.data
+                setJurusan(fetched.data)
+                console.log(fetched.data)
                 Aos.refresh()
             })
     }, [])

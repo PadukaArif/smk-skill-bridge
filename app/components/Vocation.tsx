@@ -5,6 +5,7 @@ export interface VocationProps {
 
 export interface Data {
     ID: number;
+    icon:string
     uuid: string;
     name: string;
     description: string;
@@ -40,8 +41,11 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                 <main className=' bg-neutral-50/60 rounded-4xl shadow-xl flex flex-col backdrop-blur-lg font-sans w-[80dvw] lg:w-[56dvw]' style={{ backgroundColor: data.colors.subtle_color }}>
                     <section className=' p-4 lg:p-6'>
                         <div className="flex flex-col gap-2 lg:gap-4">
-                            <div className=" p-2 px-6 rounded-2xl text-white w-fit text-sm" style={{ backgroundColor: data.colors.secondary_color }}>{data.uuid}</div>
-                            <p className=' text-2xl font-semibold lg:text-3xl' style={{ color: data.colors.base_color }}>{data.name}</p>
+                            <div className=" p-2 px-6 rounded-2xl text-white w-fit text-sm" style={{ backgroundColor: data.colors.primary_color }}>
+                                <i className={`bi me-2 ${data.icon}`}></i>
+                                <span>{data.uuid}</span>
+                                </div>
+                            <p className=' text-2xl font-semibold lg:text-3xl' style={{ color: data.colors.primary_color }}>{data.name}</p>
                             <p className=' font-light text-justify text-sm lg:text-2xl'>{data.description}</p>
                         </div>
                     </section>
@@ -61,13 +65,13 @@ const Vocation = ({ isSelect, data }: VocationProps) => {
                             </div>
                         </div>
                         <div className="">
-                            <p className=' text-amber-400 font-semibold text-xs lg:text-lg'>| Projek yang mungkin ditemui</p>
+                            <p className=' text-neutral-800 font-semibold text-xs lg:text-lg'>| Projek yang mungkin ditemui</p>
                             <br />
                             <div className=' flex flex-col gap-4 p-2'>
                                 {data.projects.map((a) => {
                                     return (
                                         <div key={a} className=' p-2 rounded-2xl bg-neutral-100 shadow flex items-center'>
-                                            <i className="bi bi-circle-fill text-amber-400 me-4 text-[8px] lg:text-sm"></i>
+                                            <i className="bi bi-circle-fill text-neutral-800 me-4 text-[8px] lg:text-sm"></i>
                                             <span className=" text-xs lg:text-base">{a}</span>
                                         </div>
                                     )

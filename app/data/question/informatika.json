@@ -1,0 +1,227 @@
+{
+  "test_title": "Tes Jurusan Informatika",
+  "total_questions": 30,
+    "questions": [
+    {
+      "no": 1,
+      "question": "Topik: Menghadapi sistem ujian online sekolah yang tiba-tiba melambat (lag) saat diakses bersamaan.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menganalisis dan memperbaiki struktur kode algoritma agar pemrosesan data lebih cepat." },
+        { "id_jurusan": 3, "text": "Mengatur ulang pembagian beban server (load balancing) menggunakan sistem cloud." },
+        { "id_jurusan": 2, "text": "Memeriksa kapasitas bandwidth dan lalu lintas internet pada router jaringan pusat." },
+        { "id_jurusan": 4, "text": "Mengurangi ukuran resolusi gambar dan animasi pada halaman agar lebih ringan dimuat." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau belum pernah menghadapi situasi ini." }
+      ]
+    },
+    {
+      "no": 2,
+      "question": "Topik: Peran utama yang ingin diambil dalam peluncuran produk startup teknologi.",
+      "options": [
+        { "id_jurusan": 1, "text": "Mengembangkan fungsi tombol aplikasi mobile dan website dari nol." },
+        { "id_jurusan": 3, "text": "Membangun infrastruktur server terotomatisasi yang bisa diskalakan (auto-scaling)." },
+        { "id_jurusan": 2, "text": "Memastikan keamanan siber dan kelancaran infrastruktur internet lokal perusahaan." },
+        { "id_jurusan": 4, "text": "Merancang identitas merek (branding), antarmuka (UI/UX), dan materi promosi visual." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau belum ada bayangan." }
+      ]
+    },
+    {
+      "no": 3,
+      "question": "Topik: Mengembangkan sistem Smart Home (Rumah Pintar) untuk klien.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menulis program utama (software) yang memproses semua perintah dan logika pengguna." },
+        { "id_jurusan": 3, "text": "Mengintegrasikan sensor fisik (IoT) dengan database cloud agar alat menyala otomatis." },
+        { "id_jurusan": 2, "text": "Membangun jaringan nirkabel (Wi-Fi) yang stabil tanpa area sinyal terputus di seluruh rumah." },
+        { "id_jurusan": 4, "text": "Mendesain panel kontrol layar sentuh di dinding agar mudah dan indah dipandang." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau kurang tertarik dengan sistem smart home." }
+      ]
+    },
+    {
+      "no": 4,
+      "question": "Topik: Minat pada pemanfaatan teknologi Kecerdasan Buatan (AI) di era modern.",
+      "options": [
+        { "id_jurusan": 1, "text": "Mempelajari bagaimana AI dapat membantu menulis dan mengecek bug pada baris kode." },
+        { "id_jurusan": 3, "text": "Menggunakan AI untuk mengelola dan memprediksi kebutuhan sumber daya server otomatis." },
+        { "id_jurusan": 2, "text": "Mengimplementasikan AI untuk mendeteksi ancaman peretasan di lalu lintas jaringan." },
+        { "id_jurusan": 4, "text": "Menggunakan AI generatif untuk memunculkan ide ilustrasi dan aset gambar grafis." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau belum pernah menggunakan AI." }
+      ]
+    },
+    {
+      "no": 5,
+      "question": "Topik: Aktivitas favorit saat mengoperasikan komputer yang baru saja dibeli.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menginstal text editor (seperti VS Code) dan mencoba menulis beberapa baris logika program." },
+        { "id_jurusan": 3, "text": "Menghubungkan komputer dengan sistem otomatisasi penyimpanan awan (cloud sync)." },
+        { "id_jurusan": 2, "text": "Mengecek konfigurasi IP address, keamanan firewall, dan kecepatan ping internet." },
+        { "id_jurusan": 4, "text": "Menginstal software desain grafis dan langsung mencoba membuat karya seni digital." },
+        { "id_jurusan": 5, "text": "Tidak tahu, hanya menggunakan untuk aktivitas mengetik biasa." }
+      ]
+    },
+    {
+      "no": 6,
+      "question": "Topik: Penugasan memperbarui sistem informasi perpustakaan daerah.",
+      "options": [
+        { "id_jurusan": 1, "text": "Merombak arsitektur database relasional agar fitur pencarian buku lebih cepat dan akurat." },
+        { "id_jurusan": 3, "text": "Memindahkan seluruh data fisik ke penyimpanan cloud yang bisa diakses dari mana saja." },
+        { "id_jurusan": 2, "text": "Mengganti kabel usang dengan fiber optik agar transfer data antar komputer lebih stabil." },
+        { "id_jurusan": 4, "text": "Membuat ulang tata letak website perpustakaan agar terlihat modern dan ramah pengguna." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau belum ada ide." }
+      ]
+    },
+    {
+      "no": 7,
+      "question": "Topik: Mengamati fenomena maraknya peretasan (hacking) sistem perusahaan.",
+      "options": [
+        { "id_jurusan": 1, "text": "Memikirkan celah keamanan (bug) pada barisan kode program yang berhasil ditembus." },
+        { "id_jurusan": 3, "text": "Memikirkan bagaimana peretas menembus sistem cloud dan mengambil alih server virtual." },
+        { "id_jurusan": 2, "text": "Memikirkan bagaimana peretas mencegat pertukaran data pada port jaringan yang terbuka." },
+        { "id_jurusan": 4, "text": "Memikirkan cara membuat poster infografis peringatan keamanan digital untuk karyawan." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau tidak mengikuti beritanya." }
+      ]
+    },
+    {
+      "no": 8,
+      "question": "Topik: Bekerja dengan sekumpulan data mentah yang diberikan oleh klien.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menyusun algoritma untuk mengolah, menyaring, dan mengurutkan data secara logis." },
+        { "id_jurusan": 3, "text": "Membangun alur (pipeline) agar data tersebut diperbarui otomatis secara real-time." },
+        { "id_jurusan": 2, "text": "Mengamankan transmisi perpindahan data tersebut dari server lokal menuju komputer klien." },
+        { "id_jurusan": 4, "text": "Mengubah data angka tersebut menjadi grafik visual presentasi yang indah dipandang." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau belum pernah mencobanya." }
+      ]
+    },
+    {
+      "no": 9,
+      "question": "Topik: Persiapan membangun fasilitas warung internet (warnet) atau arena e-sports.",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat aplikasi kustom untuk sistem kasir dan timer billing penyewaan pelanggan." },
+        { "id_jurusan": 3, "text": "Mengatur sistem agar semua game di PC bisa diperbarui serentak dari satu server utama." },
+        { "id_jurusan": 2, "text": "Merancang topologi kabel LAN, switch, dan router agar tidak ada delay saat bermain." },
+        { "id_jurusan": 4, "text": "Mendesain logo arena, spanduk, dan pencahayaan lampu RGB agar terlihat berkelas." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau tidak tertarik dengan arena e-sports." }
+      ]
+    },
+    {
+      "no": 10,
+      "question": "Topik: Membaca dokumentasi atau manual teknologi.",
+      "options": [
+        { "id_jurusan": 1, "text": "Membaca dokumentasi bahasa pemrograman, library, atau framework terbaru." },
+        { "id_jurusan": 3, "text": "Membaca panduan integrasi sistem cloud (AWS/GCP) atau platform IoT." },
+        { "id_jurusan": 2, "text": "Membaca spesifikasi teknis dari router, switch, atau hardware jaringan." },
+        { "id_jurusan": 4, "text": "Membaca teori kombinasi warna, tipografi, dan tren desain UI/UX terbaru." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau tidak suka membaca manual teknologi." }
+      ]
+    },
+    {
+      "no": 11,
+      "question": "Topik: Respons terhadap tren kerja jarak jauh (remote work).",
+      "options": [
+        { "id_jurusan": 1, "text": "Mengembangkan platform manajemen tugas berbasis web khusus untuk tim remote." },
+        { "id_jurusan": 3, "text": "Mengelola infrastruktur server virtual agar bisa diakses karyawan dari negara mana saja." },
+        { "id_jurusan": 2, "text": "Mengamankan jaringan VPN perusahaan agar koneksi internet dari rumah tidak diretas." },
+        { "id_jurusan": 4, "text": "Memproduksi aset kreatif digital yang bisa langsung dikirimkan ke klien secara online." },
+        { "id_jurusan": 5, "text": "Tidak tahu atau lebih suka kerja tatap muka." }
+      ]
+    },
+    {
+      "no": 12,
+      "question": "Topik: Evaluasi kualitas sebuah permainan video (video game) modern.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menilai kerumitan logika sistem inventaris, pertarungan, dan kecerdasan musuhnya." },
+        { "id_jurusan": 3, "text": "Menilai kemampuan server game dalam menampung jutaan pemain secara bersamaan." },
+        { "id_jurusan": 2, "text": "Menilai kelancaran ping (latency) dan koneksi jaringan antara pemain dan server pusat." },
+        { "id_jurusan": 4, "text": "Menilai detail grafis lingkungan, desain karakter, dan kelancaran efek animasinya." },
+        { "id_jurusan": 5, "text": "Tidak tahu, saya hanya bermain untuk bersenang-senang." }
+      ]
+    },
+    {
+      "no": 13,
+      "question": "Topik: Penyelesaian tahap akhir (finishing) proyek pameran teknologi sekolah.",
+      "options": [
+        { "id_jurusan": 1, "text": "Melakukan debugging dan memastikan tidak ada satu pun fungsi tombol aplikasi yang error." },
+        { "id_jurusan": 3, "text": "Memastikan aplikasi proyek sudah berjalan otomatis di lingkungan cloud server." },
+        { "id_jurusan": 2, "text": "Memeriksa ulang ujung kabel (crimping) dan menguji kelancaran koneksi fisik perangkat." },
+        { "id_jurusan": 4, "text": "Memberikan sentuhan akhir pada gradasi warna, efek transisi, dan konsistensi font." },
+        { "id_jurusan": 5, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 14,
+      "question": "Topik: Keinginan mempelajari ekosistem teknologi berskala besar (Enterprise).",
+      "options": [
+        { "id_jurusan": 1, "text": "Mempelajari arsitektur pemrograman microservices untuk aplikasi skala perusahaan." },
+        { "id_jurusan": 3, "text": "Mempelajari otomatisasi DevOps dan sistem pengelolaan server container terpusat." },
+        { "id_jurusan": 2, "text": "Mempelajari manajemen data center dan protokol perutean lalu lintas jaringan global." },
+        { "id_jurusan": 4, "text": "Mempelajari sistem panduan merek (brand guidelines) untuk perusahaan multinasional." },
+        { "id_jurusan": 5, "text": "Tidak tahu, terdengar terlalu rumit." }
+      ]
+    },
+    {
+      "no": 15,
+      "question": "Topik: Cara mengatasi kebosanan saat sedang memegang perangkat elektronik.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menyelesaikan tantangan logika (coding challenge) di platform belajar interaktif." },
+        { "id_jurusan": 3, "text": "Mengutak-atik papan mikrokontroler pintar yang terhubung ke jaringan internet rumah." },
+        { "id_jurusan": 2, "text": "Mengecek dan mencoba mengoptimalkan pengaturan router penyedia internet rumah." },
+        { "id_jurusan": 4, "text": "Membuat manipulasi foto digital atau bereksperimen dengan efek editing video." },
+        { "id_jurusan": 5, "text": "Tidak tahu, lebih memilih membuka media sosial." }
+      ]
+    },
+    {
+      "no": 16,
+      "question": "Topik: Pendekatan terhadap masalah efisiensi waktu kerja di depan komputer.",
+      "options": [
+        { "id_jurusan": 1, "text": "Menulis skrip (script) kode pendek agar tugas pengolahan data selesai lebih cepat." },
+        { "id_jurusan": 3, "text": "Membuat sistem terintegrasi yang menjalankan tugas berulang secara otomatis (cron job)." },
+        { "id_jurusan": 2, "text": "Meningkatkan alokasi bandwidth dan memastikan hardware jaringan berjalan bebas hambatan." },
+        { "id_jurusan": 4, "text": "Membuat template dasar desain agar tidak perlu menggambar ulang dari awal setiap saat." },
+        { "id_jurusan": 5, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 17,
+      "question": "Topik: Pengembangan sistem pembayaran kantin sekolah secara non-tunai (cashless).",
+      "options": [
+        { "id_jurusan": 1, "text": "Membuat program penghitung pemotongan saldo yang akurat pada database aplikasi." },
+        { "id_jurusan": 3, "text": "Menghubungkan mesin pembaca kartu elektronik (RFID) dengan database server pusat." },
+        { "id_jurusan": 2, "text": "Memastikan koneksi mesin pembayaran ke jaringan internet tidak pernah terputus (stabil)." },
+        { "id_jurusan": 4, "text": "Mendesain layar antarmuka mesin pembayaran agar jelas dan mudah dimengerti siswa." },
+        { "id_jurusan": 5, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 18,
+      "question": "Topik: Diskusi teknologi paling seru bersama teman sebaya.",
+      "options": [
+        { "id_jurusan": 1, "text": "Membahas tentang bahasa pemrograman baru atau efisiensi sebuah struktur algoritma." },
+        { "id_jurusan": 3, "text": "Membahas tentang komputasi awan (Cloud), server, dan sistem otomasi perangkat." },
+        { "id_jurusan": 2, "text": "Membahas tentang kecepatan kabel fiber optik, jenis router, dan cara mencegah hacker." },
+        { "id_jurusan": 4, "text": "Membahas tentang software animasi, kamera resolusi tinggi, atau tren antarmuka (UI/UX)." },
+        { "id_jurusan": 5, "text": "Tidak tahu, jarang berdiskusi tentang teknologi." }
+      ]
+    },
+    {
+      "no": 19,
+      "question": "Topik: Minat terhadap fenomena konten kreator digital modern.",
+      "options": [
+        { "id_jurusan": 1, "text": "Mempelajari logika pemrograman di balik algoritma rekomendasi YouTube atau TikTok." },
+        { "id_jurusan": 3, "text": "Mengatur server penyimpanan agar tim kreator mudah berbagi file video berukuran raksasa." },
+        { "id_jurusan": 2, "text": "Membangun sistem server streaming mandiri berkecepatan tinggi tanpa hambatan." },
+        { "id_jurusan": 4, "text": "Fokus membuat ilustrasi thumbnail yang memancing klik, efek transisi, dan motion graphic." },
+        { "id_jurusan": 5, "text": "Tidak tahu, hanya bertindak sebagai penikmat konten." }
+      ]
+    },
+    {
+      "no": 20,
+      "question": "Topik: Pilihan prioritas saat membeli peralatan kerja digital utama.",
+      "options": [
+        { "id_jurusan": 1, "text": "Laptop dengan prosesor kuat untuk kompilasi kode dan pengaturan layar ganda." },
+        { "id_jurusan": 3, "text": "Papan mikrokontroler (Arduino/Raspberry Pi) dan menyewa layanan cloud server." },
+        { "id_jurusan": 2, "text": "Router spesifikasi enterprise, tang crimping, dan tester kabel jaringan." },
+        { "id_jurusan": 4, "text": "Pen tablet untuk menggambar spesifikasi tinggi atau kamera mirrorless terbaik." },
+        { "id_jurusan": 5, "text": "Tidak tahu." }
+      ]
+    }
+  ]
+
+}

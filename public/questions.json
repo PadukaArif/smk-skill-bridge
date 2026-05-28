@@ -5,7 +5,7 @@
     {
       "no": 1,
       "question": "Saat mendapat tugas membuat poster digital untuk acara sekolah, bagian mana yang paling seru buat kamu?",
-      "options": [
+      "options": [ 
         { "id_jurusan": 1, "text": "Mencari cara agar posternya bisa ditampilkan di website sekolah." },
         { "id_jurusan": 2, "text": "Mendesain tata letak, memilih warna, dan ilustrasi yang keren." },
         { "id_jurusan": 3, "text": "Membuat animasi sederhana atau efek bergerak pada posternya." },

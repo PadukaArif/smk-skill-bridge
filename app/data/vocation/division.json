@@ -1,0 +1,162 @@
+{
+  "test_title": "Tes Minat Jurusan",
+  "total_questions": 30,
+   "questions": [
+    {
+      "no": 1,
+      "question": "Di waktu luang pas lagi santai di rumah, kamu biasanya paling asyik ngapain?",
+      "options": [
+        { "id_jurusan": 1, "text": "Main game tebak-tebakan, main catur, atau ngisi teka-teki silang." },
+        { "id_jurusan": 3, "text": "Ngatur-ngatur isi HP, nyambungin HP ke TV, atau beresin folder foto." },
+        { "id_jurusan": 2, "text": "Ngebongkar mainan elektronik atau remot TV yang rusak buat liat isinya." },
+        { "id_jurusan": 4, "text": "Menggambar di buku tulis, mewarnai, atau ngedit foto dan video lucu-lucuan." },
+        { "id_jurusan": 0, "text": "Tidur, nonton TV, atau main di luar aja." }
+      ]
+    },
+    {
+      "no": 2,
+      "question": "Kalau disuruh bantuin teman bikin mading (majalah dinding) kelas, kamu milih tugas apa?",
+      "options": [
+        { "id_jurusan": 1, "text": "Milih tugas nentuin urutan cerita atau struktur madingnya biar bacanya enak." },
+        { "id_jurusan": 3, "text": "Milih tugas ngumpulin semua bahan dari teman-teman di satu grup chat biar rapi." },
+        { "id_jurusan": 2, "text": "Milih tugas masang madingnya ke papan pakai paku payung biar kuat dan nggak jatuh." },
+        { "id_jurusan": 4, "text": "Milih tugas ngehias, nulis judul pakai spidol warna-warni, dan bikin gambarnya." },
+        { "id_jurusan": 0, "text": "Nggak mau ikutan bikin mading." }
+      ]
+    },
+    {
+      "no": 3,
+      "question": "Pas lagi asyik main game di HP terus tiba-tiba error atau keluar sendiri, apa yang kamu lakuin?",
+      "options": [
+        { "id_jurusan": 1, "text": "Penasaran kenapa game ini bisa error dan kepikiran pengen tau cara bikinnya." },
+        { "id_jurusan": 3, "text": "Nyari cara buat nyimpen data game-nya biar kalau error lagi nggak ngulang dari awal." },
+        { "id_jurusan": 2, "text": "Ngecek sinyal WiFi atau paketan data, siapa tau internetnya yang lagi jelek." },
+        { "id_jurusan": 4, "text": "Malah merhatiin gambar karakternya yang nge-glitch (rusak) karena kelihatan keren." },
+        { "id_jurusan": 0, "text": "Langsung hapus game-nya atau ganti main game lain." }
+      ]
+    },
+    {
+      "no": 4,
+      "question": "Kalau kamu jadi ketua kelompok untuk ngerjain tugas, gaya memimpin kamu gimana?",
+      "options": [
+        { "id_jurusan": 1, "text": "Ngebagi tugas ke temen-temen dengan jelas, langkah demi langkah dari A sampai Z." },
+        { "id_jurusan": 3, "text": "Bikin jadwal dan ngingetin temen-temen terus biar semuanya selesai otomatis." },
+        { "id_jurusan": 2, "text": "Bantuin temen yang alatnya bermasalah (misal minjemin pulpen atau benerin laptop temen)." },
+        { "id_jurusan": 4, "text": "Bikin suasana kelompok jadi asyik dan fokus bikin tampilan tugasnya kelihatan paling bagus." },
+        { "id_jurusan": 0, "text": "Aku jarang atau nggak suka jadi ketua kelompok." }
+      ]
+    },
+    {
+      "no": 5,
+      "question": "Barang apa yang paling pengen kamu beli kalau dikasih uang saku lebih?",
+      "options": [
+        { "id_jurusan": 1, "text": "Buku teka-teki, mainan rubik, atau puzzle balok yang susah." },
+        { "id_jurusan": 3, "text": "Smartwatch murah, gelang pintar, atau alat-alat unik yang bisa nyambung ke HP." },
+        { "id_jurusan": 2, "text": "Obeng set kecil-kecil, flashdisk, atau kabel-kabel casan yang bentuknya keren." },
+        { "id_jurusan": 4, "text": "Buku gambar tebal, spidol warna-warni, pen tablet, atau kamera mainan." },
+        { "id_jurusan": 0, "text": "Beli makanan, minuman, atau pakaian aja." }
+      ]
+    },
+    {
+      "no": 6,
+      "question": "Pas lagi jalan-jalan keluar rumah naik motor/mobil, apa yang suka bikin kamu salah fokus?",
+      "options": [
+        { "id_jurusan": 5, "text": "Ngeliatin bentuk rumah-rumah orang yang unik atau perpaduan catnya yang bagus." },
+        { "id_jurusan": 6, "text": "Ngeliatin proyek orang yang lagi ngebangun rumah atau truk yang lagi bawa semen." },
+        { "id_jurusan": 7, "text": "Ngeliatin tiang listrik, gulungan kabel di pinggir jalan, atau lampu-lampu taman." },
+        { "id_jurusan": 0, "text": "Cuma fokus ngeliatin jalanan atau kendaraan lain aja." }
+      ]
+    },
+    {
+      "no": 7,
+      "question": "Kalau disuruh ngerapihin kamar kamu sendiri pas hari libur, apa yang pertama kamu lakuin?",
+      "options": [
+        { "id_jurusan": 5, "text": "Mindahin posisi kasur atau meja belajar biar kamarnya kerasa beda dan lebih lega." },
+        { "id_jurusan": 6, "text": "Ngeberesin tumpukan barang berat atau benerin pintu lemari yang agak miring." },
+        { "id_jurusan": 7, "text": "Ngerapihin kabel colokan kipas angin, kabel charger HP, atau masang lampu belajar." },
+        { "id_jurusan": 0, "text": "Masukin semua barang ke dalam laci/lemari asal kelihatan rapi aja." }
+      ]
+    },
+    {
+      "no": 8,
+      "question": "Di pelajaran prakarya kesenian, kalau disuruh bikin rumah-rumahan, gaya kerjamu gimana?",
+      "options": [
+        { "id_jurusan": 5, "text": "Sibuk ngegambar pola pintunya, jendelanya, dan atapnya biar bentuknya cakep dan pas." },
+        { "id_jurusan": 6, "text": "Sibuk nge-lem stik es krimnya setebal mungkin biar rumahnya kuat dan nggak gampang hancur." },
+        { "id_jurusan": 7, "text": "Sibuk ngakalin gimana caranya ngasih lampu bohlam kecil di dalemnya biar rumahnya bisa nyala." },
+        { "id_jurusan": 0, "text": "Ngikutin aja apa kata teman sebangku, yang penting tugasnya selesai." }
+      ]
+    },
+    {
+      "no": 9,
+      "question": "Kamu lebih suka aktivitas fisik yang kayak gimana di kehidupan sehari-hari?",
+      "options": [
+        { "id_jurusan": 5, "text": "Duduk diam berjam-jam sambil nyoret-nyoret kertas atau ngeliatin layar." },
+        { "id_jurusan": 6, "text": "Aktivitas di luar ruangan yang panas-panasan, angkat barang, atau ngeluarin banyak keringat." },
+        { "id_jurusan": 7, "text": "Nggak terlalu banyak gerak lari-larian, tapi tangan harus hati-hati dan fokus banget." },
+        { "id_jurusan": 0, "text": "Rebahan santai di kasur sambil main HP." }
+      ]
+    },
+    {
+      "no": 10,
+      "question": "Tipe mainan zaman kecil (atau game) apa yang paling bikin kamu betah main lama?",
+      "options": [
+        { "id_jurusan": 5, "text": "Main game ngebangun kota (kayak City Skylines) atau main bangun rumah di The Sims/Minecraft." },
+        { "id_jurusan": 6, "text": "Main balok susun besar-besar, main lego bongkar pasang, atau main tanah liat/pasir." },
+        { "id_jurusan": 7, "text": "Mainan yang pakai baterai, ada dinamonya, atau mobil-mobilan remote control." },
+        { "id_jurusan": 0, "text": "Nonton YouTube atau dengerin musik aja." }
+      ]
+    },
+    {
+      "no": 11,
+      "question": "Kalau rantai sepedamu lepas atau ada barang kesukaanmu yang rusak, apa yang kamu lakuin?",
+      "options": [
+        { "id_jurusan": 8, "text": "Ngeliatin doang terus ngebayangin bentuk posisi aslinya sebelum rusak itu kayak gimana." },
+        { "id_jurusan": 9, "text": "Nyari selotip, karet, palu, atau lem besi buat nyambungin paksa bagian yang patah." },
+        { "id_jurusan": 10, "text": "Ngambil obeng atau kunci pas buat ngebongkar bautnya satu-satu sambil tangan agak kotor." },
+        { "id_jurusan": 0, "text": "Langsung minta orang tua buat benerin atau minta beliin yang baru." }
+      ]
+    },
+    {
+      "no": 12,
+      "question": "Benda apa yang menurutmu paling asyik buat dilihat lama-lama di internet atau TV?",
+      "options": [
+        { "id_jurusan": 8, "text": "Gambar sketsa kerangka mobil, pesawat, atau mesin yang kelihatannya super rumit." },
+        { "id_jurusan": 9, "text": "Video orang yang lagi ngelas pager ngeluarin api atau mesin motong besi tebal." },
+        { "id_jurusan": 10, "text": "Video orang yang lagi ngebongkar mesin motor atau nge-modifikasi mobil balap." },
+        { "id_jurusan": 0, "text": "Nggak ada yang menarik dari hal-hal berbau mesin." }
+      ]
+    },
+    {
+      "no": 13,
+      "question": "Sifat kamu kalau lagi ngerjain tugas mandiri yang susah itu kayak gimana sih?",
+      "options": [
+        { "id_jurusan": 8, "text": "Harus pakai penggaris, garisnya lurus banget, dan ukurannya nggak boleh meleset dikit pun." },
+        { "id_jurusan": 9, "text": "Cuek sama keadaan sekitar, fokus banget ngerjain, dan nggak peduli kalau tangan/baju jadi kotor." },
+        { "id_jurusan": 10, "text": "Suka nyari tau akar masalahnya di mana, walaupun harus ngebongkar atau ngulang dari awal." },
+        { "id_jurusan": 0, "text": "Ngerjain asal-asalan yang penting cepat selesai dan dikumpulin ke guru." }
+      ]
+    },
+    {
+      "no": 14,
+      "question": "Suara keras apa yang menurut kamu paling nggak ganggu, atau malah kadang kamu suka dengernya?",
+      "options": [
+        { "id_jurusan": 8, "text": "Suara orang ngetik cepet di keyboard atau nyoret-nyoret pakai pensil di atas kertas." },
+        { "id_jurusan": 9, "text": "Suara mesin-mesin pabrik yang berisik atau suara tukang yang lagi ngetok-ngetok paku." },
+        { "id_jurusan": 10, "text": "Suara knalpot motor atau mesin mobil yang lagi digas kenceng di jalanan." },
+        { "id_jurusan": 0, "text": "Aku cuma suka suara musik atau suara alam yang tenang." }
+      ]
+    },
+    {
+      "no": 15,
+      "question": "Kalau diajak pergi jalan-jalan sama orang tua di akhir pekan, tempat mana yang paling kamu tunggu-tunggu?",
+      "options": [
+        { "id_jurusan": 8, "text": "Toko buku bagian alat tulis/gambar, pameran alat teknologi, atau museum unik." },
+        { "id_jurusan": 9, "text": "Pabrik pembuatan makanan atau tempat bikin barang kerajinan buat ngeliat cara bikinnya." },
+        { "id_jurusan": 10, "text": "Bengkel modifikasi kendaraan, pameran mobil/motor keren, atau dealer kendaraan." },
+        { "id_jurusan": 0, "text": "Ke bioskop, tempat main game arcade, atau tempat makan enak." }
+      ]
+    }
+  ]
+
+}

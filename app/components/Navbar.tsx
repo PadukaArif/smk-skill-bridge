@@ -15,7 +15,7 @@ const Navbar = ({ isGlass }: NavbarProps) => {
         axios.get('/api/clear')
             .then((data) => {
                 setMounted(true)
-                console.log(data)
+                console.log(data.data)
             })
     }, [])
     if (!mounted) return null;

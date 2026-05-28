@@ -1,0 +1,395 @@
+{
+  "test_title": "Tes Jurusan Mesin",
+  "total_questions": 20,
+  "questions": [
+    {
+      "no": 1,
+      "question": "Topik: Menghadapi tugas perancangan komponen suku cadang mesin baru.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membuat detail geometri, lekukan, dan toleransi setiap sisi komponen menggunakan software CAD."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengunci bongkahan logam di mesin bubut/frais dan mengikisnya hingga membentuk komponen tersebut."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menganalisis sirkulasi ruang bakar mesin otomotif agar komponen tersebut membuat mobil lebih cepat."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu atau belum pernah mencoba." }
+      ]
+    },
+    {
+      "no": 2,
+      "question": "Topik: Reaksi saat mengamati mesin potong otomatis atau pencetak 3D (3D Printer) beroperasi.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Fokus memperhatikan file model digital di layar yang sedang memberikan instruksi bentuk ke mesin."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Fokus pada ketajaman pisau pemotong yang bergerak dan pengaturan kecepatan putaran mesinnya."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Fokus memperhatikan rantai transmisi sabuk (belt) atau roda gigi mekanik di dalam bodi mesin."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu, hanya mengamatinya saja." }
+      ]
+    },
+    {
+      "no": 3,
+      "question": "Topik: Penanganan sebuah kendaraan balap yang tiba-tiba mengalami penurunan performa.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menganalisis simulasi hambatan angin (aerodinamika) bodi mobil lewat layar komputer penguji."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mencetak langsung mur atau baut kustom dari potongan besi padat karena versi aslinya telah patah."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menancapkan scanner digital (OBD), mendengarkan suara kasar klep, dan menurunkan mesin mobil."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau tidak tertarik dengan dunia balap."
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "question": "Topik: Memilih suasana kerja yang identik dengan industri teknik dan mesin.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Ruang Riset dan Desain (R&D) yang bersuhu sejuk, fokus, dan penuh komputer berspesifikasi tinggi."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Lantai pabrik manufaktur yang dipenuhi suara keras alat pemotong logam dan cairan pendingin mesin."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Area bengkel otomotif yang beraroma oli pelumas, bahan bakar bensin, dan bunyi nyaring knalpot."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau tidak menyukai ketiga suasana tersebut."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "question": "Topik: Ketertarikan mempelajari jenis perangkat lunak (software) teknis spesifik.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Sangat tertarik mempelajari fitur perancangan mekanikal pada SolidWorks atau Autodesk Inventor."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Sangat tertarik mempelajari Mastercam untuk menyimulasikan gerak pahat mesin CNC otomatis."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Sangat tertarik mempelajari sistem kelistrikan pada layar OBD2 Scanner milik bengkel mobil."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau kurang tertarik pada software teknis."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "question": "Topik: Langkah memecahkan masalah jika sebuah tuas komponen mekanis sering macet/kaku.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mengecek kembali dokumen gambar cetak biru (blueprint) untuk memastikan sudutnya tidak salah ukur."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengukur keausan logam fisik tuas tersebut dengan mikrometer sekrup untuk mengecek penyusutan."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Melumasi as penggerak dengan gemuk, membongkar rakitannya, dan memasangnya ulang dengan benar."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 7,
+      "question": "Topik: Berpartisipasi dalam proyek akhir menciptakan prototipe mesin pemotong rumput.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membuat rancangan bentuk luar sasis, letak dudukan pisau, dan proporsi dimensinya di layar 3D."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memotong lempengan besi baja, mengebor plat, lalu meratakan permukaannya untuk rangka."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Memasang mesin berbahan bakar bensin (karburator), menyetel kabel busi, dan sistem tarikannya."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 8,
+      "question": "Topik: Menilai daya tarik terhebat dari sebuah pabrik perakitan industri otomotif.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Tahap rahasia saat para insinyur merancang desain model kendaraan konsep sebelum diproduksi."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Melihat mesin robotik besar mencetak puluhan blok silinder mesin baja berat tanpa bantuan manusia."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Tahap pengujian mesin mobil menyala untuk pertama kalinya dan penyetelan kaki-kaki kendaraan."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 9,
+      "question": "Topik: Karakter kedisiplinan dan ketelitian diri (akurasi) saat harus mengerjakan sesuatu.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Sangat teliti menarik garis ukur gambar karena meleset satu derajat saja bisa membatalkan proyek."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Disiplin tinggi dan penuh kesabaran menunggu proses pisau bubut menyayat besi agar mulus hasilnya."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Sangat teliti dalam mengurutkan jalur kabel bodi mobil dan mengunci baut menggunakan kunci momen."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 10,
+      "question": "Topik: Mengamati benda mekanik peninggalan tua (seperti karburator atau mesin jahit klasik).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menjadikannya objek untuk digambar dan direplika ke dalam bentuk 3D digital secara teliti."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengikis kembali bagian permukaannya yang berkarat dengan mesin frais agar mengkilap dan rata."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Membongkar seluruh baut, membersihkan lubang udaranya, dan merakit ulang agar bisa menyala."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu atau akan dibuang saja." }
+      ]
+    },
+    {
+      "no": 11,
+      "question": "Topik: Tema diskusi dengan seorang ahli profesional di pabrik mesin.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membahas cara melakukan simulasi tegangan beban pada desain lengan robot di dalam komputer."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Membahas material jenis mata bor pisau yang tidak akan patah jika dipakai pada mesin putaran tinggi."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Membahas cara membaca data sensor oksigen pada ECU mesin injeksi elektronik mobil terbaru."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 12,
+      "question": "Topik: Aktivitas menggunakan tangan yang tidak akan membuatmu cepat merasa bosan.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menggerakkan mouse berjam-jam merotasi objek mesin 3D dari berbagai sudut pandang desain."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengoperasikan tuas mesin manual berat sambil memperhatikan percikan serbuk besi terpotong."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Memegang kunci pas baja untuk memutar berbagai baut kotor di ruang kompartemen mesin mobil."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 13,
+      "question": "Topik: Evolusi tren teknologi kendaraan bertenaga listrik murni (EV) di masa depan.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mempelajari pemodelan sasis super ringan untuk menutupi berat beban baterai menggunakan komputer."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mempelajari proses pencetakan pelat pendingin dan kompartemen baja pelindung baterai listrik."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mempelajari jalur kelistrikan kabel tegangan tinggi dan sistem pengereman regeneratif pada mobil."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 14,
+      "question": "Topik: Pemahaman mendalam terhadap buku petunjuk operasi (Manual Book).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Sangat patuh pada buku petunjuk simbol standar gambar manufaktur proyeksi internasional."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Sangat patuh melihat tabel batas kecepatan rpm mesin pemotong berdasarkan ketebalan bajanya."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Sangat patuh membuka Service Manual dealer untuk melihat letak titik-titik sensor kelistrikan mobil."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 15,
+      "question": "Topik: Partisipasi dalam kompetisi keahlian siswa teknik berskala nasional.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Kompetisi CAD Mekanikal: Adu presisi merakit ratusan komponen 3D virtual dalam batas waktu."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Kompetisi CNC Turning: Adu kepresisian dan kemulusan mencetak logam blok baja di dalam mesin."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Kompetisi Automobile Tech: Adu kecepatan mencari dan memecahkan masalah kelistrikan mobil mogok."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 16,
+      "question": "Topik: Menghadapi kondisi salah satu bagian mesin roda gigi yang sudah aus/tipis dimakan usia.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Merevisi dokumen digital rancangan dengan menambah skala milimeter agar model baru lebih tebal."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Menyiapkan silinder besi mentah, memasang mata pisau bubut, dan mencetak gerigi logam yang baru."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mengganti bantalan pelor (bearing) yang menempel dan menyetel ulang ikatan sasis yang goyang."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 17,
+      "question": "Topik: Bagian terpenting dari sebuah sistem persneling (gearbox) transmisi di pikiranmu.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Bentuk 3D dari persinggungan as gigi-giginya yang dirancang sangat padat, simetris, dan rumit."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Tingkat kekerasan material baja murni yang dipakai agar geriginya tidak hancur beradu."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Kemampuan as roda menyalurkan kekuatan mesin utama langsung menuju ke dua ban kendaraan."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 18,
+      "question": "Topik: Pembagian peran saat bergabung mendirikan tim modifikasi atau bengkel balap profesional.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Bertugas merancang bentuk spoiler aerodinamis atau kustomisasi velg dengan software komputer 3D."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Bertugas sebagai eksekutor mesin yang memotong plat dan membuat suku cadang langka mandiri."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Bertugas sebagai kepala mekanik (chief) yang bertanggung jawab menyetel mesin agar tarikannya optimal."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 19,
+      "question": "Topik: Toleransi kenyamanan terhadap kondisi pekerjaan kotor fisik.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Tidak suka kotor, lebih memilih bekerja mendesain detail dari meja yang kering dan bersih."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Sangat biasa terkena cipratan air pendingin (coolant) mesin dan serpihan serbuk besi tajam di lantai."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Sangat biasa pakaian bernoda oli kotor, gemuk suspensi, dan masuk ke kolong lantai mobil yang gelap."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 20,
+      "question": "Topik: Proyeksi jabatan karier profesional impian tertinggi.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Product Designer Senior atau Ahli Drafter Mekanikal di Industri Otomotif Multinasional."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Ahli Pemrograman CNC/CAM dan Manajer Pabrik Manufaktur Pembuatan Alat Berat."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Automotive Diagnostician Ahli dan Service Advisor Tingkat Tinggi di Bengkel Agen Pemegang Merek."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    }
+  ]
+}

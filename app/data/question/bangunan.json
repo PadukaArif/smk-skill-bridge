@@ -1,0 +1,401 @@
+{
+  "test_title": "Tes Jurusan Bangunan",
+  "total_questions": 20,
+  "questions": [
+    {
+      "no": 1,
+      "question": "Topik: Langkah awal merencanakan pembangunan rumah sakit modern.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membuat gambar rancangan 3D dan menghitung dimensi tata letak ruang di perangkat lunak."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Menghitung kebutuhan alat berat, campuran semen material, dan jadwal pekerjaan fisik."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Merencanakan jalur panel kelistrikan dan genset cadangan agar listrik tidak pernah mati."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu atau belum pernah mencobanya." }
+      ]
+    },
+    {
+      "no": 2,
+      "question": "Topik: Penanganan masalah ketika terjadi kebocoran atap yang merembes di gedung sekolah.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Memeriksa ulang gambar desain awal untuk menganalisis kesalahan pada kemiringan atap."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Naik ke atap untuk memperbaiki rangka struktur dan mengganti genteng yang pecah."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Memastikan tidak ada air yang menetes ke jalur instalasi kabel dan stopkontak lampu."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu atau akan memanggil tukang saja." }
+      ]
+    },
+    {
+      "no": 3,
+      "question": "Topik: Partisipasi spesifik dalam proyek pembangunan perumahan ramah lingkungan (Green Building).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Merancang posisi ventilasi jendela agar cahaya matahari masuk menerangi ruangan secara optimal."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengawasi penyusunan batu bata ramah lingkungan agar sesuai standar kelayakan fisik."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Memasang instalasi panel surya di atap untuk menyuplai kelistrikan hemat energi."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu atau belum ada ide." }
+      ]
+    },
+    {
+      "no": 4,
+      "question": "Topik: Minat penggunaan terhadap jenis perangkat dan alat kerja konstruksi.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Tertarik menggunakan software komputer arsitektur seperti AutoCAD, SketchUp, atau Revit."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Tertarik mengoperasikan alat ukur tanah, waterpass, atau mesin pengaduk semen besar."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Tertarik memegang multitester, tang ampere, dan merakit komponen di dalam kotak panel listrik."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau tidak tertarik pada ketiganya."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "question": "Topik: Hal pertama yang diamati saat melihat kemegahan stadion olahraga baru.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mengagumi geometri lengkungan atap dan keindahan fasad (tampak depan) dari bangunan tersebut."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Membayangkan bagaimana pilar-pilar beton penyangga raksasa tersebut dicor dengan kokoh."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mengamati instalasi tiang lampu sorot berdaya tinggi yang menerangi seluruh bagian lapangan."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu, saya hanya fokus pada pertandingannya."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "question": "Topik: Pembaruan atau modifikasi total di dalam kamar tidur pribadi.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menggambar sketsa pemindahan tata letak furnitur agar ruangan terasa jauh lebih luas."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Membongkar dinding lama yang mengelupas, menambal keretakan, lalu mengecat ulang kamar."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mengganti sakelar, menambah jalur stopkontak baru, dan memasang lampu LED strip estetik."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau belum pernah merombak kamar tidur."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "question": "Topik: Pendekatan saat membantu penerapan instalasi sistem otomatis di rumah pintar (Smart Home).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mendesain penempatan sensor perangkat agar terlihat serasi menyatu dengan interior dinding."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memastikan struktur dinding beton aman saat harus dibor untuk menempelkan perangkat berat."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menyambungkan seluruh sistem tegangan kabel dan relay antar sensor agar menyala sempurna."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 8,
+      "question": "Topik: Reaksi logis ketika terjadi pemadaman arus darurat di gedung bertingkat.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Memikirkan sirkulasi udara di dalam gedung karena desain awal minim ventilasi luar."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memastikan penopang beban struktural lorong tangga darurat sanggup menahan orang banyak."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mengecek ruang genset dan memulihkan suplai arus dari kotak panel distribusi darurat."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau memilih segera keluar dari gedung."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "question": "Topik: Pekerjaan lapangan paling menantang yang ingin dikuasai.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membuat rendering visual 3D bangunan yang terlihat sangat mirip dengan kenyataan."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memimpin puluhan tukang bangunan di bawah terik matahari agar proyek selesai tepat waktu."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Merakit urutan ribuan kabel di dalam panel motor listrik tanpa ada satu pun yang salah."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 10,
+      "question": "Topik: Fokus utama saat diinstruksikan membaca lembar rancangan (blueprint).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Membaca ukuran dimensi setiap ruangan, ketebalan dinding ruang, dan detail tampak depan."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Membaca spesifikasi kualitas campuran beton, kedalaman pondasi, dan sambungan tulang baja."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Membaca diagram satu garis (single line diagram) untuk memastikan rute kabel listrik aman."
+        },
+        {
+          "id_jurusan": 4,
+          "text": "Tidak tahu atau tidak paham cara membacanya."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "question": "Topik: Partisipasi dalam tender proyek jembatan penyeberangan orang.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menghitung secara rinci Rencana Anggaran Biaya (RAB) semua material yang akan dipakai."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengatur posisi penyangga besi (scaffolding) dan mengawasi langsung pengecoran betonnya."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menarik kabel tahan air untuk suplai penerangan jalan di sepanjang jembatan penyeberangan."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 12,
+      "question": "Topik: Menganalisis penyebab retaknya dinding bangunan pasca gempa bumi skala kecil.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menganalisis kesalahan desain struktural yang tidak memperhitungkan kelenturan beban gedung."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mengecek kualitas fisik campuran pasir dan semen yang mungkin tidak sesuai standar."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mengecek kemungkinan kabel terjepit di dalam dinding yang retak penyebab korsleting."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 13,
+      "question": "Topik: Mempelajari inovasi teknologi masa depan di ranah konstruksi infrastruktur.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mempelajari Building Information Modeling (BIM) untuk perancangan digital terpusat."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Mempelajari instalasi beton cetak siap-pakai (precast) yang dikirim utuh dari pabrik."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Mempelajari integrasi Microgrid untuk mengatur cadangan penyimpanan listrik tenaga surya."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 14,
+      "question": "Topik: Evaluasi standar keselamatan sebuah gedung pabrik industri yang baru beroperasi.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Memastikan tata letak lorong jalur evakuasi cukup luas dan bebas halangan benda mati."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memastikan baut-baut pada kolom penyangga baja atap terpasang sangat kuat menahan angin."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Memastikan semua instalasi kabel mesin produksi besar memiliki jalur pentanahan (grounding)."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 15,
+      "question": "Topik: Pilihan utama saat membuka video dokumenter atau edukasi YouTube.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Menonton tutorial cara mendesain rumah minimalis berlantai dua menggunakan SketchUp."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Menonton video proses raksasa penggalian terowongan bawah tanah atau jembatan panjang."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menonton penjelasan cara kerja baterai penyimpanan daya surya dan perakitan sakelarnya."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 16,
+      "question": "Topik: Situasi yang paling membutuhkan tingkat ketelitian (akurasi) tertinggi darimu.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Sangat teliti dalam menghitung presisi ukuran ruang hingga satuan milimeter di layar monitor."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Sangat teliti dalam menakar kekuatan fisik dan takaran persentase campuran material lapangan."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Sangat teliti saat menyambung dua jenis kabel listrik agar tidak meledak atau korsleting."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 17,
+      "question": "Topik: Memberi solusi pada ruangan perkantoran yang terasa pengap dan sempit.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Merekomendasikan perubahan tata letak (layout) dan mendesain ulang sekat kaca pembatas."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Membongkar atap plafon lama untuk menambah tinggi sirkulasi udara dari lantai ke langit-langit."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menghitung kapasitas daya yang tersisa untuk memasang kipas exhaust hisap berkekuatan besar."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 18,
+      "question": "Topik: Tindakan akhir sebelum menyerahkan kunci rumah baru kepada pihak pemilik.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Mencocokkan kembali hasil bangunan fisik dengan gambar 3D kontrak yang sudah disepakati."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Memastikan tidak ada tumpukan puing proyek tersisa dan kualitas pengecatan dinding rata."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Menyalakan seluruh perangkat rumah secara bersamaan untuk menguji batasan voltase meteran."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 19,
+      "question": "Topik: Pandangan terhadap profesi spesialis masa depan yang paling menarik.",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Ahli Arsitektur Tata Kota Cerdas (Smart City) dan Drafter Pemodelan Profesional."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Manajer Ahli Pelaksana Proyek Skala Nasional dan Konsultan Keselamatan Kerja (K3) Sipil."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Ahli Teknisi Panel Tenaga Surya (Solar Cell) dan Perancang Sistem Otomasi Kelistrikan Gedung."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    },
+    {
+      "no": 20,
+      "question": "Topik: Memilih identitas pakaian atau perlengkapan seragam kerja (Workwear).",
+      "options": [
+        {
+          "id_jurusan": 1,
+          "text": "Pakaian kasual, rapi, dan bersih karena sebagian besar waktu dihabiskan di depan meja gambar."
+        },
+        {
+          "id_jurusan": 2,
+          "text": "Pakaian keselamatan lapangan, sepatu boots tahan benturan, rompi pantul cahaya, dan helm proyek."
+        },
+        {
+          "id_jurusan": 3,
+          "text": "Pakaian wearpack khusus dengan bahan pelindung anti-statis dan sarung tangan isolator listrik."
+        },
+        { "id_jurusan": 4, "text": "Tidak tahu." }
+      ]
+    }
+  ]
+}
