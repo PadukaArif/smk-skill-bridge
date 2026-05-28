@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Aos from "aos";
 export interface Data {
     ID: number;
+    icon: string;
     uuid: string;
     name: string;
     description: string;

@@ -35,14 +35,14 @@ const Hero = () => {
                 <div className=" p-3 px-4 bg-amber-50 w-fit rounded-4xl flex gap-4 border text-amber-600 border-amber-400 shadow 
                 shadow-amber-50 cursor-pointer duration-500 hover:shadow-xl hover:shadow-amber-100 text-xs lg:text-base " data-aos="fade-up">
                     <i className="bi bi-circle-fill text-amber-400"></i>
-                    <p className=' font-semibold'>IOFest 2026 . Human Capital Skills</p>
+                    <p className=' font-semibold'>✨ Temukan Jurusan SMK Impianmu</p>
                 </div>
                 <div className="  flex flex-col items-center font-sans cursor-pointer text-center" data-aos="fade-up" data-aos-delay={50}>
-                    <p className=' text-2xl font-bold m-0 lg:text-5xl'>GPS Kesiapan Industri</p>
-                    <p className=' text-5xl font-extrabold m-0 text-amber-400 lg:text-7xl'>Talenta SMK</p>
-                    <p className=' text-5xl font-bold m-0 text-amber-600 lg:text-7xl'>Indonesia.</p>
+                    <p className=' text-2xl font-bold m-0 lg:text-5xl'>Bingung Pilih Jurusan?</p>
+                    <p className=' text-5xl font-extrabold m-0 text-amber-400 lg:text-7xl'>Temukan Jurusan</p>
+                    <p className=' text-5xl font-bold m-0 text-amber-600 lg:text-7xl'>SMK yang Cocok.</p>
                     <p className=' max-w-[72dvw] text-center mt-8 text-neutral-400 lg:max-w-[32dvw]'>
-                        Platform assesment interaktif yang membantu siswa SMK mengukur kesiapan dan kmopetensi industri 2026 melalui pemetaan skill gap dan roadmap belajar personal
+                        Yuk, kenali minat, bakat, dan potensimu lewat asesmen interaktif agar tidak salah pilih jurusan SMK. Mulai petualangan belajarmu sekarang!
                     </p>
                 </div>
                 <section data-aos="fade-up" data-aos-delay={10} className=' flex flex-col items-center'>
@@ -50,7 +50,7 @@ const Hero = () => {
                         {invalid && (
                             <p className=' text-red-600'>
                                 <i className="bi bi-exclamation-circle-fill me-4"></i>
-                                <span className=''>Mohon masukkan nama, minmal 4 karakter</span>
+                                <span className=''>Mohon masukkan nama, minimal 4 karakter</span>
                             </p>
                         )}
                         <div className={`border p-2 rounded-4xl flex mx-auto justify-between w-fit lg:w-[48dvw] ${invalid ? "border-red-600" : "border-amber-400"}`}>
@@ -67,11 +67,11 @@ const Hero = () => {
                     <div className=" flex gap-8 justify-center items-center font-sans mt-2 text-xs lg:text-base w-[80dvw]">
                         <div className=" flex gap-2 items-center justify-center">
                             <i className="bi bi-circle-fill me-4 text-amber-300 drop-shadow drop-shadow-amber-300"></i>
-                            <p className='text-neutral-400 drop-shadow text-xs lg:text-base'>10 Jurusan</p>
+                            <p className='text-neutral-400 drop-shadow text-xs lg:text-base'>10 Pilihan Jurusan</p>
                         </div>
                         <div className=" flex gap-2 items-center justify-center">
                             <i className="bi bi-circle-fill me-4 text-amber-400 drop-shadow drop-shadow-amber-400"></i>
-                            <p className='text-neutral-400 drop-shadow text-xs lg:text-base'>20 Soal Assesment</p>
+                            <p className='text-neutral-400 drop-shadow text-xs lg:text-base'>20 Soal Asesmen Minat</p>
                         </div>
                         <div className=" gap-2 items-center justify-center hidden lg:flex">
                             <i className="bi bi-circle-fill me-4 text-amber-800 drop-shadow drop-shadow-amber-800"></i>

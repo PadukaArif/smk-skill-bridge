@@ -12,6 +12,7 @@ interface TopLevel{
 
 export interface Data {
     ID: number;
+    icon: string;
     uuid: string;
     name: string;
     description: string;
@@ -65,7 +66,7 @@ const HomeElem = () => {
                     <p className=' m-0 text-2xl font-bold lg:text-4xl'>Temukan Jalur</p>
                     <p className=' m-0 text-3xl font-bold text-amber-500 lg:text-6xl'>Kompetensimu</p>
                     <p className=' text-neutral-800 font-light max-w-[72dvw] p-1 text-xs text-center lg:text-base lg:max-w-[42dvw]'>
-                        Pilih jurusan untuk melihat detail skill, jurusan, projek dan peluang karir masa depan
+                        Pilih jurusan untuk melihat detail keahlian, contoh projek, dan peluang karir masa depan
                     </p>
                 </div>
                 <br />
@@ -74,7 +75,7 @@ const HomeElem = () => {
                     <option defaultValue={"value"} hidden>Pilih Jurusan</option>
                     {jurusan.map((a) => {
                         return (
-                            <option value={a.ID} key={a.ID}>{a.uuid}</option>
+                            <option value={a.ID} key={a.ID}>{a.name}</option>
                         )
                     })}
                 </select>

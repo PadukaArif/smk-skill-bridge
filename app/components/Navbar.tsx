@@ -63,7 +63,7 @@ const Navbar = ({ isGlass }: NavbarProps) => {
                             <Link href='/#start' className=' bg-linear-75 from-amber-400 to-amber-500 p-4 rounded-3xl 
                         text-neutral-50 font-semibold duration-500 hover:shadow-xl hover:shadow-amber-100 
                         hover:text-neutral-800 outline-0'>
-                                <span>Get Started</span>
+                                <span>Mulai Sekarang</span>
                                 <i className="bi bi-arrow-up-right mx-4"></i>
                             </Link>
                         )}

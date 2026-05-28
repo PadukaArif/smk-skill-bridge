@@ -4,13 +4,13 @@
     "uuid": "RPL",
     "name": "Rekayasa Perangkat Lunak (RPL)",
     "icon": "bi-code-slash",
-    "vocation":"informatika",
-    "description": "Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mendalami cara merancang, membuat, dan memelihara aplikasi atau website. Di sini, kamu tidak hanya belajar mengetik kode (coding), tapi juga dilatih berpikir logis untuk memecahkan masalah menggunakan AI. Jurusan ini sangat cocok buat kamu yang teliti, betah di depan layar, dan suka teka-teki logika.",
+    "vocation": "informatika",
+    "description": "Rekayasa Perangkat Lunak (RPL) adalah jurusan yang mendalami cara merancang, membuat, dan memelihara aplikasi atau website. Di sini, kamu tidak hanya belajar mengetik kode (coding), tapi juga dilatih berpikir logis untuk memecahkan masalah menggunakan bantuan kecerdasan buatan (AI). Jurusan ini sangat cocok buat kamu yang teliti, betah di depan layar, dan suka teka-teki logika.",
     "skills": [
       "Logika Pemrograman Dasar",
-      "Web & Mobile Development",
-      "Manajemen Database MySQL",
-      "Version Control (Git)"
+      "Pembuatan Website & Aplikasi Mobile",
+      "Pengelolaan Database",
+      "Kolaborasi Kode dengan Git"
     ],
     "projects": [
       "Aplikasi Kasir Sekolah",
@@ -18,9 +18,9 @@
       "Website Portofolio Pribadi"
     ],
     "careers": [
-      "Junior Web Developer",
-      "Software Tester",
-      "AI Prompt Engineer",
+      "Web Developer Pemula",
+      "Penguji Aplikasi (Software Tester)",
+      "Pembuat Perintah AI (Prompt Engineer)",
       "Full-stack Developer"
     ],
     "colors": {
@@ -35,8 +35,8 @@
     "uuid": "TKJ",
     "name": "Teknik Komputer dan Jaringan (TKJ)",
     "icon": "bi-router",
-    "vocation":"informatika",
-    "description": "TKJ mempelajari cara merakit komputer, membangun jaringan internet (Wi-Fi/LAN), serta menjaga keamanan data dari peretas. Kamu akan banyak praktik menyambungkan kabel, mengatur router, dan memperbaiki komputer rusak. Sangat cocok bagi kamu yang suka mengutak-atik perangkat keras keras (hardware) dan selalu penasaran bagaimana internet bisa bekerja dengan cepat.",
+    "vocation": "informatika",
+    "description": "TKJ mempelajari cara merakit komputer, membangun jaringan internet (Wi-Fi/LAN), serta menjaga keamanan data dari peretas. Kamu akan banyak praktik menyambungkan kabel, mengatur router, dan memperbaiki komputer rusak. Sangat cocok bagi kamu yang suka mengutak-atik perangkat keras (hardware) dan selalu penasaran bagaimana internet bisa bekerja dengan cepat.",
     "skills": [
       "Konfigurasi Router MikroTik",
       "Instalasi Jaringan LAN/WAN",
@@ -49,10 +49,10 @@
       "Konfigurasi Server Ujian Sekolah"
     ],
     "careers": [
-      "IT Support Technician",
-      "Network Administrator",
+      "Teknisi IT Support",
+      "Pengelola Jaringan (Network Admin)",
       "Teknisi Fiber Optik",
-      "Cybersecurity Analyst Junior"
+      "Analis Keamanan Siber Pemula"
     ],
     "colors": {
       "base_color": "#FEF9E7",
@@ -66,7 +66,7 @@
     "uuid": "SIJA",
     "name": "Sistem Informatika Jaringan dan Aplikasi (SIJA)",
     "icon": "bi-cloud-fill",
-    "vocation":"informatika",
+    "vocation": "informatika",
     "description": "SIJA adalah jurusan inovatif masa kini yang menggabungkan ilmu jaringan internet dengan pembuatan aplikasi. Di sini kamu akan belajar membangun infrastruktur komputasi awan (Cloud) dan Internet of Things (IoT) seperti sistem rumah pintar (Smart Home). Cocok untuk kamu yang visioner, suka melihat sistem bekerja secara otomatis, dan tertarik pada otomatisasi industri.",
     "skills": [
       "Cloud Computing",
@@ -80,10 +80,10 @@
       "Server Otomatisasi Absensi"
     ],
     "careers": [
-      "Junior Cloud Engineer",
-      "IoT Solutions Architect",
-      "System Integrator",
-      "AIOps Engineer"
+      "Teknisi Cloud Pemula",
+      "Spesialis Sistem Rumah Pintar & IoT",
+      "Spesialis Integrasi Sistem",
+      "Teknisi Sistem Otomatisasi (DevOps)"
     ],
     "colors": {
       "base_color": "#E8F8F5",
@@ -97,8 +97,8 @@
     "uuid": "DKV",
     "name": "Desain Komunikasi Visual (DKV)",
     "icon": "bi-palette",
-    "vocation":"informatika",
-    "description": "DKV adalah tempatnya para siswa kreatif yang ingin belajar cara menyampaikan pesan melalui seni visual. Kamu akan mendalami desain grafis, ilustrasi, fotografi, videografi, hingga animasi digital dengan bantuan AI Generatif. Jika kamu nasi tinggi, peka terhadap warna, dan suka menggambar atau mengedit video, ini adalah jurusan yang tepat.",
+    "vocation": "informatika",
+    "description": "DKV adalah tempatnya para siswa kreatif yang ingin belajar cara menyampaikan pesan melalui seni visual. Kamu akan mendalami desain grafis, ilustrasi, fotografi, videografi, hingga animasi digital dengan bantuan AI Generatif. Jika kamu memiliki imajinasi tinggi, peka terhadap warna, dan suka menggambar atau mengedit video, ini adalah jurusan yang tepat.",
     "skills": [
       "Desain Grafis & Tipografi",
       "Fotografi & Videografi",
@@ -111,10 +111,10 @@
       "Desain Antarmuka Aplikasi"
     ],
     "careers": [
-      "Graphic Designer",
-      "UI/UX Designer",
-      "Video Editor / Motion Grapher",
-      "Prompt Artist / AI Illustrator"
+      "Desainer Grafis",
+      "Desainer Tampilan Aplikasi (UI/UX)",
+      "Editor Video & Kreator Konten",
+      "Ilustrator Digital & AI Artist"
     ],
     "colors": {
       "base_color": "#D6EAF8",
@@ -128,8 +128,8 @@
     "uuid": "DPIB",
     "name": "Desain Pemodelan dan Informasi Bangunan (DPIB)",
     "icon": "bi-buildings",
-    "vocation":"bangunan",
-    "description": "Di DPIB, kamu akan menggabungkan seni arsitektur dan ilmu teknik untuk merancang gambar bangunan secara presisi. Mulai dari menggambar denah rumah di komputer hingga membuat model 3D (BIM) yang sangat nyata. Jurusan ini sangat cocok buat kamu yang perfeksionis, teliti pada angka, suka menggambar ruang, dan memiliki nasi spasial yang tinggi.",
+    "vocation": "bangunan",
+    "description": "Di DPIB, kamu akan menggabungkan seni arsitektur dan ilmu teknik untuk merancang gambar bangunan secara presisi. Mulai dari menggambar denah rumah di komputer hingga membuat model 3D (BIM) yang sangat nyata. Jurusan ini sangat cocok buat kamu yang perfeksionis, teliti pada angka, suka menggambar ruang, dan memiliki imajinasi spasial yang tinggi.",
     "skills": [
       "Gambar Teknik CAD",
       "Pemodelan 3D & Rendering",
@@ -142,10 +142,10 @@
       "Pembuatan Dokumen RAB Proyek"
     ],
     "careers": [
-      "Drafter Arsitektur",
-      "Estimator Proyek",
-      "BIM Modeler",
-      "Green Building Consultant Junior"
+      "Pembuat Gambar Arsitektur (Drafter)",
+      "Perencana Anggaran Bangunan (Estimator)",
+      "Pembuat Model Bangunan 3D (BIM Modeler)",
+      "Konsultan Bangunan Ramah Lingkungan Pemula"
     ],
     "colors": {
       "base_color": "#FDEBD0",
@@ -159,7 +159,7 @@
     "uuid": "TKP",
     "name": "Teknik Konstruksi dan Perumahan (TKP)",
     "icon": "bi-cone-striped",
-    "vocation":"bangunan",
+    "vocation": "bangunan",
     "description": "TKP mempelajari proses eksekusi fisik dari sebuah desain arsitektur menjadi bangunan yang kokoh. Kamu akan praktik langsung mengaduk material, mengecor beton, hingga manajemen proyek di lapangan. Sangat cocok bagi kamu yang berjiwa pemimpin, tangguh, suka bekerja di luar ruangan, dan tidak mudah bosan dengan aktivitas fisik.",
     "skills": [
       "Manajemen Proyek Konstruksi",
@@ -168,15 +168,15 @@
       "Quality Control Material"
     ],
     "projects": [
-      "Pembangunan Pos Satpam Sekolah",
-      "Pemasangan Paving Block",
+      "Maket Perumahan Ramah Lingkungan",
+      "Simulasi Struktur Rumah Tahan Gempa",
       "Pembuatan Rangka Atap Baja Ringan"
     ],
     "careers": [
       "Pelaksana Proyek",
       "Pengawas Lapangan (Surveyor)",
-      "Mandor Konstruksi",
-      "Precast Specialist"
+      "Pengawas Konstruksi (Supervisor)",
+      "Spesialis Beton Cetak Modern"
     ],
     "colors": {
       "base_color": "#FDEBD0",
@@ -190,7 +190,7 @@
     "uuid": "TITL",
     "name": "Teknik Instalasi Tenaga Listrik (TITL)",
     "icon": "bi-lightning-charge",
-    "vocation":"bangunan",
+    "vocation": "bangunan",
     "description": "TITL adalah jurusan yang membekali kamu ilmu merancang, memasang, dan memelihara sistem kelistrikan. Dari listrik rumah tangga hingga panel surya dan motor listrik industri, semuanya dipelajari di sini. Kamu harus teliti, selalu mengutamakan prosedur keselamatan (K3), dan tanggap memecahkan masalah jika terjadi korsleting.",
     "skills": [
       "Instalasi Penerangan",
@@ -205,9 +205,9 @@
     ],
     "careers": [
       "Teknisi Instalasi Listrik",
-      "Teknisi Maintenance Gedung",
-      "Renewable Energy Technician",
-      "Smart Grid Specialist"
+      "Teknisi Pemeliharaan Listrik Gedung",
+      "Teknisi Energi Terbarukan (Solar Panel)",
+      "Spesialis Jaringan Listrik Pintar"
     ],
     "colors": {
       "base_color": "#FDEDEC",
@@ -221,7 +221,7 @@
     "uuid": "DGM",
     "name": "Desain Gambar Mesin (DGM)",
     "icon": "bi-gear-wide-connected",
-    "vocation":"mesin",
+    "vocation": "mesin",
     "description": "DGM mengubah ide rancangan mekanik menjadi cetak biru teknis dan model 3D menggunakan software mutakhir seperti SolidWorks. Kamu akan menggambar baut, mesin, hingga komponen robot dengan akurasi tinggi. Jika kamu sangat detail, suka perhitungan matematis, dan memiliki ketelitian visual tingkat tinggi, jurusan ini adalah pilihan sempurna.",
     "skills": [
       "Gambar Teknik 2D/3D Mesin",
@@ -235,10 +235,10 @@
       "Simulasi Rakitan Mesin Presisi"
     ],
     "careers": [
-      "Drafter Mekanikal",
-      "CAD Operator",
-      "R&D Assistant",
-      "3D Printing Specialist"
+      "Pembuat Desain Gambar Mesin (Drafter)",
+      "Operator Software CAD 3D",
+      "Asisten Riset dan Pengembangan Komponen",
+      "Spesialis Cetak 3D (3D Printing)"
     ],
     "colors": {
       "base_color": "#D6EAF8",
@@ -252,7 +252,7 @@
     "uuid": "TP",
     "name": "Teknik Pemesinan (TP)",
     "icon": "bi-nut",
-    "vocation":"mesin",
+    "vocation": "mesin",
     "description": "Teknik Pemesinan berfokus pada pembentukan material logam menjadi komponen mesin dengan presisi super tinggi. Kamu akan mengoperasikan mesin bubut konvensional hingga mesin mutakhir bersistem komputer (CNC). Jurusan ini mencari siswa yang disiplin, fokus tinggi, patuh aturan keselamatan, dan senang dengan proses produksi di pabrik besar.",
     "skills": [
       "Operasi Mesin Bubut/Frais",
@@ -267,9 +267,9 @@
     ],
     "careers": [
       "Operator Mesin CNC",
-      "Teknisi Machining",
-      "Toolmaker Presisi",
-      "Smart Factory Supervisor"
+      "Teknisi Mesin Produksi",
+      "Pembuat Alat Cetakan Presisi (Toolmaker)",
+      "Pengawas Pabrik Pintar (Modern)"
     ],
     "colors": {
       "base_color": "#D6EAF8",
@@ -283,7 +283,7 @@
     "uuid": "TKR",
     "name": "Teknik Kendaraan Ringan (TKR)",
     "icon": "bi-car-front",
-    "vocation":"mesin",
+    "vocation": "mesin",
     "description": "TKR mendalami ilmu perawatan, perbaikan mesin, sasis, transmisi, dan kelistrikan pada mobil. Di era modern ini, kamu juga belajar mendiagnosis masalah menggunakan komputer (scanner OBD2) hingga memahami dasar mobil listrik (EV). Cocok untuk kamu yang hobi otomotif, tangkas mengutak-atik mesin, dan tidak takut kotor karena pelumas.",
     "skills": [
       "Overhaul Mesin Mobil",
@@ -298,9 +298,9 @@
     ],
     "careers": [
       "Mekanik Otomotif",
-      "Service Advisor",
-      "Automotive Diagnostician",
-      "Electric Vehicle (EV) Technician"
+      "Konsultan Servis Kendaraan (Service Advisor)",
+      "Teknisi Deteksi Kerusakan Mobil (Diagnostician)",
+      "Teknisi Mobil Listrik (EV)"
     ],
     "colors": {
       "base_color": "#FDEBD0",
