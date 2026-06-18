@@ -1,0 +1,25 @@
+"filename", "language", "TypeScript", "JSON", "TypeScript JSX", "PostCSS", "comment", "blank", "total"
+"/home/dedyas/Documents/smk-skill-bridge/app/api/question/[division]/route.ts", "TypeScript", 21, 0, 0, 0, 0, 0, 21
+"/home/dedyas/Documents/smk-skill-bridge/app/api/question/division/route.ts", "TypeScript", 47, 0, 0, 0, 0, 3, 50
+"/home/dedyas/Documents/smk-skill-bridge/app/api/results/[id]/route.ts", "TypeScript", 56, 0, 0, 0, 0, 2, 58
+"/home/dedyas/Documents/smk-skill-bridge/app/api/vocations/division/route.ts", "TypeScript", 5, 0, 0, 0, 0, 1, 6
+"/home/dedyas/Documents/smk-skill-bridge/app/components/Hero.tsx", "TypeScript JSX", 0, 0, 10, 0, 0, 0, 10
+"/home/dedyas/Documents/smk-skill-bridge/app/components/Home.tsx", "TypeScript JSX", 0, 0, 6, 0, 0, 2, 8
+"/home/dedyas/Documents/smk-skill-bridge/app/components/Modal.tsx", "TypeScript JSX", 0, 0, 7, 0, 0, 2, 9
+"/home/dedyas/Documents/smk-skill-bridge/app/components/Primarybox.tsx", "TypeScript JSX", 0, 0, 19, 0, 0, 0, 19
+"/home/dedyas/Documents/smk-skill-bridge/app/components/Vocation.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 0, 4
+"/home/dedyas/Documents/smk-skill-bridge/app/components/skeleton/Question.tsx", "TypeScript JSX", 0, 0, 35, 0, 0, 3, 38
+"/home/dedyas/Documents/smk-skill-bridge/app/data/question/bangunan.json", "JSON", 0, 401, 0, 0, 0, 1, 402
+"/home/dedyas/Documents/smk-skill-bridge/app/data/question/informatika.json", "JSON", 0, 226, 0, 0, 0, 1, 227
+"/home/dedyas/Documents/smk-skill-bridge/app/data/question/mesin.json", "JSON", 0, 395, 0, 0, 0, 1, 396
+"/home/dedyas/Documents/smk-skill-bridge/app/data/vocation/division.json", "JSON", 0, 161, 0, 0, 0, 1, 162
+"/home/dedyas/Documents/smk-skill-bridge/app/data/vocation/vocations.json", "JSON", 0, 312, 0, 0, 0, 0, 312
+"/home/dedyas/Documents/smk-skill-bridge/app/globals.css", "PostCSS", 0, 0, 0, 6, 0, 0, 6
+"/home/dedyas/Documents/smk-skill-bridge/app/lib/checkdata.ts", "TypeScript", 156, 0, 0, 0, 0, 8, 164
+"/home/dedyas/Documents/smk-skill-bridge/app/lib/decrypt.ts", "TypeScript", 6, 0, 0, 0, 0, 0, 6
+"/home/dedyas/Documents/smk-skill-bridge/app/models/resultSchema.ts", "TypeScript", -33, 0, 0, 0, 0, 0, -33
+"/home/dedyas/Documents/smk-skill-bridge/app/questions/General.tsx", "TypeScript JSX", 0, 0, 114, 0, 2, 5, 121
+"/home/dedyas/Documents/smk-skill-bridge/app/questions/[division]/page.tsx", "TypeScript JSX", 0, 0, 34, 0, 0, 3, 37
+"/home/dedyas/Documents/smk-skill-bridge/app/questions/page.tsx", "TypeScript JSX", 0, 0, 95, 0, 19, -1, 113
+"/home/dedyas/Documents/smk-skill-bridge/app/result/[id]/page.tsx", "TypeScript JSX", 0, 0, 0, 0, -2, 0, -2
+"Total", "-", 258, 1495, 324, 6, 19, 32, 2134
